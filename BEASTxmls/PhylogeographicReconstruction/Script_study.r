@@ -7,10 +7,6 @@ library(lubridate)
 library(MetBrewer)
 library(seraphim)
 
-genotypes = c("B32"); h = 1
-genotypes = c("B36"); h = 1
-genotypes = c("C21"); h = 1
-genotypes = c("D11"); h = 1
 genotypes = c("B32","B36","C21","D11")
 nberOfExtractionFiles = 1000
 
@@ -875,7 +871,7 @@ for (h in 1:length(genotypes))
 			}
 	}
 
-	# 4.2. Compositive figure with one map/genotype
+	# 4.2. Composite figure with one map/genotype
 
 minYear = 9999; maxYear = -9999
 for (h in 1:length(genotypes))
@@ -978,8 +974,7 @@ dev.off()
 
 	# 4.3. Unique map with all the dispersal histories
 
-mcc = read.csv("ALL_RRW.csv", head=T)
-localTreesDirectory = "Genotype_ALL"
+mcc = read.csv("ALL_RRW.csv", head=T); localTreesDirectory = "Genotype_ALL"
 minYear = min(mcc[,"startYear"]); maxYear = max(mcc[,"endYear"])
 endYears_indices = (((mcc[,"endYear"]-minYear)/(maxYear-minYear))*100)+1
 endYears_colours = colour_scale[endYears_indices]
