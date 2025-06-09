@@ -1,0 +1,532 @@
+trait	country	admin1	admin2	precision	latitude	longitude
+A/Brown_Skua/Torgersen_Island/o81-b82/2024|H5N1|Torgersen_Island|2024-12-17|avian|B3.2	Torgersen_Island	NA	NA	https://journals.asm.org/doi/10.1128/mra.00041-25	-64.46	-64.04
+A/kelp_gull/South_Shetland_Islands/10272/2024|H5N1|South_Shetland_Islands|2024-01-08|avian|B3.2	South_Shetland_Islands	NA	NA	https://www.biorxiv.org/content/10.1101/2024.12.29.630510v1.full	-62.6544	-60.6133
+A/Chicken/Argentina/606-1/2023|H5N1|Argentina|2023-02-27|avian|B3.2	Argentina	NA	NA	precise (Martha)	-60.56083205	-36.68104284
+A/Brown_Skua/Moltke_Harbour/133752/2023|H5N1|SGSSI|2023-10-31|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.519908	-36.084355
+A/Kelp_Gull/Moltke_Harbour/133754/2023|H5N1|SGSSI|2023-10-31|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.519908	-36.084355
+A/Brown_Skua/Moltke_Harbour/133755/2023|H5N1|SGSSI|2023-10-31|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.519908	-36.084355
+A/Kelp_Gull/Hound_Bay/133744/2023|H5N1|SGSSI|2023-10-30|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.381069	-36.253215
+A/Kelp_Gull/Hound_Bay/133747/2023|H5N1|SGSSI|2023-10-30|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.381069	-36.253215
+A/Brown_Skua/Hound_Bay/133947/2023|H5N1|SGSSI|2023-10-30|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.381069	-36.253215
+A/Kelp_Gull/Penguin_River/141234/2023|H5N1|SGSSI|2023-11-08|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.300917	-36.492071
+A/Brown_Skua/Penguin_River/141236/2023|H5N1|SGSSI|2023-11-08|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.300917	-36.492071
+A/Kelp_Gull/Penguin_River/141239/2023|H5N1|SGSSI|2023-11-08|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.300917	-36.492071
+A/Antarctic_tern/King_Edward_Point/141271/2023|H5N1|SGSSI|2023-12-06|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.283859	-36.496137
+A/South_Georgia_Shag/King_Edward_Cove/141245/2023|H5N1|SGSSI|2023-11-27|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.28349368	-36.50872
+A/Kelp_Gull/Harpon_Bay/133943/2023|H5N1|SGSSI|2023-11-03|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.2786831	-36.6345639
+A/Southern_Elephant_Seal/Jason_Harbour/141027/2023|H5N1|SGSSI|2023-12-09|other_mammal|B3.2	SGSSI	NA	NA	precise (Martha)	-54.1998934	-36.589597
+A/Antarctic_Fur_Seal/Jason_Harbour/141037/2023|H5N1|SGSSI|2023-12-09|other_mammal|B3.2	SGSSI	NA	NA	precise (Martha)	-54.1998934	-36.589597
+A/Southern_Elephant_Seal/Jason_Harbour/141078/2023|H5N1|SGSSI|2023-12-09|other_mammal|B3.2	SGSSI	NA	NA	precise (Martha)	-54.1998934	-36.589597
+A/Brown_skua/Bird_Island/128287/2023|H5N1|SGSSI|2023-10-08|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.006334	-38.047372
+A/Brown_skua/Bird_Island/128288/2023|H5N1|SGSSI|2023-10-08|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.006334	-38.047372
+A/Brown_Skua/Bird_Island/141232/2023|H5N1|SGSSI|2023-11-11|avian|B3.2	SGSSI	NA	NA	precise (Martha)	-54.006334	-38.047372
+A/Sea_Lion/Argentina/3849-4/2023|H5N1|Argentina|2023-08-08|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-53.71557	-67.80045
+A/Southern_fulmar/Falkland_Islands/133789/2023|H5N1|Falkland_Islands|2023-10-30|avian|B3.2	Falkland_Islands	NA	NA	precise (Martha)	-51.693946	-57.8572918
+A/southern_elephant_seal/Argentina/CH-PD035/2023|H5N1|Argentina|2023-10-10|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-42.764	-63.6326
+A/royal_tern/Argentina/CH-PD036/2023|H5N1|Argentina|2023-10-10|avian|B3.2	Argentina	NA	NA	precise (Martha)	-42.764	-63.6326
+A/southern_elephant_seal/Argentina/CH-PM053/2023|H5N1|Argentina|2023-11-01|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-42.597458	-64.818871
+A/South_American_sea_lion/Argentina/RN-PB004/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-41.1558	-63.1323
+A/South_American_sea_lion/Argentina/RN-PB007/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-41.155	-63.128
+A/South_American_sea_lion/Argentina/RN-PB011/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-41.155	-63.128
+A/South_American_sea_lion/Argentina/RN-PB013/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-41.155	-63.128
+A/South_American_tern/Argentina/RN-PB015/2023|H5N1|Argentina|2023-08-26|avian|B3.2	Argentina	NA	NA	precise (Martha)	-41.155	-63.128
+A/Sea_Lion/Argentina/3893-1/2023|H5N1|Argentina|2023-08-11|other_mammal|B3.2	Argentina	NA	NA	precise (Martha)	-41.15491	-63.1613
+A/brown-hooded_gull/Los_Rios/247093-1/2023|H5N1|Chile|2023-04-04|avian|B3.2	Chile	NA	NA	precise (Martha)	-39.813889	-73.245833
+A/Avian/Argentina/1790-5/2023|H5N1|Argentina|2023-04-24|avian|B3.2	Argentina	NA	NA	precise (Martha)	-38.95667	-68.29917
+A/Domestic_duck/Araucania/239189-3/2023|H5N1|Chile|2023-02-28|avian|B3.2	Chile	NA	NA	precise (Martha)	-38.7934	-72.9758
+A/South_American_sea_lion/Bio_Bio/246296-1/2023|H5N1|Chile|2023-03-26|other_mammal|B3.2	Chile	NA	NA	precise (Martha)	-37.47393	-72.3453308
+A/Chilean_dolphin/Nuble/248244-1/2023|H5N1|Chile|2023-04-01|other_mammal|B3.2	Chile	NA	NA	precise (Martha)	-36.35902222	-72.85395556
+A/Chicken/Argentina/2796-2/2023|H5N1|Argentina|2023-06-13|avian|B3.2	Argentina	NA	NA	precise (Martha)	-35.089	-57.947197
+A/pinniped/Uruguay/P14_11923/2023|H5N1|Uruguay|2023-09-11|other_mammal|B3.2	Uruguay	NA	NA	precise (Martha)	-35.027041	-54.883736
+A/pinniped/Uruguay/P4_6923/2023|H5N1|Uruguay|2023-09-06|other_mammal|B3.2	Uruguay	NA	NA	precise (Martha)	-34.942845	-55.926936
+A/pinniped/Uruguay/P18_14923/2023|H5N1|Uruguay|2023-09-14|other_mammal|B3.2	Uruguay	NA	NA	precise (Martha)	-34.901762	-54.95159
+A/black-necked_swan/Uruguay/UDELAR-014-M3/2023|H5N1|Uruguay|2023-02-18|avian|B3.2	Uruguay	NA	NA	precise (Martha)	-34.798	-54.568
+A/Black-necked_swan/Uruguay/014-M3/2023|H5N1|Uruguay|2023-02-18|avian|B3.2	Uruguay	NA	NA	precise (Martha)	-34.798	-54.568
+A/Backyard_chicken/Uruguay/127-M4/2023|H5N1|Uruguay|2023-04-17|avian|B3.2	Uruguay	NA	NA	precise (Martha)	-34.7852	-56.1287
+A/Black-necked_swan/Uruguay/078-M2/2023|H5N1|Uruguay|2023-03-15|avian|B3.2	Uruguay	NA	NA	precise (Martha)	-34.5713	-55.7469
+A/pinniped/Uruguay/P10_8923/2023|H5N1|Uruguay|2023-09-08|other_mammal|B3.2	Uruguay	NA	NA	precise (Martha)	-34.523896	-56.281724
+A/pinniped/Uruguay/P8_8923/2023|H5N1|Uruguay|2023-09-08|other_mammal|B3.2	Uruguay	NA	NA	precise (Martha)	-34.523896	-56.281724
+A/pinniped/Uruguay/P13_11923/2023|H5N1|Uruguay|2023-09-11|other_mammal|B3.2	Uruguay	NA	NA	precise (Martha)	-34.523896	-56.281724
+A/pinniped/Uruguay/P17_14923/2023|H5N1|Uruguay|2023-09-14|other_mammal|B3.2	Uruguay	NA	NA	precise (Martha)	-34.480131	-54.332445
+A/backyard_chicken/Uruguay/UDELAR-144-M3/2023|H5N1|Uruguay|2023-05-03|avian|B3.2	Uruguay	NA	NA	precise (Martha)	-33.69	-54.0993
+A/Backyard_chicken/Uruguay/144-M3/2023|H5N1|Uruguay|2023-05-03|avian|B3.2	Uruguay	NA	NA	precise (Martha)	-33.69	-54.0993
+A/South_American_sea_lion/Valparaiso/243136-1/2023|H5N1|Chile|2023-03-19|other_mammal|B3.2	Chile	NA	NA	precise (Martha)	-32.69895	-71.4293542
+A/Chicken/Argentina/3695-3/2023|H5N1|Argentina|2023-07-27|avian|B3.2	Argentina	NA	NA	precise (Martha)	-32.09246308	-63.76886109
+A/Otaria_flavescens/Rio_Grande_do_Sul/2148-N/2023|H5N1|Brazil|2023-10-03|other_mammal|B3.2	Brazil	Rio_Grande_do_Sul	NA	city/town/municipality	-32.035	-52.098611
+A/Chicken/Argentina/2483-3/2023|H5N1|Argentina|2023-05-29|avian|B3.2	Argentina	NA	NA	precise (Martha)	-31.99319	-60.41929
+A/Otaria_flavescens/Rio_Grande_do_Sul/2165-SO/2023|H5N1|Brazil|2023-10-11|other_mammal|B3.2	Brazil	Rio_Grande_do_Sul	NA	city/town/municipality	-29.326667	-49.7675
+A/Peruvean_booby/Atacama/230579-1/2023|H5N1|Chile|2023-01-03|avian|B3.2	Chile	NA	NA	precise (Martha)	-27.6448298	-70.98665
+A/Turkey/Argentina/1348-3/2023|H5N1|Argentina|2023-03-31|avian|B3.2	Argentina	NA	NA	precise (Martha)	-27.39907	-58.67021
+A/sea_lion/Atacama/242444-1/2023|H5N1|Chile|2023-03-13|other_mammal|B3.2	Chile	NA	NA	precise (Martha)	-27.38183161	-69.93163954
+A/pelican/Atacama/229450-2/2022|H5N1|Chile|2022-12-26|avian|B3.2	Chile	NA	NA	precise (Martha)	-27.066667	-70.833333
+A/pelican/Chile/229424-4/2022|H5N1|Chile|2022-12-22|avian|B3.2	Chile	NA	NA	precise (Martha)	-26.344444	-70.621944
+A/Sula_leucogaster/Sao_Francisco_do_Sul/2122-N/2023|H5N1|Brazil|2023-09-27|avian|B3.2	Brazil	Santa Catarina	NA	city/town/municipality	-26.242778	-48.637778
+A/Thalasseus_acuflavidus/Parana/2277-N/2023|H5N1|Brazil|2023-11-14|avian|B3.2	Brazil	Parana	NA	city/town/municipality	-25.816667	-48.533333
+A/Sula_leucogaster/Brazil-PR/A0001-IBTEC/2023|H5N1|Brazil|2023-07-25|avian|B3.2	Brazil	NA	NA	precise (Martha)	-25.7751123	-48.5147336
+A/Thalasseus_maximus/Parana/1775-N/2023|H5N1|Brazil|2023-06-23|avian|B3.2	Brazil	Parana	NA	city/town/municipality	-25.1	-48.716667
+A/Thalasseus_maximus/Sao_Paulo/2339-N/2023|H5N1|Brazil|2023-12-13|avian|B3.2	Brazil	Sao_Paulo	NA	city/town/municipality	-24.006111	-46.402778
+A/Thalasseus_acuflavidus/Sao_Paulo/0291-N/2024|H5N1|Brazil|2024-02-22|avian|B3.2	Brazil	Sao_Paulo	NA	city/town/municipality	-23.854722	-46.138889
+A/turkey_vulture/Antofagasta/228252-1/2022|H5N1|Chile|2022-12-17|avian|B3.2	Chile	NA	NA	precise (Martha)	-23.65	-70.4
+A/Antofagasta/25945/2023|H5N1|Chile|2023-03-24|human|B3.2	Chile	NA	NA	precise (Martha)	-23.61671	-70.38642
+A/Chile/25945/2023|H5N1|Chile|2023-03-24|human|B3.2	Chile	NA	NA	precise (Martha)	-23.61671	-70.38642
+A/Burmeister_s_porpoise/Antofagasta/246506-1/2023|H5N1|Chile|2023-03-31|other_mammal|B3.2	Chile	NA	NA	precise (Martha)	-23.47021421	-69.11665873
+A/Sterna_hirundo/Rio_de_Janeiro/0613-N/2024|H5N1|Brazil|2024-03-09|avian|B3.2	Brazil	Rio_de_Janeiro	NA	city/town/municipality	-22.878889	-42.018889
+A/Sterna_hirundo/Rio_de_Janeiro/0721-N/2024|H5N1|Brazil|2024-03-15|avian|B3.2	Brazil	Rio_de_Janeiro	NA	city/town/municipality	-22.526944	-41.945
+A/Sterna_hirundo/Rio_de_Janeiro/0177-N/2024|H5N1|Brazil|2024-02-09|avian|B3.2	Brazil	Rio_de_Janeiro	NA	city/town/municipality	-22.370833	-41.786944
+A/Pelican/CHL/226618-1/2022|H5N1|Chile|2022-12-05|avian|B3.2	Chile	NA	NA	precise (Martha)	-22.1	-70.2
+A/Sterna_hirundo/Rio_de_Janeiro/0481-R/2024|H5N1|Brazil|2024-03-02|avian|B3.2	Brazil	Rio_de_Janeiro	NA	city/town/municipality	-21.47	-41.118889
+A/Sterna_hirundo/Espirito_Santo/0155-N/2024|H5N1|Brazil|2024-02-02|avian|B3.2	Brazil	Espirito_Santo	NA	city/town/municipality	-21.011111	-40.833889
+A/Sterna_hirundo/Espirito_Santo/0448-N/2024|H5N1|Brazil|2024-03-02|avian|B3.2	Brazil	Espirito_Santo	NA	city/town/municipality	-20.839167	-40.726667
+A/pelican/Tarapaca/227436-2/2022|H5N1|Chile|2022-12-09|avian|B3.2	Chile	Tarapaca	NA	precise (Martha)	-20.216667	-70.15
+A/Megascops_choliba/Espirito_Santo/1409-N/2023|H5N1|Brazil|2023-05-26|avian|B3.2	Brazil	Espirito_Santo	NA	city/town/municipality	-20.128889	-40.307778
+A/sea_lion/Arica_y_Parinacota/240270-1/2023|H5N1|Chile|2023-03-01|other_mammal|B3.2	Chile	NA	NA	precise (Martha)	-18.78511	-70.34921
+A/Inca_tern/Arica_y_Parinacota/227519-1/2022|H5N1|Chile|2022-12-12|avian|B3.2	Chile	NA	NA	precise (Martha)	-18.477778	-70.318056
+A/sanderling/Arica_y_Parinacota/230758-1/2022|H5N1|Chile|2022-12-30|avian|B3.2	Chile	NA	NA	precise (Martha)	-18.477778	-70.318056
+A/black_skimmer/Chile/C61962/2022|H5N1|Chile|2022-12-02|avian|B3.2	Chile	NA	NA	precise (Martha)	-18.4136444	-70.3245328
+A/sea_lion/Peru/TAC-INS-010/2023|H5N1|Peru|2023-03-07|other_mammal|B3.2	Peru	NA	NA	precise (Martha)	-18.137864	-70.699826
+A/sea_lion/Peru/TAC-INS-011/2023|H5N1|Peru|2023-03-07|other_mammal|B3.2	Peru	NA	NA	precise (Martha)	-17.64664722	-70.30376039
+A/chicken/Cochabamba/39356/2023|H5N1|Bolivia|2023-01-26|avian|B3.2	Bolivia	NA	NA	city/town/municipality	-17.388333	-66.159722
+A/chicken/Cochabamba/39383/2023|H5N1|Bolivia|2023-02-01|avian|B3.2	Bolivia	NA	NA	city/town/municipality	-17.388333	-66.159722
+A/chicken/Cochabamba/39425/2023|H5N1|Bolivia|2023-02-07|avian|B3.2	Bolivia	NA	NA	city/town/municipality	-17.388333	-66.159722
+A/chicken/Cochabamba/39476/2023|H5N1|Bolivia|2023-02-18|avian|B3.2	Bolivia	NA	NA	city/town/municipality	-17.388333	-66.159722
+A/chicken/Cochabamba/39539/2023|H5N1|Bolivia|2023-03-03|avian|B3.2	Bolivia	NA	NA	city/town/municipality	-17.388333	-66.159722
+A/sea_lion/Peru/AQP-SER00K/2023|H5N1|Peru|2023-02-07|other_mammal|B3.2	Peru	NA	NA	precise (Martha)	-12.91786123	-76.507071
+A/Sea_Lion/Peru/LIM-SER036/2023|H5N1|Peru|2023-01-23|other_mammal|B3.2	Peru	NA	NA	precise (Martha)	-12.1218839	-77.045041
+A/Belcher_gull/Peru/UNMSM-A267/2022|H5N1|Peru|2022-12-01|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.1077	-77.0606
+A/peruvian_booby/Peru/LIM-INS-004/2023|H5N1|Peru|2023-04-03|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.1	-77.083333
+A/lion/Peru/AIS0554/2023|H5N1|Peru|2023-02-08|feline|B3.2	Peru	NA	NA	precise (Martha)	-12.0621201	-75.1961831
+A/chicken/Peru/AIS0551/2022|H5N1|Peru|2022-12-12|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.059548	-77.03883
+A/chicken/Peru/AIS0546/2022|H5N1|Peru|2022-12-18|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.059548	-77.03883
+A/chicken/Peru/AIS0548/2022|H5N1|Peru|2022-12-22|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.059548	-77.03883
+A/peruvian_booby/Peru/CAL-INS-008/2023|H5N1|Peru|2023-03-17|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.052222	-77.139167
+A/guanay_cormorant/Peru/CAL-INS-009/2023|H5N1|Peru|2023-03-17|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.052222	-77.139167
+A/chicken/Peru/LIM-INS-003/2022|H5N1|Peru|2022-11-29|avian|B3.2	Peru	NA	NA	precise (Martha)	-12.005696	-76.878978
+A/peruvian_booby/Peru/LIM-INS-012/2023|H5N1|Peru|2023-04-12|avian|B3.2	Peru	NA	NA	precise (Martha)	-10.7953673	-77.744885
+A/pelican/Peru/AIS0541/2022|H5N1|Peru|2022-11-16|avian|B3.2	Peru	NA	NA	precise (Martha)	-6.7172767	-79.906572
+A/pelican/Peru/AIS0538/2022|H5N1|Peru|2022-11-10|avian|B3.2	Peru	NA	NA	precise (Martha)	-5.197348	-81.200409
+A/dolphin/Peru/PIU-SER002/2022|H5N1|Peru|2022-11-22|other_mammal|B3.2	Peru	NA	NA	precise (Martha)	-5.1499528	-81.170758
+A/dolphin/Peru/PIU-002/2022|H5N1|Peru|2022-11-22|other_mammal|B3.2	Peru	NA	NA	precise (Martha)	-5.14738205	-81.1719157
+A/wildbird-Fregata-magnificens/Ecuador/IC03-4587/2023|H5N1|Ecuador|2023-01-11|avian|B3.2	Ecuador	NA	NA	precise (Martha)	-0.79805746	-80.5195928
+A/pelican/Costa_Rica/INC-0018-D0370-23/2023|H5N1|Costa_Rica|2023-01-26|avian|B3.2	Costa_Rica	Limon	Playa Cocles	beach	9.6477	-82.7324
+A/falcon/Costa_Rica/INC-0001-D0377-23/2023|H5N1|Costa_Rica|2023-01-26|avian|B3.2	Costa_Rica	Limon	Colorado	district	10.613232	-83.593246
+A/american_wigeon/Florida/22-040720-004/2022|H5N1|USA-FL|2022-12-10|avian|B3.2	USA-FL	Florida	Palm Beach	county	26.5662704518829	-80.0597297258026
+A/muscovy_duck/Florida/22-036966-002/2022|H5N1|USA-FL|2022-11-04|avian|B3.2	USA-FL	Florida	Sarasota	county	27.165870010849	-82.4356534461464
+A/peregrine_falcon/Florida/22-035514-001/2022|H5N1|USA-FL|2022-10-29|avian|B3.2	USA-FL	Florida	Polk	county	27.9467615228958	-82.0318201388822
+A/chicken/Florida/22-032963-001/2022|H5N1|USA-FL|2022-10-11|avian|B3.2	USA-FL	Florida	Osceola	county	28.25620211087	-81.3100458994798
+A/american_coot/Florida/23-002762-015/2022|H5N1|USA-FL|2022-12-19|avian|B3.2	USA-FL	Florida	Brevard	county	28.0129956240608	-80.7550913853488
+A/gannet/Florida/23-002762-022/2022|H5N1|USA-FL|2022-12-30|avian|B3.2	USA-FL	Florida	Brevard	county	27.8371850019414	-80.5666235997196
+A/double_crested_cormorant/Florida/22-036552-001/2022|H5N1|USA-FL|2022-11-03|avian|B3.2	USA-FL	Florida	Orange	county	28.5297414861604	-81.2716038637818
+A/chicken/Florida/22-033923-001/2022|H5N1|USA-FL|2022-10-20|avian|B3.2	USA-FL	Florida	Lake	county	28.5170630656138	-81.9399016199029
+A/gadwall/Texas/23-003062-010/2023|H5N1|USA-TX|2023-01-18|avian|B3.2	USA-TX	Texas	Colorado	county	29.6938299710276	-96.8050089213893
+A/american_wigeon/Texas/23-003062-016/2023|H5N1|USA-TX|2023-01-18|avian|B3.2	USA-TX	Texas	Colorado	county	29.6617560038332	-96.491774047836
+A/american_wigeon/Texas/23-003062-020/2023|H5N1|USA-TX|2023-01-18|avian|B3.2	USA-TX	Texas	Colorado	county	29.7818808174598	-96.3516429966217
+A/northern_shoveler/Louisiana/22-037236-004/2022|H5N1|USA-LA|2022-11-12|avian|B3.2	USA-LA	Louisiana	Cameron	county	29.9891509773273	-93.0370771990483
+A/gadwall/Texas/22-036753-040-R/2022|H5N1|USA-TX|2022-11-05|avian|B3.2	USA-TX	Texas	Jefferson	county	29.8894892198784	-93.9875300784889
+A/northern_shoveler/Texas/23-007477-003-original/2023|H5N1|USA-TX|2023-01-19|avian|B3.2	USA-TX	Texas	Orange	county	30.203492323336	-93.8372377612262
+A/snow_goose/Louisiana/22-039688-009/2022|H5N1|USA-LA|2022-11-30|avian|B3.2	USA-LA	Louisiana	Calcasieu	county	30.0568749759453	-93.3807707605119
+A/blue_winged_teal/Louisiana/22-033477-003/2022|H5N1|USA-LA|2022-09-20|avian|B3.2	USA-LA	Louisiana	Jefferson Davis	county	30.4505377594221	-92.6831510000195
+A/american_green_winged_teal/Georgia/22-038443-007/2022|H5N1|USA-GA|2022-11-19|avian|B3.2	USA-GA	Georgia	McIntosh	county	31.5884830534145	-81.3721171973812
+A/american_green_winged_teal/Louisiana/22-041760-007/2022|H5N1|USA-LA|2022-12-17|avian|B3.2	USA-LA	Louisiana	La Salle	county	31.8796265203878	-92.1428748875357
+A/american_green_winged_teal/Texas/23-000110-004/2022|H5N1|USA-TX|2022-12-04|avian|B3.2	USA-TX	Texas	Freestone	county	31.6263888452613	-96.2202207187211
+A/goose/Louisiana/22-033391-001/2022|H5N1|USA-LA|2022-10-14|avian|B3.2	USA-LA	Louisiana	Ouachita	county	32.5062722319917	-92.0306045819809
+A/mallard/Texas/22-035744-001/2022|H5N1|USA-TX|2022-10-31|avian|B3.2	USA-TX	Texas	Tarrant	county	32.79180702061	-97.18797522384
+A/gadwall/South_Carolina/22-042020-005/2022|H5N1|USA-SC|2022-12-20|avian|B3.2	USA-SC	South_Carolina	Charleston	county	32.6539757156041	-80.2745467426256
+A/goose/Louisiana/23-000409-006/2022|H5N1|USA-LA|2022-12-02|avian|B3.2	USA-LA	Louisiana	Morehouse	county	32.8442753616139	-91.949603759786
+A/gadwall/South_Carolina/22-042019-001/2022|H5N1|USA-SC|2022-12-15|avian|B3.2	USA-SC	South_Carolina	Colleton	county	32.8784956901115	-80.5898445113179
+A/mottled_duck/South_Carolina/22-042180-002/2022|H5N1|USA-SC|2022-12-16|avian|B3.2	USA-SC	South_Carolina	Colleton	county	33.1063176957248	-80.733192650448
+A/bald_eagle/South_Carolina/23-008111-001/2023|H5N1|USA-SC|2023-03-04|avian|B3.2	USA-SC	South_Carolina	Colleton	county	32.6375129053552	-80.5010391206593
+A/bald_eagle/South_Carolina/23-008111-002/2023|H5N1|USA-SC|2023-03-04|avian|B3.2	USA-SC	South_Carolina	Colleton	county	32.991083791147	-81.0499800268505
+A/american_white_pelican/California/22-035596-001/2022|H5N1|USA-CA|2022-10-27|avian|B3.2	USA-CA	California	San Diego	county	32.5976840032556	-116.796797691975
+A/pelican/Arizona/22-038234-002/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2	USA-AZ	Arizona	Maricopa	county	33.5107566278777	-113.257797752165
+A/pelican/Arizona/22-038234-003/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2	USA-AZ	Arizona	Maricopa	county	33.4608238624381	-111.674524855341
+A/pelican/Arizona/22-038234-004/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2	USA-AZ	Arizona	Maricopa	county	33.2350344016177	-111.683753848463
+A/pelican/Arizona/22-038234-005/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2	USA-AZ	Arizona	Maricopa	county	33.1499369387018	-112.217756046579
+A/pelican/Arizona/22-038234-001/2022|H5N1|US-AZ|2022-10-15|avian|B3.2	US-AZ	Arizona	Maricopa	county	33.3372313561226	-111.583047226602
+A/canada_goose/Arizona/22-034128-001-R/2022|H5N1|US-AZ|2022-10-17|avian|B3.2	US-AZ	Arizona	Maricopa	county	32.5205700525785	-112.845098263774
+A/snow_goose/Mississippi/22-038820-002-R/2022|H5N1|USA-MS|2022-11-27|avian|B3.2	USA-MS	Mississippi	Leflore	county	33.3193904069996	-90.4083128953304
+A/snow_goose/Mississippi/22-038820-006-R/2022|H5N1|USA-MS|2022-11-27|avian|B3.2	USA-MS	Mississippi	Leflore	county	33.4975120638011	-90.2372105857029
+A/chicken/Mississippi/23-008358-001-original/2023|H5N1|USA-MS|2023-03-15|avian|B3.2	USA-MS	Mississippi	Monroe	county	33.9518388143138	-88.2939516368596
+A/chicken/Mississippi/23-008358-002-original/2023|H5N1|USA-MS|2023-03-15|avian|B3.2	USA-MS	Mississippi	Monroe	county	33.8940574916572	-88.2988121026162
+A/snow_goose/Mississippi/22-038821-004/2022|H5N1|USA-MS|2022-11-23|avian|B3.2	USA-MS	Mississippi	Tallahatchie	county	34.0639834325822	-90.2513907113692
+A/snow_goose/Mississippi/22-038821-010/2022|H5N1|USA-MS|2022-11-23|avian|B3.2	USA-MS	Mississippi	Tallahatchie	county	33.8328121756163	-90.138957315115
+A/snow_goose/Mississippi/22-038821-023/2022|H5N1|USA-MS|2022-11-23|avian|B3.2	USA-MS	Mississippi	Tallahatchie	county	34.0445000751328	-90.4049548179105
+A/snow_goose/Mississippi/22-038821-024/2022|H5N1|USA-MS|2022-11-23|avian|B3.2	USA-MS	Mississippi	Tallahatchie	county	34.07200870652	-90.3101714437709
+A/snow_goose/Mississippi/22-038821-030/2022|H5N1|USA-MS|2022-11-23|avian|B3.2	USA-MS	Mississippi	Tallahatchie	county	33.7813853556189	-90.1523286169288
+A/goose/Arkansas/22-036798-001/2022|H5N1|US-AR|2022-11-14|avian|B3.2	US-AR	Arkansas	Jefferson	county	34.2799876673912	-92.065596613012
+A/lesser_white-fronted_goose/Mississippi/22-041057-001/2022|H5N1|USA-MS|2022-12-08|avian|B3.2	USA-MS	Mississippi	Lafayette	county	34.4131780166034	-89.3450783475128
+A/blue_winged_teal/Oklahoma/22-029332-005/2022|H5N1|USA-OK|2022-09-10|avian|B3.2	USA-OK	Oklahoma	Tillman	county	34.3996332469196	-98.7597904393882
+A/blue_winged_teal/Oklahoma/22-029332-011/2022|H5N1|USA-OK|2022-09-10|avian|B3.2	USA-OK	Oklahoma	Tillman	county	34.3558343465935	-98.9471412058192
+A/blue_winged_teal/Oklahoma/22-029332-023/2022|H5N1|USA-OK|2022-09-10|avian|B3.2	USA-OK	Oklahoma	Tillman	county	34.3253756279494	-98.7724122159202
+A/blue_winged_teal/Oklahoma/22-029332-034/2022|H5N1|USA-OK|2022-09-10|avian|B3.2	USA-OK	Oklahoma	Tillman	county	34.4632869374155	-98.8128931392347
+A/american_blue_winged_teal/Oklahoma/22-032994-002/2022|H5N1|USA-OK|2022-10-10|avian|B3.2	USA-OK	Oklahoma	Tillman	county	34.4497969758576	-98.9512444469065
+A/chicken/Arizona/22-035006-002/2022|H5N1|US-AZ|2022-11-01|avian|B3.2	US-AZ	Arizona	Yavapai	county	34.3507204208562	-111.896979828198
+A/chicken/Arizona/22-035241-003/2022|H5N1|US-AZ|2022-11-02|avian|B3.2	US-AZ	Arizona	Yavapai	county	34.5888431115697	-111.55484941265
+A/northern_shoveler/Arkansas/23-002690-001/2023|H5N1|US-AR|2023-01-14|avian|B3.2	US-AR	Arkansas	Lonoke	county	34.7296069376713	-91.7019147377248
+A/domestic_goose/Tennessee/22-036130-001/2022|H5N1|USA-TN|2022-11-09|avian|B3.2	USA-TN	Tennessee	Lincoln	county	35.1577117141137	-86.6320245356978
+A/chicken/Oklahoma/22-033558-001/2022|H5N1|USA-OK|2022-10-20|avian|B3.2	USA-OK	Oklahoma	Cleveland	county	35.2541471750678	-97.462286507251
+A/goose/Texas/22-038236-001/2022|H5N1|USA-TX|2022-11-23|avian|B3.2	USA-TX	Texas	Carson	county	35.3644301992911	-101.353335172498
+A/cackling_goose/Texas/23-001028-001/2023|H5N1|USA-TX|2023-01-06|avian|B3.2	USA-TX	Texas	Carson	county	35.4568410085289	-101.612373383544
+A/chicken/Arkansas/22-032566-001/2022|H5N1|US-AR|2022-10-13|avian|B3.2	US-AR	Arkansas	Pope	county	35.6861318719678	-93.0665216844187
+A/canada_goose/North_Carolina/22-036623-001-R2/2022|H5N1|USA-NC|2022-10-30|avian|B3.2	USA-NC	North_Carolina	Haywood	county	35.7236530542294	-82.9159079381592
+A/canada_goose/Arizona/23-002260-001/2023|H5N1|US-AZ|2023-01-09|avian|B3.2	US-AZ	Arizona	Coconino	county	35.331465121449	-112.709483047435
+A/canada_goose/Arizona/23-005233-001/2023|H5N1|US-AZ|2023-01-23|avian|B3.2	US-AZ	Arizona	Coconino	county	35.9237030690829	-113.207798694166
+A/chicken/Oklahoma/22-033387-001/2022|H5N1|USA-OK|2022-10-18|avian|B3.2	USA-OK	Oklahoma	Creek	county	36.0989515849854	-96.4110980145997
+A/chicken/Arkansas/22-031667-003/2022|H5N1|US-AR|2022-10-06|avian|B3.2	US-AR	Arkansas	Madison	county	35.8959843154728	-93.7901737240767
+A/chicken/Arkansas/22-031676-001/2022|H5N1|US-AR|2022-10-06|avian|B3.2	US-AR	Arkansas	Madison	county	36.2571001041556	-93.6675902367158
+A/snow_goose/Arkansas/22-038202-001/2022|H5N1|US-AR|2022-11-25|avian|B3.2	US-AR	Arkansas	Lawrence	county	36.195220739994	-91.252765236229
+A/guinea_fowl/Oklahoma/22-032674-001/2022|H5N1|USA-OK|2022-10-13|avian|B3.2	USA-OK	Oklahoma	Tulsa	county	36.3062926234937	-95.9785123007604
+A/Muscovy_duck/California/22-034335-001/2022|H5N1|USA-CA|2022-10-16|avian|B3.2	USA-CA	California	Fresno	county	36.8864851577274	-118.48129831163
+A/snow_goose/California/23-002594-003/2023|H5N1|USA-CA|2023-01-10|avian|B3.2	USA-CA	California	Merced	county	36.9494321395316	-120.886055908674
+A/pelican/Kansas/22-036624-001-R/2022|H5N1|USA-KS|2022-10-17|avian|B3.2	USA-KS	Kansas	Montgomery	county	37.0857030583778	-95.5408675933109
+A/chicken/Missouri/22-037522-001/2022|H5N1|USA-MO|2022-11-19|avian|B3.2	USA-MO	Missouri	Webster	county	37.2652994492484	-93.0542529633829
+A/turkey/Missouri/22-038012-001/2022|H5N1|USA-MO|2022-11-24|avian|B3.2	USA-MO	Missouri	Webster	county	37.4074446095025	-92.7178147392323
+A/chicken/Colorado/22-034082-001/2022|H5N1|USA-CO|2022-10-22|avian|B3.2	USA-CO	Colorado	La Plata	county	37.1081723326643	-107.836641259314
+A/american_black_duck/Virginia/22-038573-010/2022|H5N1|USA-VA|2022-11-19|avian|B3.2	USA-VA	Virginia	Henrico	county	37.463742292035	-77.3958972141656
+A/rosss_goose/Kansas/22-040832-001/2022|H5N1|USA-KS|2022-12-07|avian|B3.2	USA-KS	Kansas	Kingman	county	37.6031939103267	-97.8527520479131
+A/great_horned_owl/Colorado/22-039952-001/2022|H5N1|USA-CO|2022-12-05|avian|B3.2	USA-CO	Colorado	Rio Grande	county	37.5626697301536	-106.277902931222
+A/raven/California/23-003756-001/2023|H5N1|USA-CA|2023-01-29|avian|B3.2	USA-CA	California	San Francisco	county	37.7651907392478	-122.389997357709
+A/sanderling/California/23-005401-001/2023|H5N1|USA-CA|2023-02-14|avian|B3.2	USA-CA	California	San Francisco	county	37.7382831690684	-122.485779007018
+A/red-tailed_hawk/Kentucky/W23-143/2022|H5N1|USA-KY|2022-12-22|avian|B3.2	USA-KY	Kentucky	Henderson	county	37.8812454077653	-87.3945951296488
+A/snow_goose/Kansas/22-039690-007/2022|H5N1|USA-KS|2022-11-27|avian|B3.2	USA-KS	Kansas	Kearny	county	37.9919889371274	-101.189540327168
+A/great-tailed_grackle/Kansas/22-041130-006/2022|H5N1|USA-KS|2022-12-13|avian|B3.2	USA-KS	Kansas	Finney	county	38.1807967406647	-100.681320600628
+A/chicken/Nevada/22-032799-001/2022|H5N1|USA-NV|2022-10-14|avian|B3.2	USA-NV	Nevada	Nye	county	36.7267744005416	-116.073797838919
+A/chicken/Missouri/23-008296-001-original/2023|H5N1|USA-MO|2023-03-14|avian|B3.2	USA-MO	Missouri	Maries	county	38.1156313020051	-91.8437369119365
+A/chicken/Missouri/23-008296-002-original/2023|H5N1|USA-MO|2023-03-14|avian|B3.2	USA-MO	Missouri	Maries	county	38.0668743634557	-92.1427895176923
+A/chicken/Missouri/23-008296-003-original/2023|H5N1|USA-MO|2023-03-14|avian|B3.2	USA-MO	Missouri	Maries	county	38.1266699683544	-91.8556329948149
+A/snow_goose/Missouri/22-040786-001/2022|H5N1|USA-MO|2022-12-08|avian|B3.2	USA-MO	Missouri	Bates	county	38.3656419531485	-94.5679043928635
+A/snow_goose/Indiana/22-038827-003-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2	USA-IN	Indiana	Gibson	county	38.3146871611311	-87.6933290539774
+A/snow_goose/Indiana/22-038827-005-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2	USA-IN	Indiana	Gibson	county	38.1734119905123	-87.5274157790122
+A/snow_goose/Indiana/22-038827-007-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2	USA-IN	Indiana	Gibson	county	38.4605717194804	-87.4793410239565
+A/snow_goose/Indiana/22-038827-008-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2	USA-IN	Indiana	Gibson	county	38.1985237733477	-87.5774152692152
+A/hawk/Missouri/22-040785-002/2022|H5N1|USA-MO|2022-12-05|avian|B3.2	USA-MO	Missouri	Franklin	county	38.3992938659346	-91.2336715409807
+A/red_tailed_hawk/California/23-004363-001/2023|H5N1|USA-CA|2023-01-25|avian|B3.2	USA-CA	California	Sacramento	county	38.4803131930935	-121.096061833305
+A/peregrine_falcon/California/22-032573-001/2022|H5N1|USA-CA|2022-10-03|avian|B3.2	USA-CA	California	Napa	county	38.5488241833642	-122.276021181652
+A/great_horned_owl/California/22-035880-001/2022|H5N1|USA-CA|2022-11-01|avian|B3.2	USA-CA	California	Napa	county	38.577021683244	-122.584052134909
+A/sanderling/California/23-006644-001/2023|H5N1|USA-CA|2023-02-14|avian|B3.2	USA-CA	California	Sonoma	county	38.3327994678755	-122.629114897099
+A/turkey_vulture/California/23-016941-001/2023|H5N1|USA-CA|2023-05-23|avian|B3.2	USA-CA	California	Sonoma	county	38.2491340894976	-122.490041970178
+A/northern_shoveler/Nevada/22-037517-003/2022|H5N1|USA-NV|2022-11-05|avian|B3.2	USA-NV	Nevada	Mineral	county	37.9979439652715	-118.407370179724
+A/red_tailed_hawk/Missouri/23-001518-001/2022|H5N1|USA-MO|2022-12-21|avian|B3.2	USA-MO	Missouri	Saint Louis	county	38.7546698757109	-90.4791567212443
+A/american_crow/Kansas/23-002150-001/2022|H5N1|USA-KS|2022-12-23|avian|B3.2	USA-KS	Kansas	Wabaunsee	county	38.8911298104821	-96.2348908088261
+A/snow_goose/Missouri/22-037787-001/2022|H5N1|USA-MO|2022-11-13|avian|B3.2	USA-MO	Missouri	Jackson	county	38.923771468726	-94.4584837359766
+A/red-tailed_hawk/Colorado/23-006671-001/2023|H5N1|USA-CO|2023-02-18|avian|B3.2	USA-CO	Colorado	Mesa	county	38.7528496480248	-108.548686009281
+A/striped_skunk/Kansas/W23-175/2023|H5N1|USA-KS|2023-02-24|other_mammal|B3.2	USA-KS	Kansas	Lincoln	county	39.0040853318741	-98.356914114428
+A/goose/Kansas/W22-1154/2022|H5N1|USA-KS|2022-12-05|avian|B3.2	USA-KS	Kansas	Rooks	county	39.5665585669068	-99.055481398632
+A/american_blue_winged_teal/Missouri/22-032511-101-R/2022|H5N1|USA-MO|2022-09-23|avian|B3.2	USA-MO	Missouri	Chariton	county	39.639400739735	-92.9867365884085
+A/turkey_vulture/California/23-002030-001/2022|H5N1|USA-CA|2022-12-29|avian|B3.2	USA-CA	California	Butte	county	39.5606278820732	-121.146183744661
+A/ferruginous_hawk/Colorado/23-015630-001-original/2023|H5N1|USA-CO|2023-05-12|avian|B3.2	USA-CO	Colorado	Denver	county	39.88003055365	-104.722290786253
+A/striped_skunk/Kansas/W23-094/2023|H5N1|USA-KS|2023-01-27|other_mammal|B3.2	USA-KS	Kansas	Rawlins	county	39.7620148636786	-101.024644930455
+A/red-tailed_hawk/Kansas/23-009211-001/2023|H5N1|USA-KS|2023-03-15|avian|B3.2	USA-KS	Kansas	Marshall	county	39.77299529889	-96.6558481819772
+A/Ring-billed_gull/Colorado/22-030941-001/2022|H5N1|USA-CO|2022-09-28|avian|B3.2	USA-CO	Colorado	Boulder	county	39.9911142087731	-105.258358676913
+A/trumpeter_swan/Missouri/22-040427-001/2022|H5N1|USA-MO|2022-12-01|avian|B3.2	USA-MO	Missouri	Holt	county	39.9034386937825	-95.008510270578
+A/goose/Utah/23-001040-001/2023|H5N1|USA-UT|2023-01-04|avian|B3.2	USA-UT	Utah	Duchesne	county	40.5262970414792	-110.444520409299
+A/canada_goose/Colorado/22-038655-001/2022|H5N1|USA-CO|2022-11-28|avian|B3.2	USA-CO	Colorado	Weld	county	40.0365857764717	-104.630219268889
+A/great_horned_owl/Colorado/23-007822-001/2023|H5N1|USA-CO|2023-03-03|avian|B3.2	USA-CO	Colorado	Moffat	county	40.8701861885418	-108.022132795227
+A/Swainson_s_hawk/Colorado/23-014329-001/2023|H5N1|USA-CO|2023-05-02|avian|B3.2	USA-CO	Colorado	Moffat	county	40.2241907528364	-107.708758948571
+A/red-tailed_hawk/Nevada/23-012114-001/2023|H5N1|USA-NV|2023-03-31|avian|B3.2	USA-NV	Nevada	Washoe	county	40.55365477584	-119.596268966127
+A/eared_grebe/California/23-000276-003/2022|H5N1|USA-CA|2022-12-15|avian|B3.2	USA-CA	California	Lassen	county	40.9873488716149	-120.31691985154
+A/red_tailed_hawk/Colorado/22-029818-001-R/2022|H5N1|USA-CO|2022-09-19|avian|B3.2	USA-CO	Colorado	Larimer	county	40.7744084146014	-105.74229241526
+A/red_tailed_hawk/Colorado/22-031741-001/2022|H5N1|USA-CO|2022-10-04|avian|B3.2	USA-CO	Colorado	Larimer	county	40.8376235777655	-105.968419325492
+A/canada_goose/Colorado/23-000399-001/2022|H5N1|USA-CO|2022-12-30|avian|B3.2	USA-CO	Colorado	Larimer	county	40.9667059551881	-105.482040857198
+A/red_tailed_hawk/Colorado/23-000403-001/2023|H5N1|USA-CO|2023-01-01|avian|B3.2	USA-CO	Colorado	Larimer	county	40.846083144115	-105.597160003922
+A/red_tailed_hawk/Colorado/23-004223-001/2023|H5N1|USA-CO|2023-01-31|avian|B3.2	USA-CO	Colorado	Larimer	county	40.8807928833534	-105.490209674023
+A/turkey_vulture/Colorado/23-011447-001/2023|H5N1|USA-CO|2023-04-10|avian|B3.2	USA-CO	Colorado	Larimer	county	40.4867763421951	-105.435580003523
+A/peregrine_falcon/New_York/23-003717-001/2023|H5N1|USA-NY|2023-01-26|avian|B3.2	USA-NY	New_York	Kings	county	40.6179734683272	-74.0117778537343
+A/chicken/Utah/22-015245-001/2022|H5N1|USA-UT|2022-05-13|avian|B3.2	USA-UT	Utah	Salt Lake	county	40.752325321446	-111.950871295465
+A/goose/Utah/22-018176-003/2022|H5N1|USA-UT|2022-06-08|avian|B3.2	USA-UT	Utah	Salt Lake	county	40.6563214196874	-112.05918013415
+A/duck/Utah/22-031728-004-R/2022|H5N1|USA-UT|2022-10-04|avian|B3.2	USA-UT	Utah	Salt Lake	county	40.5528129693834	-111.892533604384
+A/red-tailed_hawk/Colorado/23-008901-001/2023|H5N1|USA-CO|2023-03-15|avian|B3.2	USA-CO	Colorado	Logan	county	40.5593660966402	-103.01733818499
+A/great_horned_owl/Nebraska/22-038800-001/2022|H5N1|USA-NE|2022-11-30|avian|B3.2	USA-NE	Nebraska	Lancaster	county	40.9123185417856	-96.6298262080827
+A/cat/Nebraska/23-010184-001/2023|H5N1|USA-NE|2023-03-30|feline|B3.2	USA-NE	Nebraska	Buffalo	county	40.6708526355825	-99.0129310524629
+A/snow_goose/Colorado/22-036625-001-R/2022|H5N1|USA-CO|2022-11-08|avian|B3.2	USA-CO	Colorado	Sedgwick	county	40.8878781393282	-102.140007984602
+A/blue_winged_teal/Indiana/22-034829-003-R2/2022|H5N1|USA-IN|2022-10-28|avian|B3.2	USA-IN	Indiana	Jasper	county	40.9928503234859	-87.1206051811469
+A/mallard/Indiana/22-034829-007-R2/2022|H5N1|USA-IN|2022-10-28|avian|B3.2	USA-IN	Indiana	Jasper	county	40.9407130529189	-87.2166637774777
+A/canada_goose/Nebraska/23-001495-001/2023|H5N1|USA-NE|2023-01-10|avian|B3.2	USA-NE	Nebraska	Lincoln	county	40.8920890173195	-101.05840529381
+A/canada_goose/Nebraska/23-001495-002/2023|H5N1|USA-NE|2023-01-10|avian|B3.2	USA-NE	Nebraska	Lincoln	county	40.8981765092242	-101.163089972476
+A/canada_goose/Nevada/22-033403-003-R/2022|H5N1|USA-NV|2022-09-23|avian|B3.2	USA-NV	Nevada	Elko	county	41.3544929550601	-115.477128120329
+A/Peregrine_Falcon/Iowa/22-012093-001/2022|H5N1|USA-IA|2022-04-15|avian|B3.2	USA-IA	Iowa	Louisa	county	41.2722121523358	-91.2636730970604
+A/hawk/Indiana/23-003026-001/2023|H5N1|USA-IN|2023-01-23|avian|B3.2	USA-IN	Indiana	Starke	county	41.268834551431	-86.5930845314392
+A/pelican/Nebraska/22-032908-001/2022|H5N1|USA-NE|2022-10-13|avian|B3.2	USA-NE	Nebraska	Douglas	county	41.3573944302509	-95.9768991027156
+A/American_crow/Utah/23-007867-006/2023|H5N1|USA-UT|2023-03-03|avian|B3.2	USA-UT	Utah	Weber	county	41.3878865162939	-111.534477605169
+A/great_horned_owl/Wyoming/22-039597-001/2022|H5N1|USA-WY|2022-12-06|avian|B3.2	USA-WY	Wyoming	Laramie	county	41.0445341894967	-105.196308537701
+A/great_horned_owl/Nevada/22-040618-001/2022|H5N1|USA-NV|2022-12-06|avian|B3.2	USA-NV	Nevada	Humboldt	county	40.842476406178	-117.072284738069
+A/peregrine_falcon/Indiana/22-032710-001/2022|H5N1|USA-IN|2022-10-07|avian|B3.2	USA-IN	Indiana	Lake	county	41.2373327466692	-87.3035809549863
+A/mallard/Connecticut/23-004773-001-original2/2023|H5N1|USA-CT|2023-02-06|avian|B3.2	USA-CT	Connecticut	New London	county	41.4926317841968	-72.1613014364978
+A/great_horned_owl/Utah/22-035956-007/2022|H5N1|USA-UT|2022-10-25|avian|B3.2	USA-UT	Utah	Box Elder	county	41.6110261624566	-113.577906331684
+A/chicken/Nebraska/22-013105-001/2022|H5N1|USA-NE|2022-04-26|avian|B3.2	USA-NE	Nebraska	Washington	county	41.5480111632489	-96.1389539303667
+A/swan/Nebraska/22-041037-001/2022|H5N1|USA-NE|2022-12-15|avian|B3.2	USA-NE	Nebraska	Colfax	county	41.7308037452711	-97.0359809782508
+A/swan/Nebraska/22-041037-002/2022|H5N1|USA-NE|2022-12-15|avian|B3.2	USA-NE	Nebraska	Colfax	county	41.466894515871	-97.1538617957637
+A/american_wigeon/Ohio/22-034080-032/2022|H5N1|USA-OH|2022-10-15|avian|B3.2	USA-OH	Ohio	Ottawa	county	41.5115561723522	-82.9756587691115
+A/mute_swan/Rhode_Island/23-007092-001/2023|H5N1|USA-RI|2023-02-13|avian|B3.2	USA-RI	Rhode_Island	Kent	county	41.7047952104385	-71.4757475207524
+A/turkey_vulture/Utah/23-012747-001/2023|H5N1|USA-UT|2023-04-19|avian|B3.2	USA-UT	Utah	Cache	county	41.8210589418979	-111.590107617862
+A/turkey_vulture/Utah/23-014334-001/2023|H5N1|USA-UT|2023-04-28|avian|B3.2	USA-UT	Utah	Cache	county	41.6453795028691	-111.705580757989
+A/Great_Horned_Owl/Wyoming/22-013016-002/2022|H5N1|USA-WY|2022-04-25|avian|B3.2	USA-WY	Wyoming	Carbon	county	41.5258644518984	-106.653243390885
+A/red_tailed_hawk/New_York/22-042014-001/2022|H5N1|USA-NY|2022-12-19|avian|B3.2	USA-NY	New_York	Dutchess	county	41.820186608425	-73.8856208439377
+A/american_white_pelican/Iowa/22-021277-001/2022|H5N1|USA-IA|2022-07-01|avian|B3.2	USA-IA	Iowa	Clinton	county	41.8346351112019	-90.6763577028151
+A/american_white_pelican/Iowa/22-022114-001/2022|H5N1|USA-IA|2022-07-01|avian|B3.2	USA-IA	Iowa	Clinton	county	41.9885421175871	-90.7238492858283
+A/hawk/Iowa/23-011213-001/2023|H5N1|USA-IA|2023-04-10|avian|B3.2	USA-IA	Iowa	Boone	county	42.0908124587452	-93.7649600663497
+A/trumpeter_swan/Iowa/23-002039-002/2023|H5N1|USA-IA|2023-01-12|avian|B3.2	USA-IA	Iowa	Story	county	41.9816681634722	-93.4102293865115
+A/canada_goose/Iowa/23-028688-001/2023|H5N1|USA-IA|2023-01-13|avian|B3.2	USA-IA	Iowa	Story	county	42.1962753424432	-93.314238823525
+A/trumpeter_swan/Iowa/23-002662-002/2023|H5N1|USA-IA|2023-01-21|avian|B3.2	USA-IA	Iowa	Story	county	42.0948256495687	-93.4123209358542
+A/American_crow/Iowa/23-007468-001/2023|H5N1|USA-IA|2023-03-02|avian|B3.2	USA-IA	Iowa	Story	county	41.8810574509259	-93.2707158986881
+A/American_crow/Iowa/23-007781-002/2023|H5N1|USA-IA|2023-03-05|avian|B3.2	USA-IA	Iowa	Story	county	42.1110094799931	-93.3998746398262
+A/american_green_winged_teal/Iowa/22-034928-001-R2/2022|H5N1|USA-IA|2022-10-16|avian|B3.2	USA-IA	Iowa	Monona	county	42.0486086646059	-95.9159235518311
+A/canada_goose/Iowa/22-040790-001/2022|H5N1|USA-IA|2022-12-07|avian|B3.2	USA-IA	Iowa	Monona	county	42.1805980611089	-96.0888560147775
+A/american_white_pelican/Illinois/22-021276-001/2022|H5N1|USA-IL|2022-07-01|avian|B3.2	USA-IL	Illinois	Carroll	county	42.0371245916956	-89.9940866784774
+A/red_tailed_hawk/Wyoming/22-042090-001/2022|H5N1|USA-WY|2022-12-22|avian|B3.2	USA-WY	Wyoming	Goshen	county	42.3266181385694	-104.408794776325
+A/canada_goose/Wyoming/23-000336-002/2022|H5N1|USA-WY|2022-10-30|avian|B3.2	USA-WY	Wyoming	Platte	county	42.5999635624637	-104.691905890802
+A/turkey_vulture/Wyoming/23-013715-001/2023|H5N1|USA-WY|2023-04-19|avian|B3.2	USA-WY	Wyoming	Platte	county	42.2847278058488	-104.739959498354
+A/red-shouldered_hawk/New_York/23-012563-001/2023|H5N1|USA-NY|2023-04-13|avian|B3.2	USA-NY	New_York	Columbia	county	42.4186163429799	-73.4261773893553
+A/Canada_goose/MA/23-015884-006/2023|H5N1|USA-MA|2023-02-18|avian|B3.2	USA-MA	Massachusetts	Worcester	county	42.1999660108836	-71.6204864088932
+A/chicken/Illinois/22-015233-005/2022|H5N1|USA-IL|2022-05-14|avian|B3.2	USA-IL	Illinois	Boone	county	42.342532923207	-88.8634592891992
+A/chicken/Illinois/22-015233-006/2022|H5N1|USA-IL|2022-05-14|avian|B3.2	USA-IL	Illinois	Boone	county	42.224821836172	-88.7617701386388
+A/Canada_goose/MA/23-015884-009/2023|H5N1|USA-MA|2023-02-23|avian|B3.2	USA-MA	Massachusetts	Hampshire	county	42.2481176902449	-72.4260454919413
+A/Canada_Goose/MA/23-015884-019/2023|H5N1|USA-MA|2023-03-30|avian|B3.2	USA-MA	Massachusetts	Suffolk	county	42.3493391409157	-71.1333923775738
+A/canada_goose/Iowa/22-040793-004/2022|H5N1|USA-IA|2022-12-06|avian|B3.2	USA-IA	Iowa	Woodbury	county	42.3339815304592	-96.2829491965192
+A/american_white_pelican/Illinois/22-013436-001/2022|H5N1|USA-IL|2022-04-25|avian|B3.2	USA-IL	Illinois	Lake	county	42.4407292892932	-88.0420513390573
+A/snow_goose/New_York/23-000618-001/2023|H5N1|USA-NY|2023-01-04|avian|B3.2	USA-NY	New_York	Tompkins	county	42.4269724954062	-76.6194524329976
+A/american_crow/Iowa/23-000627-006/2023|H5N1|USA-IA|2023-01-05|avian|B3.2	USA-IA	Iowa	Black Hawk	county	42.3997520739591	-92.3682974557545
+A/American_crow/Iowa/23-010832-002/2023|H5N1|USA-IA|2023-04-04|avian|B3.2	USA-IA	Iowa	Black Hawk	county	42.354128333614	-92.2143900344625
+A/american_crow/Massachusetts/23-004612-017/2023|H5N1|USA-MA|2023-01-10|avian|B3.2	USA-MA	Massachusetts	Middlesex	county	42.3418182896856	-71.2441056007636
+A/Canada_goose/MA/23-015884-014/2023|H5N1|USA-MA|2023-03-04|avian|B3.2	USA-MA	Massachusetts	Middlesex	county	42.3519122870272	-71.211692227416
+A/Red-tailed_Hawk/MA/23-015884-018/2023|H5N1|USA-MA|2023-03-21|avian|B3.2	USA-MA	Massachusetts	Middlesex	county	42.6226478054949	-71.5365458547857
+A/chicken/Nebraska/22-038149-001/2022|H5N1|USA-NE|2022-11-24|avian|B3.2	USA-NE	Nebraska	Dixon	county	42.3351126925544	-96.9427653250562
+A/peregrine_falcon/Michigan/23-003553-001/2023|H5N1|USA-MI|2023-01-26|avian|B3.2	USA-MI	Michigan	Eaton	county	42.5119402848993	-84.8002428365487
+A/chicken/Michigan/23-008143-001-original/2023|H5N1|USA-MI|2023-03-10|avian|B3.2	USA-MI	Michigan	Eaton	county	42.6269570111576	-84.9613550563352
+A/chicken/Michigan/23-008143-002-original/2023|H5N1|USA-MI|2023-03-10|avian|B3.2	USA-MI	Michigan	Eaton	county	42.69188935726	-84.9737959420194
+A/red_tailed_hawk/New_York/23-003070-001/2023|H5N1|USA-NY|2023-01-18|avian|B3.2	USA-NY	New_York	Albany	county	42.5780424350683	-73.8618515616274
+A/chicken/Oregon/23-009029-001-original/2023|H5N1|USA-OR|2023-03-15|avian|B3.2	USA-OR	Oregon	Klamath	county	42.9447807891382	-121.799226639245
+A/red_tailed_hawk/New_York/23-001007-001/2023|H5N1|USA-NY|2023-01-10|avian|B3.2	USA-NY	New_York	Cayuga	county	42.6608404826449	-76.642968027567
+A/american_wigeon/Idaho/22-039598-001/2022|H5N1|USA-ID|2022-11-23|avian|B3.2	USA-ID	Idaho	Gooding	county	43.1897912042608	-115.073444875743
+A/turkey_vulture/Wyoming/23-012565-001/2023|H5N1|USA-WY|2023-04-19|avian|B3.2	USA-WY	Wyoming	Converse	county	42.8632051647034	-105.806408447176
+A/american_green_winged_teal/New_York/22-033592-029/2022|H5N1|USA-NY|2022-10-15|avian|B3.2	USA-NY	New_York	Genesee	county	43.0786069303278	-78.1897883498306
+A/chicken/Wisconsin/22-034812-002/2022|H5N1|USA-WI|2022-10-31|avian|B3.2	USA-WI	Wisconsin	Waukesha	county	42.8656745737872	-88.3875991884561
+A/canada_goose/Wyoming/22-036111-001/2022|H5N1|USA-WY|2022-11-03|avian|B3.2	USA-WY	Wyoming	Fremont	county	43.1132059096859	-107.868810206377
+A/tundra_swan/Wisconsin/22-038828-001-R/2022|H5N1|USA-WI|2022-11-22|avian|B3.2	USA-WI	Wisconsin	Dane	county	42.9787745063885	-89.0999942539336
+A/fox/Iowa/22-014421-001/2022|H5N1|USA-IA|2022-05-06|other_mammal|B3.2	USA-IA	Iowa	Hancock	county	43.2214161127861	-93.6477702112997
+A/sanderling/Oregon/23-011964-001/2023|H5N1|USA-OR|2023-04-13|avian|B3.2	USA-OR	Oregon	Coos	county	43.5186989764026	-124.109085971856
+A/pheasant/South_Dakota/22-034797-001/2022|H5N1|USA-SD|2022-10-27|avian|B3.2	USA-SD	South_Dakota	Gregory	county	43.4798685513577	-99.4430884066883
+A/red_fox/Michigan/22-018712-001/2022|H5N1|USA-MI|2022-06-08|other_mammal|B3.2	USA-MI	Michigan	Muskegon	county	43.4610933409756	-86.1762804336599
+A/red_fox/Michigan/22-021733-002/2022|H5N1|USA-MI|2022-07-06|other_mammal|B3.2	USA-MI	Michigan	Muskegon	county	43.4511263771228	-86.431882031603
+A/american_wigeon/Idaho/22-036873-001/2022|H5N1|USA-ID|2022-10-26|avian|B3.2	USA-ID	Idaho	Elmore	county	43.8585276329405	-115.051742192883
+A/turkey_vulture/Idaho/22-014968-007/2022|H5N1|USA-ID|2022-05-05|avian|B3.2	USA-ID	Idaho	Bonneville	county	43.606707602354	-111.622486127503
+A/great_horned_owl/Idaho/23-017158-001/2023|H5N1|USA-ID|2023-05-20|avian|B3.2	USA-ID	Idaho	Bonneville	county	43.2105503410665	-111.102879329967
+A/canada_goose/Idaho/22-017360-002/2022|H5N1|USA-ID|2022-05-31|avian|B3.2	USA-ID	Idaho	Ada	county	43.6464559416858	-116.450833819359
+A/canada_goose/Idaho/22-018980-001/2022|H5N1|USA-ID|2022-06-04|avian|B3.2	USA-ID	Idaho	Ada	county	43.354368717108	-116.030143609872
+A/hawk/Idaho/22-017864-001/2022|H5N1|USA-ID|2022-06-06|avian|B3.2	USA-ID	Idaho	Ada	county	43.2628792047358	-116.076699945486
+A/skunk/Idaho/22-023547-001/2022|H5N1|USA-ID|2022-07-22|other_mammal|B3.2	USA-ID	Idaho	Ada	county	43.739693558286	-116.223074694196
+A/magpie/Idaho/23-001085-001/2023|H5N1|USA-ID|2023-01-04|avian|B3.2	USA-ID	Idaho	Ada	county	43.6398928732544	-116.423595107774
+A/magpie/Idaho/23-011169-002/2023|H5N1|USA-ID|2023-03-28|avian|B3.2	USA-ID	Idaho	Ada	county	43.4747092913988	-116.360546527251
+A/great_horned_owl/Idaho/23-011169-003/2023|H5N1|USA-ID|2023-03-28|avian|B3.2	USA-ID	Idaho	Ada	county	43.4236234167841	-116.075002594704
+A/barn_owl/Idaho/23-013072-002/2023|H5N1|USA-ID|2023-04-18|avian|B3.2	USA-ID	Idaho	Ada	county	43.1933073621615	-116.169576353661
+A/chicken/New_Hampshire/23-002392-001-original2/2023|H5N1|USA-NH|2023-01-19|avian|B3.2	USA-NH	New_Hampshire	Belknap	county	43.3925571823412	-71.2804051926518
+A/snow_goose/Idaho/22-038611-002/2022|H5N1|USA-ID|2022-11-18|avian|B3.2	USA-ID	Idaho	Canyon	county	43.5972210558205	-116.507473175679
+A/red-tailed_hawk/South_Dakota/23-012031-001/2023|H5N1|USA-SD|2023-04-11|avian|B3.2	USA-SD	South_Dakota	Minnehaha	county	43.6570718709969	-97.0246748588927
+A/canada_goose/Wyoming/23-002120-001/2023|H5N1|USA-WY|2023-01-11|avian|B3.2	USA-WY	Wyoming	Hot Springs	county	43.5212691646079	-108.075561389733
+A/american_green_winged_teal/Idaho/22-034533-007-R2/2022|H5N1|USA-ID|2022-10-01|avian|B3.2	USA-ID	Idaho	Jefferson	county	43.6243255468464	-112.690828234246
+A/striped_skunk/Idaho/22-037165-002/2022|H5N1|USA-ID|2022-11-04|other_mammal|B3.2	USA-ID	Idaho	Jefferson	county	43.7063606403022	-112.327146205442
+A/american_green_winged_teal/Oregon/22-040176-004/2022|H5N1|USA-OR|2022-12-05|avian|B3.2	USA-OR	Oregon	Lane	county	44.0988667141316	-123.042085928685
+A/red_tailed_hawk/Oregon/23-001496-001/2022|H5N1|USA-OR|2022-12-28|avian|B3.2	USA-OR	Oregon	Lane	county	44.0464340864319	-122.577553171299
+A/sanderling/Oregon/23-008234-001/2023|H5N1|USA-OR|2023-02-04|avian|B3.2	USA-OR	Oregon	Lane	county	43.5908816196192	-122.933119837722
+A/great_horned_owl/Wyoming/22-029194-001/2022|H5N1|USA-WY|2022-09-11|avian|B3.2	USA-WY	Wyoming	Johnson	county	43.7448258515865	-107.073741833907
+A/red_tailed_hawk/Oregon/23-003379-001/2023|H5N1|USA-OR|2023-01-20|avian|B3.2	USA-OR	Oregon	Crook	county	43.8794563307798	-120.081891447369
+A/chicken/South_Dakota/22-008704-001/2022|H5N1|USA-SD|2022-03-22|avian|B3.2	USA-SD	South_Dakota	Kingsbury	county	44.3451336400052	-97.7442404445673
+A/chicken/South_Dakota/22-008704-002/2022|H5N1|USA-SD|2022-03-22|avian|B3.2	USA-SD	South_Dakota	Kingsbury	county	44.4823598599084	-97.5528270823022
+A/red_tailed_hawk/South_Dakota/23-002914-001/2023|H5N1|USA-SD|2023-01-17|avian|B3.2	USA-SD	South_Dakota	Hughes	county	44.4281299125219	-100.205314190289
+A/canada_goose/South_Dakota/22-037528-002/2022|H5N1|USA-SD|2022-11-14|avian|B3.2	USA-SD	South_Dakota	Stanley	county	44.2729365635302	-100.826654141751
+A/turkey/South_Dakota/22-037933-001/2022|H5N1|USA-SD|2022-11-22|avian|B3.2	USA-SD	South_Dakota	Beadle	county	44.2349156154761	-98.0682854062742
+A/hooded_merganser/Maine/23-004172-006/2023|H5N1|USA-ME|2023-01-31|avian|B3.2	USA-ME	Maine	Kennebec	county	44.570727382768	-69.723318396829
+A/hooded_merganser/Maine/23-004172-002/2023|H5N1|USA-ME|2023-02-02|avian|B3.2	USA-ME	Maine	Kennebec	county	44.5046058204733	-69.4710100739799
+A/great_horned_owl/Wyoming/22-031607-001/2022|H5N1|USA-WY|2022-09-29|avian|B3.2	USA-WY	Wyoming	Park	county	44.3744063657492	-110.160967725206
+A/canada_goose/Wyoming/23-000980-001/2023|H5N1|USA-WY|2023-01-05|avian|B3.2	USA-WY	Wyoming	Park	county	44.2698413446197	-108.809560950422
+A/American_Crow/Minnesota/22-009668-001/2022|H5N1|USA-MN|2022-03-29|avian|B3.2	USA-MN	Minnesota	Dakota	county	44.6834938216374	-92.81575522002
+A/hawk/South_Dakota/23-000319-001/2022|H5N1|USA-SD|2022-12-28|avian|B3.2	USA-SD	South_Dakota	Butte	county	44.9703944972926	-102.984707481618
+A/chicken/South_Dakota/22-033350-001/2022|H5N1|USA-SD|2022-10-18|avian|B3.2	USA-SD	South_Dakota	Spink	county	45.2348076256096	-98.5303647285046
+A/red_fox/Minnesota/22-014661-002/2022|H5N1|USA-MN|2022-05-09|other_mammal|B3.2	USA-MN	Minnesota	Hennepin	county	44.9770355963049	-93.5296117509088
+A/peregrine_falcon/Minnesota/22-016225-001/2022|H5N1|USA-MN|2022-05-23|avian|B3.2	USA-MN	Minnesota	Hennepin	county	45.015204364362	-93.4901937551964
+A/trumpeter_swan/Minnesota/22-026969-001/2022|H5N1|USA-MN|2022-08-29|avian|B3.2	USA-MN	Minnesota	Hennepin	county	44.9070333783398	-93.5087810631498
+A/barred_owl/Minnesota/22-013395-005/2022|H5N1|USA-MN|2022-04-29|avian|B3.2	USA-MN	Minnesota	Ramsey	county	44.9055557298623	-93.0334590852044
+A/american_crow/Wisconsin/22-016277-001/2022|H5N1|USA-WI|2022-04-30|avian|B3.2	USA-WI	Wisconsin	Door	county	44.8875123291877	-87.3110255145849
+A/snow_goose/Minnesota/22-037439-001/2022|H5N1|USA-MN|2022-11-17|avian|B3.2	USA-MN	Minnesota	Washington	county	44.882362094862	-92.8550138347019
+A/canada_goose/Minnesota/22-041306-001/2022|H5N1|USA-MN|2022-12-19|avian|B3.2	USA-MN	Minnesota	Washington	county	44.8301122134381	-92.9609837200954
+A/fisher/Wisconsin/22-019946-001/2022|H5N1|USA-WI|2022-04-14|other_mammal|B3.2	USA-WI	Wisconsin	Saint Croix	county	45.1469570736763	-92.5748318957278
+A/Caspian_tern/Oregon/23-018836-001/2023|H5N1|USA-OR|2023-06-15|avian|B3.2	USA-OR	Oregon	Wasco	county	45.5372208849987	-121.364892318562
+A/Caspian_tern/Oregon/23-018836-002/2023|H5N1|USA-OR|2023-06-15|avian|B3.2	USA-OR	Oregon	Wasco	county	45.0203646682678	-120.541216188982
+A/Caspian_tern/Oregon/23-018836-003/2023|H5N1|USA-OR|2023-06-15|avian|B3.2	USA-OR	Oregon	Wasco	county	45.3997374354854	-120.87851932065
+A/red-tailed_hawk/Minnesota/23-010018-001/2023|H5N1|USA-MN|2023-03-26|avian|B3.2	USA-MN	Minnesota	Wright	county	45.1056685499978	-93.7328745379801
+A/chicken/Oregon/22-035197-001/2022|H5N1|USA-OR|2022-11-01|avian|B3.2	USA-OR	Oregon	Yamhill	county	45.1809266533538	-123.513422350894
+A/raven/Montana/23-003666-002/2023|H5N1|USA-MT|2023-01-30|avian|B3.2	USA-MT	Montana	Carbon	county	45.078538264519	-109.064193465514
+A/fox/Minnesota/22-014182-001/2022|H5N1|USA-MN|2022-04-22|other_mammal|B3.2	USA-MN	Minnesota	Anoka	county	45.3515948528003	-93.4299787350034
+A/Hooded_Merganser/Wisconsin/22-011817-001/2022|H5N1|USA-WI|2022-04-03|avian|B3.2	USA-WI	Wisconsin	Lincoln	county	45.3839938679706	-89.8359093231405
+A/mallard/Maine/22-040719-016/2022|H5N1|USA-ME|2022-12-09|avian|B3.2	USA-ME	Maine	Penobscot	county	44.7445815834451	-69.0089709178121
+A/mallard/Maine/22-041145-001/2022|H5N1|USA-ME|2022-12-14|avian|B3.2	USA-ME	Maine	Penobscot	county	45.1407642270592	-68.5865972500827
+A/mallard/Maine/22-041145-003/2022|H5N1|USA-ME|2022-12-14|avian|B3.2	USA-ME	Maine	Penobscot	county	45.0988788606294	-68.7234349917984
+A/american_wigeon/Oregon/22-033876-019/2022|H5N1|USA-OR|2022-10-15|avian|B3.2	USA-OR	Oregon	Morrow	county	45.5727341009625	-119.31211011545
+A/turkey/Wisconsin/22-013448-001/2022|H5N1|USA-WI|2022-05-01|avian|B3.2	USA-WI	Wisconsin	Barron	county	45.4130372501517	-91.6099790397453
+A/turkey/Wisconsin/22-014126-001/2022|H5N1|USA-WI|2022-05-05|avian|B3.2	USA-WI	Wisconsin	Barron	county	45.472451238424	-91.9929062679345
+A/turkey/Wisconsin/22-014948-001/2022|H5N1|USA-WI|2022-05-11|avian|B3.2	USA-WI	Wisconsin	Barron	county	45.2361744187644	-91.7027345998699
+A/mallard/Montana/22-039947-005/2022|H5N1|USA-MT|2022-12-02|avian|B3.2	USA-MT	Montana	Big Horn	county	45.0874265289995	-107.509882631059
+A/domestic_duck/Michigan/22-012454-001/2022|H5N1|USA-MI|2022-04-22|avian|B3.2	USA-MI	Michigan	Menominee	county	45.7593108374686	-87.5886882671523
+A/domestic_goose/Michigan/22-012454-002/2022|H5N1|USA-MI|2022-04-22|avian|B3.2	USA-MI	Michigan	Menominee	county	45.3900289320477	-87.8485095543471
+A/greater_scaup/Montana/23-001334-001/2023|H5N1|USA-MT|2023-01-06|avian|B3.2	USA-MT	Montana	Gallatin	county	45.7606253996989	-111.717283304734
+A/great_horned_owl/Montana/23-011850-001/2023|H5N1|USA-MT|2023-04-12|avian|B3.2	USA-MT	Montana	Gallatin	county	45.0766205978728	-111.065837917946
+A/red-tailed_hawk/Montana/23-011216-001/2023|H5N1|USA-MT|2023-04-03|avian|B3.2	USA-MT	Montana	Silver Bow	county	46.088932874674	-112.572892413973
+A/wood_duck/Wisconsin/22-014367-001/2022|H5N1|USA-WI|2022-04-14|avian|B3.2	USA-WI	Wisconsin	Washburn	county	45.8509629096065	-91.6885954965294
+A/cackling_goose/Oregon/22-036878-001-R2/2022|H5N1|USA-OR|2022-10-02|avian|B3.2	USA-OR	Oregon	Columbia	county	46.0910508556537	-122.938556931392
+A/chicken/Oregon/22-037712-001/2022|H5N1|USA-OR|2022-11-21|avian|B3.2	USA-OR	Oregon	Columbia	county	45.8863605335097	-123.329499363456
+A/red_tailed_hawk/Oregon/23-005360-001/2022|H5N1|USA-OR|2022-12-15|avian|B3.2	USA-OR	Oregon	Columbia	county	45.7574250383298	-122.772922827295
+A/american_wigeon/Oregon/22-035736-015/2022|H5N1|USA-OR|2022-10-27|avian|B3.2	USA-OR	Oregon	Clatsop	county	46.0800409215167	-123.533698423265
+A/sanderling/Oregon/23-000771-001/2023|H5N1|USA-OR|2023-01-03|avian|B3.2	USA-OR	Oregon	Clatsop	county	46.0764573317704	-123.916177667593
+A/trumpeter_swan/Montana/22-030263-001/2022|H5N1|USA-MT|2022-09-16|avian|B3.2	USA-MT	Montana	Ravalli	county	46.0359563594351	-113.804761648924
+A/red_tailed_hawk/Montana/23-002509-001/2023|H5N1|USA-MT|2023-01-18|avian|B3.2	USA-MT	Montana	Ravalli	county	46.1801783329405	-114.445554088537
+A/snow_goose/Washington/22-041983-001/2022|H5N1|USA-WA|2022-12-16|avian|B3.2	USA-WA	Washington	Walla Walla	county	46.2568735999078	-118.789706852372
+A/Western_screech_owl/Washington/23-010027-001/2023|H5N1|USA-WA|2023-03-23|avian|B3.2	USA-WA	Washington	Benton	county	46.0104231246982	-119.653611343094
+A/sanderling/Washington/23-004228-001/2023|H5N1|USA-WA|2023-01-26|avian|B3.2	USA-WA	Washington	Pacific	county	46.2871837808558	-123.809001608737
+A/skunk/Idaho/22-018976-004/2022|H5N1|USA-ID|2022-06-06|other_mammal|B3.2	USA-ID	Idaho	Latah	county	46.585385404294	-116.930911520072
+A/skunk/Washington/22-019274-001/2022|H5N1|USA-WA|2022-06-07|other_mammal|B3.2	USA-WA	Washington	Whitman	county	46.9134231374517	-117.230514586438
+A/skunk/Washington/22-019274-004/2022|H5N1|USA-WA|2022-06-07|other_mammal|B3.2	USA-WA	Washington	Whitman	county	47.2079760385735	-117.157072544833
+A/great_horned_owl/North_Dakota/22-032264-001/2022|H5N1|USA-ND|2022-09-28|avian|B3.2	USA-ND	North_Dakota	Burleigh	county	46.9193027613147	-100.143382214864
+A/american_crow/North_Dakota/22-014532-001/2022|H5N1|USA-ND|2022-05-05|avian|B3.2	USA-ND	North_Dakota	Stutsman	county	47.0316506861881	-99.1042715571057
+A/Caspian_tern/Washington/23-023703-001/2023|H5N1|USA-WA|2023-07-31|avian|B3.2	USA-WA	Washington	Pierce	county	47.1256707329746	-122.519675367786
+A/red_tailed_hawk/Montana/22-036316-001/2022|H5N1|USA-MT|2022-11-09|avian|B3.2	USA-MT	Montana	Lewis and Clark	county	47.7177346411268	-112.912863498448
+A/Cooper_s_hawk/Montana/23-016105-001/2023|H5N1|USA-MT|2023-04-16|avian|B3.2	USA-MT	Montana	Cascade	county	47.5198362390916	-111.250011060622
+A/Snow_Goose/North_Dakota/22-009481-003/2022|H5N1|USA-ND|2022-03-23|avian|B3.2	USA-ND	North_Dakota	Foster	county	47.5383003748647	-98.6527681090264
+A/Ross_s_Goose/North_Dakota/22-009481-019/2022|H5N1|USA-ND|2022-03-23|avian|B3.2	USA-ND	North_Dakota	Foster	county	47.3828302911758	-98.9786523451018
+A/mallard/Washington/22-039095-002/2022|H5N1|USA-WA|2022-11-25|avian|B3.2	USA-WA	Washington	King	county	47.7132702081603	-122.152889368621
+A/fox/Minnesota/22-016487-001/2022|H5N1|USA-MN|2022-05-13|other_mammal|B3.2	USA-MN	Minnesota	Itasca	county	47.4484056354582	-93.8524437219271
+A/Caspian_tern/Washington/23-021119-003/2023|H5N1|USA-WA|2023-07-11|avian|B3.2	USA-WA	Washington	Jefferson	county	47.5867710123723	-124.301203435912
+A/caspian_tern/Washington/23-025001-001/2023|H5N1|USA-WA|2023-08-11|avian|B3.2	USA-WA	Washington	Jefferson	county	47.9700499589517	-122.821762438185
+A/glaucous_gull/Washington/23-025001-003/2023|H5N1|USA-WA|2023-08-11|avian|B3.2	USA-WA	Washington	Jefferson	county	47.741249566884	-123.992823290624
+A/harbor_seal/Washington/23-027069-002/2023|H5N1|USA-WA|2023-08-13|other_mammal|B3.2	USA-WA	Washington	Jefferson	county	47.8394957474207	-124.346395393696
+A/harbor_seal/Washington/23-025744-001/2023|H5N1|USA-WA|2023-08-19|other_mammal|B3.2	USA-WA	Washington	Jefferson	county	47.8392612134767	-122.777757445804
+A/harbor_seal/Washington/23-025744-002/2023|H5N1|USA-WA|2023-08-19|other_mammal|B3.2	USA-WA	Washington	Jefferson	county	47.667910811652	-124.171547738805
+A/harbor_seal/Washington/23-025991-001/2023|H5N1|USA-WA|2023-08-25|other_mammal|B3.2	USA-WA	Washington	Jefferson	county	47.794270760567	-124.344047426984
+A/harbor_seal/Washington/23-026504-001/2023|H5N1|USA-WA|2023-08-29|other_mammal|B3.2	USA-WA	Washington	Jefferson	county	47.5220443664436	-123.796384706023
+A/harbor_seal/Washington/23-026504-002/2023|H5N1|USA-WA|2023-08-29|other_mammal|B3.2	USA-WA	Washington	Jefferson	county	47.5937671759223	-123.996074833369
+A/blue_winged_teal/Montana/22-031163-004-R/2022|H5N1|USA-MT|2022-09-24|avian|B3.2	USA-MT	Montana	Teton	county	47.7799002459011	-112.125591650037
+A/chicken/Washington/22-035749-001/2022|H5N1|USA-WA|2022-11-02|avian|B3.2	USA-WA	Washington	Snohomish	county	47.9902868306436	-122.088325385729
+A/dunlin/Washington/22-040394-001/2022|H5N1|USA-WA|2022-12-03|avian|B3.2	USA-WA	Washington	Snohomish	county	48.1993616972818	-122.177946492997
+A/hooded_merganser/Washington/23-003784-001/2023|H5N1|USA-WA|2023-01-18|avian|B3.2	USA-WA	Washington	Snohomish	county	48.1930318263456	-121.52258548288
+A/caspian_tern/Washington/23-024996-001/2023|H5N1|USA-WA|2023-08-07|avian|B3.2	USA-WA	Washington	Snohomish	county	48.2561483434313	-121.309343358785
+A/american_white_pelican/Minnesota/22-023116-001/2022|H5N1|USA-MN|2022-07-19|avian|B3.2	USA-MN	Minnesota	Marshall	county	48.2851319927303	-96.3379516777504
+A/barn_owl/Washington/22-041081-001/2022|H5N1|USA-WA|2022-12-12|avian|B3.2	USA-WA	Washington	Skagit	county	48.4047396056903	-121.515022913191
+A/chicken/Montana/22-033348-001/2022|H5N1|USA-MT|2022-10-18|avian|B3.2	USA-MT	Montana	Hill	county	48.4716225451708	-110.739091912631
+A/snow_goose/North_Dakota/22-013421-001/2022|H5N1|USA-ND|2022-04-28|avian|B3.2	USA-ND	North_Dakota	Towner	county	48.496138679745	-99.3188231774067
+A/chicken/North_Dakota/22-035070-001/2022|H5N1|USA-ND|2022-11-01|avian|B3.2	USA-ND	North_Dakota	Bottineau	county	48.784884666302	-101.207207650934
+A/northern_pintail/Alaska/23-002693-016/2022|H5N1|USA-AK|2022-09-30|avian|B3.2	USA-AK	Alaska	Aleutians East	county	55.9716825259436	-159.994021895517
+A/mallard/Alaska/23-003641-008/2022|H5N1|USA-AK|2022-10-14|avian|B3.2	USA-AK	Alaska	Aleutians East	county	55.1217650801852	-162.861335066899
+A/Canada_goose/Alaska/22-013831-003/2022|H5N1|USA-AK|2022-04-29|avian|B3.2	USA-AK	Alaska	NA	city	61.216667	-149.893611
+A/glaucous_gull/Alaska/22-021855-001/2022|H5N1|USA-AK|2022-05-31|avian|B3.2	USA-AK	Alaska	Valdez-Cordova	county	60.803718180242	-142.236552002715
+A/chicken/Alaska/22-037940-001/2022|H5N1|USA-AK|2022-11-23|avian|B3.2	USA-AK	Alaska	Matanuska-Susitna	county	62.421738388024	-150.519159416033
+A/red_fox/Alaska/22-020792-002/2022|H5N1|USA-AK|2022-06-13|other_mammal|B3.2	USA-AK	Alaska	Nome	county	64.5765153244325	-164.174955582107
+A/raven/Alaska/22-020951-001/2022|H5N1|USA-AK|2022-06-26|avian|B3.2	USA-AK	Alaska	North Slope	county	68.6231381412162	-163.031263034166
+A/Snow_Goose/AB/FAV-0505-32/2022|H5N1|Canada-AB|2022-04-29|avian|B3.2	Canada-AB	AB	NA	centroid	59.2046944885636	-118.607499261237
+A/Striped_Skunk/AB/FAV-0918-17/2022|H5N1|Canada-AB|2022-05-04|other_mammal|B3.2	Canada-AB	AB	NA	centroid	58.0954287561447	-111.136764014378
+A/Common_Raven/AB/FAV-0833-35/2022|H5N1|Canada-AB|2022-05-27|avian|B3.2	Canada-AB	AB	NA	centroid	59.8734836469447	-119.480864049925
+A/Skunk/AB/FAV-0835-11/2022|H5N1|Canada-AB|2022-05-31|other_mammal|B3.2	Canada-AB	AB	NA	centroid	59.0482656702341	-110.276912172891
+A/Western_Grebe/AB/FAV-0833-75/2022|H5N1|Canada-AB|2022-06-23|avian|B3.2	Canada-AB	AB	NA	centroid	59.3537589801615	-117.077220903904
+A/Skunk/AB/FAV-0897-01/2022|H5N1|Canada-AB|2022-06-28|other_mammal|B3.2	Canada-AB	AB	NA	centroid	59.5660966390241	-113.434603896752
+A/Canada_Goose/AB/FAV-0896-6/2022|H5N1|Canada-AB|2022-07-19|avian|B3.2	Canada-AB	AB	NA	centroid	59.8614776391114	-118.234510896812
+A/Skunk/AB/FAV-0897-02/2022|H5N1|Canada-AB|2022-07-19|other_mammal|B3.2	Canada-AB	AB	NA	centroid	55.9621311757456	-118.433535454528
+A/Striped_Skunk/AB/OTH-0136-1/2022|H5N1|Canada-AB|2022-09-14|other_mammal|B3.2	Canada-AB	AB	NA	centroid	53.0411639741027	-116.103641001517
+A/Turkey/AB/FAV-0987-1/2022|H5N1|Canada-AB|2022-09-28|avian|B3.2	Canada-AB	AB	NA	centroid	54.7566728036194	-118.491921916588
+A/Striped_Skunk/AB/FAV-1509-3/2022|H5N1|Canada-AB|2022-10-24|other_mammal|B3.2	Canada-AB	AB	NA	centroid	54.5199269905601	-113.30163217391
+A/Chicken/AB/FAV-1260-2/2022|H5N1|Canada-AB|2022-10-25|avian|B3.2	Canada-AB	AB	NA	centroid	56.0362409748595	-114.58972303822
+A/Striped_Skunk/AB/FAV-1509-1/2022|H5N1|Canada-AB|2022-11-08|other_mammal|B3.2	Canada-AB	AB	NA	centroid	52.6650888521885	-110.335264285469
+A/Striped_Skunk/AB/FAV-1509-2/2022|H5N1|Canada-AB|2022-11-08|other_mammal|B3.2	Canada-AB	AB	NA	centroid	55.2351178286713	-114.727774733329
+A/Canada_Goose/AB/FAV-1655-11/2022|H5N1|Canada-AB|2022-11-24|avian|B3.2	Canada-AB	AB	NA	centroid	55.1519646319463	-112.325492757736
+A/Mixed/AB/FAV-1654/2022|H5N1|Canada-AB|2022-12-14|avian|B3.2	Canada-AB	AB	NA	centroid	51.0384315729812	-113.218214583546
+A/Striped_Skunk/AB/FAV-0085-1/2023|H5N1|Canada-AB|2023-02-01|other_mammal|B3.2	Canada-AB	AB	NA	centroid	54.502742747927	-119.342015308044
+A/American_White_Pelican/BC/FAV-0585-1/2022|H5N1|Canada-BC|2022-05-27|avian|B3.2	Canada-BC	BC	NA	centroid	54.8713141637284	-122.812159477446
+A/American_White_Pelican/BC/FAV-0585-3/2022|H5N1|Canada-BC|2022-05-27|avian|B3.2	Canada-BC	BC	NA	centroid	55.4630508203023	-124.695744711934
+A/Mixed/BC/FAV-0772-1/2022|H5N1|Canada-BC|2022-06-16|avian|B3.2	Canada-BC	BC	NA	centroid	52.4063240770562	-125.029799164187
+A/American_White_Pelican/BC/OTH-0134-4/2022|H5N1|Canada-BC|2022-08-12|avian|B3.2	Canada-BC	BC	NA	centroid	57.3891892942897	-130.715845122386
+A/Mixed/BC/FAV-1128/2022|H5N1|Canada-BC|2022-10-11|avian|B3.2	Canada-BC	BC	NA	centroid	59.5747814658597	-120.895170153862
+A/Chicken/BC/FAV-1579-2/2022|H5N1|Canada-BC|2022-11-30|avian|B3.2	Canada-BC	BC	NA	centroid	49.1901666667078	-116.15953654221
+A/Duck/BC/FAV-1593-4/2022|H5N1|Canada-BC|2022-12-01|avian|B3.2	Canada-BC	BC	NA	centroid	58.8971901019441	-131.344921170946
+A/Trumpeter_Swan/BC/FAV-0053-25/2022|H5N1|Canada-BC|2022-12-31|avian|B3.2	Canada-BC	BC	NA	centroid	51.0345089525166	-121.476104927719
+A/American_Crow/BC/FAV-0053-42/2023|H5N1|Canada-BC|2023-01-02|avian|B3.2	Canada-BC	BC	NA	centroid	52.2323372934854	-123.579691434658
+A/American_Crow/BC/AIVPHL-922/2023|H5N1|Canada-BC|2023-01-30|avian|B3.2	Canada-BC	BC	NA	centroid	55.0780747496103	-129.754746236392
+A/Dunlin/BC/AIVPHL-940/2023|H5N1|Canada-BC|2023-02-06|avian|B3.2	Canada-BC	BC	NA	centroid	58.9963733455397	-127.183687421986
+A/Red_Tailed_Hawk/BC/AIVPHL-1009/2023|H5N1|Canada-BC|2023-03-20|avian|B3.2	Canada-BC	BC	NA	centroid	57.0802363322061	-126.427148832729
+A/Striped_Skunk/BC/AIVPHL-1080/2023|H5N1|Canada-BC|2023-04-20|other_mammal|B3.2	Canada-BC	BC	NA	centroid	56.4286248751879	-126.197481597972
+A/Striped_Skunk/BC/AIVPHL-1082/2023|H5N1|Canada-BC|2023-04-20|other_mammal|B3.2	Canada-BC	BC	NA	centroid	56.8387424259149	-122.910290575923
+A/Striped_Skunk/BC/AIVPHL-1083/2023|H5N1|Canada-BC|2023-04-20|other_mammal|B3.2	Canada-BC	BC	NA	centroid	58.2149495978012	-126.476463630293
+A/Cooper_s_Hawk/BC/AIVPHL-1125/2023|H5N1|Canada-BC|2023-05-23|avian|B3.2	Canada-BC	BC	NA	centroid	52.9609759218367	-123.566470011098
+A/Peregrine_Falcon/BC/AIVPHL-1151/2023|H5N1|Canada-BC|2023-06-05|avian|B3.2	Canada-BC	BC	NA	centroid	59.4993803279825	-125.992432053032
+A/Red_Fox/MB/FAV-370-01/2022|H5N1|Canada-MB|2022-04-07|other_mammal|B3.2	Canada-MB	MB	NA	centroid	57.1082266721921	-99.313508894307
+A/Snow_Goose/MB/FAV-0227-3/2022|H5N1|Canada-MB|2022-04-08|avian|B3.2	Canada-MB	MB	NA	centroid	58.6101983630604	-96.1240063356272
+A/Turkey_Vulture/MB/FAV-0415-5/2022|H5N1|Canada-MB|2022-04-27|avian|B3.2	Canada-MB	MB	NA	centroid	58.9508073902213	-98.7494070560186
+A/American_Crow/MB/FAV-0687-5/2022|H5N1|Canada-MB|2022-05-21|avian|B3.2	Canada-MB	MB	NA	centroid	50.7233722643635	-100.140677148912
+A/Mixed/MB/FAV-0716-4/2022|H5N1|Canada-MB|2022-06-15|avian|B3.2	Canada-MB	MB	NA	centroid	53.7061212395536	-98.5339259860486
+A/Western_Grebe/MB/FAV-0846-2/2022|H5N1|Canada-MB|2022-07-04|avian|B3.2	Canada-MB	MB	NA	centroid	55.7504304839842	-100.312431233992
+A/Turkey/MB/FAV-0994-8/2022|H5N1|Canada-MB|2022-09-29|avian|B3.2	Canada-MB	MB	NA	centroid	53.6455481342049	-99.9164830854432
+A/Chicken/MB/FAV-1034-1/2022|H5N1|Canada-MB|2022-10-03|avian|B3.2	Canada-MB	MB	NA	centroid	49.3741385468777	-95.3090904292383
+A/Bald_Eagle/MB/OTH-0142-1/2022|H5N1|Canada-MB|2022-10-12|avian|B3.2	Canada-MB	MB	NA	centroid	56.4005647885714	-93.2251463957815
+A/Chicken/NB/FAV-0013/2023|H5N1|Canada-NB|2023-01-10|avian|B3.2	Canada-NB	NB	NA	centroid	47.4587337337818	-65.8701171079666
+A/American_Crow/NS/FAV-0122-1/2023|H5N1|Canada-NS|2023-03-21|avian|B3.2	Canada-NS	NS	NA	centroid	45.6595881159289	-63.9724519943965
+A/American_White_Pelican/ON/FAV-0803-1/2022|H5N1|Canada-ON|2022-05-16|avian|B3.2	Canada-ON	ON	NA	centroid	53.9285056931785	-90.6182177124565
+A/American_White_Pelican/ON/FAV-0773-3/2022|H5N1|Canada-ON|2022-05-31|avian|B3.2	Canada-ON	ON	NA	centroid	45.1312497466736	-77.7992714140973
+A/Peregrine_Falcon/ON/FAV-0853-3/2022|H5N1|Canada-ON|2022-06-12|avian|B3.2	Canada-ON	ON	NA	centroid	52.7231537800508	-95.1467532843736
+A/American_White_Pelican/ON/FAV-0867-2/2022|H5N1|Canada-ON|2022-07-07|avian|B3.2	Canada-ON	ON	NA	centroid	48.5448672862283	-86.8301888278296
+A/American_Crow/ON/FAV-1611-1/2022|H5N1|Canada-ON|2022-11-27|avian|B3.2	Canada-ON	ON	NA	centroid	52.2081016547318	-88.4770151255923
+A/Tundra_Swan/ON/FAV-1653-1/2022|H5N1|Canada-ON|2022-11-30|avian|B3.2	Canada-ON	ON	NA	centroid	42.7118089132927	-80.8491549830625
+A/Great_Horned_Owl/ON/FAV-0002-2/2022|H5N1|Canada-ON|2022-12-10|avian|B3.2	Canada-ON	ON	NA	centroid	52.502813658496	-82.2970560224814
+A/Snow_Goose/ON/FAV-1652-5/2022|H5N1|Canada-ON|2022-12-26|avian|B3.2	Canada-ON	ON	NA	centroid	48.0659308276583	-86.1587078544957
+A/Turkey/ON/FAV-0098-1/2023|H5N1|Canada-ON|2023-03-13|avian|B3.2	Canada-ON	ON	NA	centroid	48.9116771344631	-88.0689191959056
+A/American_Crow/ON/FAV-0149-1/2023|H5N1|Canada-ON|2023-03-24|avian|B3.2	Canada-ON	ON	NA	centroid	52.3575137801459	-90.3438297344353
+A/American_Crow/ON/FAV-0149-2/2023|H5N1|Canada-ON|2023-03-24|avian|B3.2	Canada-ON	ON	NA	centroid	56.5242605807305	-89.340950711388
+A/Striped_Skunk/PE/FAV-1642-1/2022|H5N1|Canada-PE|2022-11-15|other_mammal|B3.2	Canada-PE	PE	NA	centroid	46.1933887741735	-62.5408626986028
+A/Canada_Goose/PE/FAV-0008-1/2022|H5N1|Canada-PE|2022-12-21|avian|B3.2	Canada-PE	PE	NA	centroid	46.3985072156519	-62.6842834251488
+A/American_Crow/PEI/FAV-0019-2/2022|H5N1|Canada-PE|2022-12-26|avian|B3.2	Canada-PE	PE	NA	centroid	46.2022363181322	-62.9471670465629
+A/American_Crow/PEI/FAV-0019-52022|H5N1|Canada-PE|2022-12-28|avian|B3.2	Canada-PE	PE	NA	centroid	46.1627818074299	-62.5913754253199
+A/American_Crow/PEI/FAV-0019-3/2022|H5N1|Canada-PE|2022-12-28|avian|B3.2	Canada-PE	PE	NA	centroid	46.2210056191727	-63.3454491775202
+A/American_Crow/PEI/FAV-0019-4/2022|H5N1|Canada-PE|2022-12-28|avian|B3.2	Canada-PE	PE	NA	centroid	46.2427069731497	-63.43816009673
+A/American_Crow/PEI/FAV-0019-6/2022|H5N1|Canada-PE|2022-12-28|avian|B3.2	Canada-PE	PE	NA	centroid	46.6830302683188	-64.3896735377448
+A/American_Crow/PE/FAV-0035-5/2023|H5N1|Canada-PE|2023-01-09|avian|B3.2	Canada-PE	PE	NA	centroid	46.388572647621	-62.9574049165192
+A/Herring_Gull/PE/FAV-0058-2/2023|H5N1|Canada-PE|2023-01-21|avian|B3.2	Canada-PE	PE	NA	centroid	46.1522670761618	-62.9072135193707
+A/Striped_Skunk/PE/FAV-0060-1/2023|H5N1|Canada-PE|2023-01-22|other_mammal|B3.2	Canada-PE	PE	NA	centroid	46.4345322948814	-62.731516999824
+A/Striped_Skunk/PE/FAV-0060-2/2023|H5N1|Canada-PE|2023-01-24|other_mammal|B3.2	Canada-PE	PE	NA	centroid	46.2920723422597	-63.4995182138359
+A/American_Crow/PE/FAV-0068-5/2023|H5N1|Canada-PE|2023-01-31|avian|B3.2	Canada-PE	PE	NA	centroid	46.4707511516334	-62.497141340269
+A/Canada_goose/PE/FAV-0080-1/2023|H5N1|Canada-PE|2023-02-09|avian|B3.2	Canada-PE	PE	NA	centroid	46.4815658942654	-63.9572678288857
+A/Striped_Skunk/PE/FAV-0089-1/2023|H5N1|Canada-PE|2023-02-25|other_mammal|B3.2	Canada-PE	PE	NA	centroid	46.4060298144445	-63.428507542429
+A/Canada_Goose/PE/FAV-0096-1/2023|H5N1|Canada-PE|2023-02-27|avian|B3.2	Canada-PE	PE	NA	centroid	46.4951782884434	-63.8689808814673
+A/Canada_Goose/PE/FAV-0096-4/2023|H5N1|Canada-PE|2023-03-01|avian|B3.2	Canada-PE	PE	NA	centroid	46.4264829046991	-63.5362823503058
+A/American_Crow/PE/FAV-0096-8/2023|H5N1|Canada-PE|2023-03-02|avian|B3.2	Canada-PE	PE	NA	centroid	46.1033118279729	-62.8296497473605
+A/Striped_Skunk/PE/FAV-0123-1/2023|H5N1|Canada-PE|2023-03-21|other_mammal|B3.2	Canada-PE	PE	NA	centroid	46.2345378678472	-63.0014900579088
+A/American_Crow/PE/FAV-0121-1/2023|H5N1|Canada-PE|2023-03-22|avian|B3.2	Canada-PE	PE	NA	centroid	46.6322381768354	-64.3071405685727
+A/Striped_Skunk/PE/FAV-0145-1/2023|H5N1|Canada-PE|2023-04-04|other_mammal|B3.2	Canada-PE	PE	NA	centroid	46.3093054540489	-62.4109848022043
+A/Snow_Goose/QC/FAV-1493-1/2022|H5N1|Canada-QC|2022-11-02|avian|B3.2	Canada-QC	QC	NA	centroid	53.7123211655028	-68.2331019210229
+A/American_Crow/QC/FAV-1627-4/2022|H5N1|Canada-QC|2022-11-14|avian|B3.2	Canada-QC	QC	NA	centroid	51.4803693779355	-75.3543154830921
+A/Snow_Goose/QC/FAV-1628-7/2022|H5N1|Canada-QC|2022-11-22|avian|B3.2	Canada-QC	QC	NA	centroid	60.1040528045325	-74.5322638076367
+A/Snow_Goose/QC/FAV-0017-4/2022|H5N1|Canada-QC|2022-11-30|avian|B3.2	Canada-QC	QC	NA	centroid	60.980448565298	-74.0276154156556
+A/American_Crow/QC/FAV-1659-2/2022|H5N1|Canada-QC|2022-12-01|avian|B3.2	Canada-QC	QC	NA	centroid	57.1918953234104	-64.8885674739173
+A/Mixed/QC/FAV-1625-3/2022|H5N1|Canada-QC|2022-12-07|avian|B3.2	Canada-QC	QC	NA	centroid	50.8575233869852	-68.8854451103718
+A/American_Crow/QC/FAV-0050-4/2022|H5N1|Canada-QC|2022-12-16|avian|B3.2	Canada-QC	QC	NA	centroid	59.026642091998	-64.3205095617746
+A/Red-Tailed_Hawk/QC/FAV-0076-3/2022|H5N1|Canada-QC|2022-12-26|avian|B3.2	Canada-QC	QC	NA	centroid	56.6697286760322	-69.6318255660037
+A/American_Crow/QC/FAV-0103-1/2023|H5N1|Canada-QC|2023-01-09|avian|B3.2	Canada-QC	QC	NA	centroid	53.6375822934588	-72.0160625103813
+A/Duck/QC/FAV-0051-1/2023|H5N1|Canada-QC|2023-02-01|avian|B3.2	Canada-QC	QC	NA	centroid	54.0219166519672	-77.5715531186819
+A/Duck/QC/FAV-0052-1/2023|H5N1|Canada-QC|2023-02-01|avian|B3.2	Canada-QC	QC	NA	centroid	50.129654883844	-68.3457253066534
+A/Duck/QC/FAV-0056-3/2023|H5N1|Canada-QC|2023-02-02|avian|B3.2	Canada-QC	QC	NA	centroid	50.6317697911157	-72.798736330092
+A/Duck/QC/FAV-0064-1/2023|H5N1|Canada-QC|2023-02-06|avian|B3.2	Canada-QC	QC	NA	centroid	56.0834745463782	-66.7251586457881
+A/Duck/QC/FAV-0064-2/2023|H5N1|Canada-QC|2023-02-06|avian|B3.2	Canada-QC	QC	NA	centroid	57.430209144727	-75.7899245080162
+A/Duck/QC/FAV-0069-2/2023|H5N1|Canada-QC|2023-02-08|avian|B3.2	Canada-QC	QC	NA	centroid	60.3984375453886	-71.7822962372288
+A/Duck/QC/FAV-0069-6/2023|H5N1|Canada-QC|2023-02-08|avian|B3.2	Canada-QC	QC	NA	centroid	48.9628967117334	-77.5771688699561
+A/Snow_Goose/SK/FAV-0216-5/2022|H5N1|Canada-SK|2022-04-04|avian|B3.2	Canada-SK	SK	NA	centroid	55.4470943878742	-102.814943339779
+A/American_Crow/SK/FAV-0575-18/2022|H5N1|Canada-SK|2022-04-28|avian|B3.2	Canada-SK	SK	NA	centroid	59.2265535196035	-107.362896832869
+A/Red_Fox/SK/FAV-0824-96/2022|H5N1|Canada-SK|2022-05-05|other_mammal|B3.2	Canada-SK	SK	NA	centroid	49.878610053567	-104.313234557261
+A/Red_Fox/SK/FAV-0548-03/2022|H5N1|Canada-SK|2022-05-19|other_mammal|B3.2	Canada-SK	SK	NA	centroid	52.0193832309169	-102.400773117081
+A/Chicken/SK/FAV-0578-2/2022|H5N1|Canada-SK|2022-05-30|avian|B3.2	Canada-SK	SK	NA	centroid	49.8320667894736	-102.631222894882
+A/Striped_Skunk/SK/FAV-0824-01/2022|H5N1|Canada-SK|2022-05-30|other_mammal|B3.2	Canada-SK	SK	NA	centroid	56.3003336249605	-108.813179768717
+A/Double-Crested_Cormorant/SK/FAV-0912-2/2022|H5N1|Canada-SK|2022-06-08|avian|B3.2	Canada-SK	SK	NA	centroid	55.7978602410394	-102.721775526765
+A/Mallard/SK/FAV-1470-18/2022|H5N1|Canada-SK|2022-08-31|avian|B3.2	Canada-SK	SK	NA	centroid	53.5523314551772	-106.46394333063
+A/Mixed/SK/FAV-1053-1/2022|H5N1|Canada-SK|2022-09-29|avian|B3.2	Canada-SK	SK	NA	centroid	57.3397245583741	-106.488068254676
+A/Striped_Skunk/SK/FAV-1470-26/2022|H5N1|Canada-SK|2022-10-11|other_mammal|B3.2	Canada-SK	SK	NA	centroid	58.7229585437306	-109.626350113195
+A/Striped_Skunk/SK/FAV-1470-30/2022|H5N1|Canada-SK|2022-10-17|other_mammal|B3.2	Canada-SK	SK	NA	centroid	53.7783386850136	-103.60572701694
+A/Red-Tailed_Hawk/SK/FAV-1470-33/2022|H5N1|Canada-SK|2022-10-26|avian|B3.2	Canada-SK	SK	NA	centroid	58.3800606456599	-109.416960180713
+A/Chicken/SK/FAV-1471-1/2022|H5N1|Canada-SK|2022-11-21|avian|B3.2	Canada-SK	SK	NA	centroid	56.8107400071097	-102.142447081889
+A/Snow_Goose/YT/FAV-0795-3/2022|H5N1|Canada-YT|2022-05-30|avian|B3.2	Canada-YT	YT	NA	centroid	68.3170909163174	-138.049922654488
+A/chicken/Colombia/Bolivar/3500/2022|H5N1|Colombia|2022-11-08|avian|B3.2	Colombia	Bolivar	NA	NA	10.2503319983526	-75.1655724882314
+A/chicken/Colombia/Magdalena/3503/2022|H5N1|Colombia|2022-11-18|avian|B3.2	Colombia	Magdalena	NA	NA	10.6292793004153	-74.3551431000393
+A/chicken/Colombia/Cordoba/3499/2022|H5N1|Colombia|2022-11-26|avian|B3.2	Colombia	Cordoba	NA	NA	7.78507713248863	-76.2490191792817
+A/chicken/Cordoba/ICA-3499/2022|H5N1|Colombia|2022-11-26|avian|B3.2	Colombia	Cordoba	NA	NA	8.70421039871091	-76.2359102231353
+A/pelican/Honduras/23-000009-001/2022|H5N1|Honduras|2022-12-27|avian|B3.2	Honduras	Atlantida	NA	NA	15.7802915597084	-87.1733118600179
