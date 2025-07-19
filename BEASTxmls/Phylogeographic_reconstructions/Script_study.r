@@ -1,6 +1,3 @@
-# TO DO:
-	# - estimating and comparing the dispersal statistics estimated for the different genotypes (diffusions velocity and IBD)
-
 library(diagram)
 library(ks)
 library(lubridate)
@@ -8,15 +5,15 @@ library(MetBrewer)
 library(seraphim)
 
 genotypes = c("B32","B36","C21","D11")
+genotypes = c("A1","A3")
 nberOfExtractionFiles = 1000
 
-	# Note: for B3.6, "Ross's_goose" has to changed to "Rosss_goose" in both the ".csv" and ".trees" files
+	# Note: for A1 and B3.6, "Ross's_goose" has to changed to "Rosss_goose" in both the ".csv" and ".trees" files
 
 # 1. Preparing the XML and KML files for the continuous/discrete phylogeographic analyses
 
 	# 1.1. Selecting 1,000 empirical trees
 
-tip_labels = list()
 for (h in 1:length(genotypes))
 	{
 		if (file.exists(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_skygrid.trees")))
@@ -25,21 +22,48 @@ for (h in 1:length(genotypes))
 					{
 						all_trees = scan(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_skygrid.trees"), what="", sep="\n", quiet=T)
 						index = which(grepl("\t\t;",all_trees)); index = index[length(index)]; txt = all_trees[1:index]; ratio = 0.1
+						for (i in 1:length(txt)) txt = gsub("'","",gsub("\"","",txt))
 						if (genotypes[h] == "B36") ratio = 0.2
 						indices = which(grepl("tree STATE_",all_trees)); burnIn = round(ratio*(length(indices)))+1
 						selected_trees = all_trees[sample(indices[(burnIn+1):length(indices)], nberOfExtractionFiles, replace=F)]
 						write(c(txt,selected_trees,"End;"), paste0("Genotype_",genotypes[h],"/",genotypes[h],"_empirical.trees"))
 					}
-				tip_labels[[h]] = read.nexus(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_empirical.trees"))$tip.label[[1]]
-			}	else	{
-				if (file.exists(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_emp_NT.trees")))
-					{
-						tip_labels[[h]] = read.nexus(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_emp_NT.trees"))$tip.label[[1]]
-					}				
 			}
 	}
 
-	# 1.2. Generating the metadata file
+	# 1.2. Re-generating fasta alignments
+
+tip_labels = list()
+for (h in 1:length(genotypes))
+	{
+		tip_labels[[h]] = read.nexus(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_empirical.trees"))$tip.label[[1]]
+		tip_labels[[h]] = gsub("'","",tip_labels[[h]])
+		if (!file.exists(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_skygrid.fasta")))
+			{
+				txt2 = c()
+				txt1 = scan(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_skygrid.xml"), what="", sep="\n", quiet=T, blank.lines.skip=F)
+				for (i in 1:length(tip_labels[[h]]))
+					{
+						index = which(gsub("'","",txt1) == paste0("\t\t\t<taxon idref=\"",tip_labels[[h]][i],"\"/>"))
+						txt2 = c(txt2, paste0(">",tip_labels[[h]][i]), gsub("\t\t\t","",txt1[index+1]))
+					}
+				write(txt2, paste0("Genotype_",genotypes[h],"/",genotypes[h],"_skygrid.fasta"))
+			}
+		if (!file.exists(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_metadata.csv")))
+			{
+				tab = matrix(nrow=length(tip_labels[[h]]), ncol=3); tab[,1] = tip_labels[[h]]; colnames(tab) = c("trait","country","admin1")
+				txt1 = scan(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_skygrid.xml"), what="", sep="\n", quiet=T, blank.lines.skip=F)
+				for (i in 1:length(tip_labels[[h]]))
+					{
+						index = which(gsub("'","",txt1) == paste0("\t\t<taxon id=\"",tip_labels[[h]][i],"\">"))
+						txt2 = unlist(strsplit(gsub("\t\t\t\t","",txt1[index+3]),"-"))
+						tab[i,"country"] = txt2[1]; tab[i,"admin1"] = txt2[2]
+					}
+				write.csv(tab, paste0("Genotype_",genotypes[h],"/",genotypes[h],"_metadata.csv"), row.names=F, quote=F)
+			}
+	}
+	
+	# 1.3. Generating the metadata file
 
 countries_admin1 = c("Canada","USA","Mexico","Colombia","Honduras","Costa Rica")
 if (!file.exists("GADMs_1.rds"))
@@ -67,6 +91,7 @@ if (!file.exists("GADMs_1.rds"))
 	}
 for (h in 1:length(genotypes))
 	{
+		dir.create(file.path(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_all_polygons")), showWarnings=F)
 		if (genotypes[h] == "B32")
 			{
 				tab1 = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_metadata.csv"), head=T)
@@ -402,11 +427,54 @@ for (h in 1:length(genotypes))
 						write.table(tab2, paste0("Genotype_",genotypes[h],"/",genotypes[h],"_metadata.txt"), row.names=F, quote=F, sep="\t")
 					}
 			}
+		if (grepl("A",genotypes[h]))
+			{
+				tab1 = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_metadata.csv"), head=T)
+				tab2 = matrix(nrow=dim(tab1), ncol=5); colnames(tab2) = c("trait","country","admin1","latitude","longitude")
+				tab2[,"trait"] = tab1[,"trait"]; tab2[,"country"] = tab1[,"country"]; tab2[,"admin1"] = tab1[,"admin1"]
+				for (i in 1:dim(tab2)[1])
+					{
+						index1 = which(countries_admin1==tab2[i,"country"]); maxArea = 0; index3 = 0
+						index2 = which(grepl(paste0(".",tab2[i,"admin1"]),gadms1[[index1]]@data[,"HASC_1"]))
+						for (j in 1:length(gadms1[[index1]]@polygons[[index2]]@Polygons))
+							{
+								if (maxArea < gadms1[[index1]]@polygons[[index2]]@Polygons[[j]]@area)
+									{
+										maxArea = gadms1[[index1]]@polygons[[index2]]@Polygons[[j]]@area; index3 = j
+									}
+							}
+						pol = gadms1[[index1]]@polygons[[index2]]@Polygons[[index3]]
+						if (!file.exists(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_all_polygons/",tab2[i,"admin1"],".kml")))
+							{
+								sink(file=paste0("Genotype_",genotypes[h],"/",genotypes[h],"_all_polygons/",tab2[i,"admin1"],".kml"))
+								cat("<?xml version=\"1.0\" encoding=\"UTF-8\"?>"); cat("\n")
+								cat("<kml xmlns=\"http://earth.google.com/kml/2.2\">"); cat("\n")
+								cat(paste("\t<polygon id=\"",tab2[i,"admin1"],"\" samplingProbability=\"",1,"\">",sep="")); cat("\n")
+								cat("\t\t<coordinates>"); cat("\n")
+								for (j in 1:dim(pol@coords)[1])
+									{
+										cat(paste("\t\t\t",pol@coords[j,2],",",pol@coords[j,1],",0",sep="")); cat("\n")
+									}
+								cat("\t\t</coordinates>"); cat("\n")
+								cat("\t</polygon>"); cat("\n")
+								cat("</kml>"); cat("\n")
+								sink(NULL)				
+							}
+						p = Polygon(pol@coords); ps = Polygons(list(p),1); sps = SpatialPolygons(list(ps))
+						pol = sps; proj4string(pol) = gadms1[[index1]]@proj4string
+						random_point = spsample(pol, 1, type="random")@coords
+						tab2[i,"latitude"] = random_point[1,2]; tab2[i,"longitude"] = random_point[1,1]
+					}
+				if (!file.exists(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_metadata.txt")))
+					{
+						write.table(tab2, paste0("Genotype_",genotypes[h],"/",genotypes[h],"_metadata.txt"), row.names=F, quote=F, sep="\t")
+					}
+			}
 	}
 
-	# 1.3. Editing the XML file with the polygons
+	# 1.4. Editing the XML file with the polygons
 
-		# 1.3.1. First approach: from an existing XML file
+		# 1.4.1. First approach: from an existing XML file
 	
 for (h in 1:length(genotypes))
 	{
@@ -469,7 +537,7 @@ for (h in 1:length(genotypes))
 			}
 	}
 
-		# 1.3.2. Second approach: from a template XML file
+		# 1.4.2. Second approach: from a template XML file
 
 for (h in 1:length(genotypes))
 	{
@@ -559,13 +627,13 @@ for (h in 1:length(genotypes))
 									}
 								if (usePolygon)
 									{
-										if (genotypes[h] != "D11")
+										if (!genotypes[h]%in%c("A1","A3","D11"))
 											{
 												if (is.na(tab[j,"admin1"])) fileName = tab[j,"country"]
 												if ((!is.na(tab[j,"admin1"]))&(is.na(tab[j,"admin2"]))) fileName = paste0(unlist(strsplit(tab[j,"country"],"-"))[1],"_",gsub(" ","",tab[j,"admin1"]))
 												if (!is.na(tab[j,"admin2"])) fileName = paste0(gsub(" ","",tab[j,"admin1"]),"_",gsub(" ","",tab[j,"admin2"]))
 											}
-										if (genotypes[h] == "D11")
+										if (genotypes[h]%in%c("A1","A3","D11"))
 											{
 												fileName = tab[j,"admin1"]
 											}
@@ -660,37 +728,52 @@ for (h in 1:length(genotypes))
 				write.csv(tab, paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000_ext/TreeExtractions_",i,".csv"), row.names=F, quote=F)
 			}
 	}
+BCD_genotypes = FALSE
 for (h in 1:length(genotypes))
 	{
-		if (h == 1)
+		if (genotypes%in%c("B32","B36","C21","D11"))
 			{
-				mccs = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000.csv"), head=T, sep=",")
-				mccs = cbind(mccs, rep(genotypes[h],dim(mccs)[1])); colnames(mccs)[length(colnames(mccs))] = "genotype"
-			}	else	{
-				mcc = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000.csv"), head=T, sep=",")
-				mcc = cbind(mcc, rep(genotypes[h],dim(mcc)[1])); colnames(mcc)[length(colnames(mcc))] = "genotype"
-				mccs = rbind(mccs, mcc)
+				BCD_genotypes = TRUE
+				if (genotypes[h] == "B32")
+					{
+						mccs = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000.csv"), head=T, sep=",")
+						mccs = cbind(mccs, rep(genotypes[h],dim(mccs)[1])); colnames(mccs)[length(colnames(mccs))] = "genotype"
+					}	else	{
+						mcc = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000.csv"), head=T, sep=",")
+						mcc = cbind(mcc, rep(genotypes[h],dim(mcc)[1])); colnames(mcc)[length(colnames(mcc))] = "genotype"
+						mccs = rbind(mccs, mcc)
+					}
 			}
 	}
-mccs = mccs[order(mccs[,"endYear"],mccs[,"startYear"],decreasing=F),]
-write.csv(mccs, "ALL_RRW.csv", row.names=F, quote=F)
-dir.create(file.path(paste0("Genotype_ALL")), showWarnings=F)
+if (BCD_genotypes)
+	{
+		mccs = mccs[order(mccs[,"endYear"],mccs[,"startYear"],decreasing=F),]
+		write.csv(mccs, "BCD_RRW.csv", row.names=F, quote=F)
+	}
+dir.create(file.path(paste0("Genotype_BCD")), showWarnings=F); BCD_genotypes = FALSE
 for (i in 1:nberOfExtractionFiles)
 	{
 		for (h in 1:length(genotypes))
 			{
-				if (h == 1)
+				if (genotypes%in%c("B32","B36","C21","D11"))
 					{
-						tabs = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000_ext/TreeExtractions_",i,".csv"), head=T, sep=",")
-						tabs = cbind(tabs, rep(genotypes[h],dim(tabs)[1])); colnames(tabs)[length(colnames(tabs))] = "genotype"
-					}	else	{
-						tab = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000_ext/TreeExtractions_",i,".csv"), head=T, sep=",")
-						tab = cbind(tab, rep(genotypes[h],dim(tab)[1])); colnames(tab)[length(colnames(tab))] = "genotype"
-						tabs = rbind(tabs, tab)
+						BCD_genotypes = TRUE
+						if (genotypes[h] == "B32")
+							{
+								tabs = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000_ext/TreeExtractions_",i,".csv"), head=T, sep=",")
+								tabs = cbind(tabs, rep(genotypes[h],dim(tabs)[1])); colnames(tabs)[length(colnames(tabs))] = "genotype"
+							}	else	{
+								tab = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000_ext/TreeExtractions_",i,".csv"), head=T, sep=",")
+								tab = cbind(tab, rep(genotypes[h],dim(tab)[1])); colnames(tab)[length(colnames(tab))] = "genotype"
+								tabs = rbind(tabs, tab)
+							}
 					}
-				}
-		tabs = tabs[order(tabs[,"endYear"],tabs[,"startYear"],decreasing=F),]
-		write.csv(tabs, paste0("Genotype_ALL/TreeExtractions_",i,".csv"), row.names=F, quote=F)
+			}
+		if (BCD_genotypes)
+			{	
+				tabs = tabs[order(tabs[,"endYear"],tabs[,"startYear"],decreasing=F),]
+				write.csv(tabs, paste0("Genotype_BCD/TreeExtractions_",i,".csv"), row.names=F, quote=F)
+			}
 	}
 
 # 3. Estimating lineage dispersal statistics from the continuous phylogeographic analyses
@@ -699,10 +782,114 @@ timeSlices = 100; onlyTipBranches = F; showingPlots = F; nberOfCores = 10; slidi
 for (h in 1:length(genotypes))
 	{
 		localTreesDirectory = paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000_ext")
-		outputName = paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h])
+		outputName = paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_all") # "all" = all phylogenetic branches
 		dir.create(file.path(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/")), showWarnings=F)
 		spreadStatistics(localTreesDirectory, nberOfExtractionFiles, timeSlices, onlyTipBranches, showingPlots, outputName, nberOfCores, slidingWindow)
 	 }
+pdf(paste0("Wavefront_distances_NEW.pdf"), width=12, height=12); t_max_dist_090_list = list()
+par(mfrow=c(4,1), oma=c(0,0,0,0), mar=c(2.5,4,0.5,0.5), mgp=c(0,0.1,0), lwd=0.3, bty="o", col="gray30")
+colour_scale = met.brewer(name="Hiroshige", n=111, type="continuous")[1:101]; minYear = 9999; maxYear = -9999
+for (h in 1:length(genotypes))
+	{
+		mcc = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000.csv"), head=T, sep=",")
+		if (minYear > min(mcc[,"startYear"])) minYear = min(mcc[,"startYear"])
+		if (maxYear < max(mcc[,"endYear"])) maxYear = max(mcc[,"endYear"])	
+	}
+for (h in 1:length(genotypes))
+	{
+		swf_median = read.table(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_all_median_spatial_wavefront_distance.txt"), header=T)
+		swf_95pHPD = read.table(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_all_95%HPD_spatial_wavefront_distance.txt"), header=T)
+		swf = cbind(swf_median, swf_95pHPD[,2:3]); colnames(swf) = c("time","median","95pHDP_lower","95pHDP_upper") # "swf" is for "spatial wavefront"
+		swf = swf[which((swf[,"time"]>=minYear)&(swf[,"time"]<maxYear)),]; max_dist_090 = max(swf_median[,"distance"])*0.90
+		t_max_dist_090 = swf_median[which(swf_median[,"distance"]>=max_dist_090)[1],"time"]; t_max_dist_090_list[[h]] = t_max_dist_090
+		xMin = min(swf[,"time"]); xMax = max(swf[,"time"]); timeSlice = swf[1,"time"]-swf[2,"time"]; xMin = minYear; xMax = maxYear
+		yMin = min(swf[,"95pHDP_lower"], na.rm=T); yMax = max(swf[,"95pHDP_upper"], na.rm=T); yMin = 0; yMax = 16000
+		colours = paste0(colour_scale[(((swf[,c("time")]-minYear)/(maxYear-minYear))*(length(colour_scale)-1))+1],60)
+		plot(swf[,"time"], swf[,"median"], lwd=0.7, type="l", cex.axis=0.8, cex.lab=0.8, col="gray30", axes=F, xlab=NA, ylab=NA, xlim=c(xMin,xMax), ylim=c(yMin,yMax))
+		xx_l = c(swf[,c("time")],rev(swf[,c("time")])); yy_l = c(swf[,"95pHDP_lower"],rev(swf[,"95pHDP_upper"]))
+		getOption("scipen"); opt = options("scipen"=20); polygon(xx_l,yy_l,col=rgb(187/255,187/255,187/255,0.25),border=0)
+		for (j in 1:length(swf[,"time"]))
+			{
+				x1 = swf[j,"time"]-(timeSlice/2); x2 = swf[j,"time"]+(timeSlice/2)
+				y1 = swf[j,"95pHDP_lower"]-1000; y2 = swf[j,"95pHDP_upper"]+1000
+				polygon(c(x1,x2,x2,x1), c(y1,y1,y2,y2), col="gray90", border=NA)
+				polygon(c(x1,x2,x2,x1), c(y1,y1,y2,y2), col=colours[j], border=NA)
+			}
+		getOption("scipen"); opt = options("scipen"=20); polygon(xx_l,yy_l,col=NA,border="gray30")
+		lines(swf[,"time"], swf[,"median"], lwd=1.0, type="l", cex.axis=0.8, cex.lab=0.8, col="gray30")
+		for (j in c(2021:2024)) abline(v=t_max_dist_090, lty=2, col="gray30", lwd=0.3)
+		axis(side=1, lwd.tick=0.3, cex.axis=1.2, lwd=0.3, tck=-0.025, col="gray30", col.axis="gray30", col.tick="gray30", mgp=c(0,0.85,0), at=seq(2020,2026))
+		axis(side=2, lwd.tick=0.3, cex.axis=1.2, lwd=0.3, tck=-0.025, col="gray30", col.axis="gray30", col.tick="gray30", mgp=c(0,0.75,0), at=seq(0,16000,5000))
+		if (h == 1) mtext("Distance from epidemic origin (km)", side=2, col="gray30", cex=0.9, line=2.5, las=3)
+	}
+dev.off()
+for (h in 1:length(genotypes))
+	{
+		wavefront_velocities_invasion_phase = rep(NA, nberOfExtractionFiles)
+		spatial_wavefront_distances = read.table(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_all_spatial_wavefront_distances.txt"), head=T)
+		spatial_wavefront_distances = spatial_wavefront_distances[which(spatial_wavefront_distances[,"time"]<=t_max_dist_090_list[[h]]),]
+		for (i in 1:nberOfExtractionFiles)
+			{
+				duration = spatial_wavefront_distances[dim(spatial_wavefront_distances)[1],"time"]-spatial_wavefront_distances[1,"time"]
+				wavefront_velocities_invasion_phase[i] = spatial_wavefront_distances[dim(spatial_wavefront_distances)[1],1+i]/duration
+			}
+		median = round(median(wavefront_velocities_invasion_phase)); hds = round(HDInterval::hdi(wavefront_velocities_invasion_phase)[1:2])
+		cat("\t",genotypes[h]," wavefront velocity (invasion phase): ",median," km/year [",hds[1],"-",hds[2],"]\n",sep="")
+	}
+for (h in 1:length(genotypes))
+	{
+		dir.create(file.path(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_invasion_phase")), showWarnings=F)
+		dir.create(file.path(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_after_invasion")), showWarnings=F)
+		for (i in 1:nberOfExtractionFiles)
+			{
+				tab1 = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_",nberOfExtractionFiles,"_ext/TreeExtractions_",i,".csv"), head=T)
+				tab2 = tab1[which(tab1[,"endYear"]<=t_max_dist_090_list[[h]]),]; tab3 = tab1[which(tab1[,"startYear"]>t_max_dist_090_list[[h]]),]
+				write.csv(tab2, paste0("Genotype_",genotypes[h],"/",genotypes[h],"_invasion_phase/TreeExtractions_",i,".csv"), row.names=F, quote=F)
+				write.csv(tab3, paste0("Genotype_",genotypes[h],"/",genotypes[h],"_after_invasion/TreeExtractions_",i,".csv"), row.names=F, quote=F)
+			}
+	}
+if ((showingPlots)&(!grepl("A",genotypes[1])))
+	{
+		dev.new(width=9, height=2.2); par(mfrow=c(1,4), mgp=c(0,0,0), oma=c(0.5,0.5,0,0), mar=c(3.0,3.0,0.5,0.5), lwd=0.3, col="gray30")
+		for (h in 1:length(genotypes))
+			{
+				tab = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000_ext/TreeExtractions_",nberOfExtractionFiles,".csv"), head=T)
+				d = rdist.earth(tab[,c("startLon","startLat")], tab[,c("endLon","endLat")], miles=F); d = diag(d); d2 = d^2
+				t = tab[,"length"]; tx4 = 4*t; plot(t, log(d2/tx4), col="#217B9950", pch=16, cex=0.8, axes=F, ann=F, frame=T, xlim=c(0,0.35), ylim=c(0,log(230000000)))
+				axis(side=1, lwd.tick=0.3, cex.axis=0.8, mgp=c(0,0.25,0), lwd=0.0, tck=-0.026, col.tick="gray30", col.axis="gray30", col="gray30", at=seq(0,0.3,0.1))
+				axis(side=2, lwd.tick=0.3, cex.axis=0.8, mgp=c(0,0.40,0), lwd=0.0, tck=-0.026, col.tick="gray30", col.axis="gray30", col="gray30")
+				title(ylab=expression("Branch DC (km"^2*"/year, log)"), cex.lab=1, mgp=c(1.6,0,0), col.lab="gray30")
+				title(xlab=expression("Time (years)"), cex.lab=1, mgp=c(1.5,0,0), col.lab="gray30")
+			}
+	}
+timeSlices = 100; onlyTipBranches = F; showingPlots = F; nberOfCores = 10; slidingWindow = 1/24
+for (h in 1:length(genotypes))
+	{
+		localTreesDirectory = paste0("Genotype_",genotypes[h],"/",genotypes[h],"_invasion_phase")
+		outputName = paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_dIP") # "dIP" = during invasion phase
+		spreadStatistics(localTreesDirectory, nberOfExtractionFiles, timeSlices, onlyTipBranches, showingPlots, outputName, nberOfCores, slidingWindow)
+		localTreesDirectory = paste0("Genotype_",genotypes[h],"/",genotypes[h],"_after_invasion")
+		outputName = paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_aIP") # "aIP" = after invasion phase
+		spreadStatistics(localTreesDirectory, nberOfExtractionFiles, timeSlices, onlyTipBranches, showingPlots, outputName, nberOfCores, slidingWindow)
+	 }
+tab = matrix(nrow=length(genotypes), ncol=5); tab[,1] = paste0("H5N1 - ",genotypes)
+colnames(tab) = c("Genotype","WDC (km2/day)","WDC during invasion phase","WDC after invasion phase","IBD signal")
+for (h in 1:length(genotypes))
+	{
+		estimates = read.table(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_all_estimated_dispersal_statistics.txt"), head=T, sep="\t")
+		vS = estimates[,"weighted_diffusion_coefficient"]; median = round(median(vS)/365.25); quantiles = round(HDInterval::hdi(vS)[1:2]/365.25)
+		tab[h,"WDC (km2/day)"] = paste0(median," [",quantiles[1],"-",quantiles[2],"]")
+		estimates = read.table(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_dIP_estimated_dispersal_statistics.txt"), head=T, sep="\t")
+		vS = estimates[,"weighted_diffusion_coefficient"]; median = round(median(vS)/365.25); quantiles = round(HDInterval::hdi(vS)[1:2]/365.25)
+		tab[h,"WDC during invasion phase"] = paste0(median," [",quantiles[1],"-",quantiles[2],"]")
+		estimates = read.table(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_aIP_estimated_dispersal_statistics.txt"), head=T, sep="\t")
+		vS = estimates[,"weighted_diffusion_coefficient"]; median = round(median(vS)/365.25); quantiles = round(HDInterval::hdi(vS)[1:2]/365.25)
+		tab[h,"WDC after invasion phase"] = paste0(median," [",quantiles[1],"-",quantiles[2],"]")
+		estimates = read.table(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_statistics/",genotypes[h],"_all_estimated_dispersal_statistics.txt"), head=T, sep="\t")
+		vS = estimates[,"isolation_by_distance_signal_rP2"]; median = round(median(vS),3); quantiles = round(HDInterval::hdi(vS)[1:2],3)
+		tab[h,"IBD signal"] = paste0(median," [",quantiles[1],"-",quantiles[2],"]")
+	}
+write.csv(tab, "Statistics_NEW.csv", row.names=F, quote=F)
 
 # 4. Visualising the continuous phylogeographic reconstructions based on the polygons
 
@@ -737,7 +924,7 @@ for (h in 1:length(genotypes))
 				polygons_colours[i] = paste0(colour_scale[polygon_index],"20")
 			}
 		cutOffs = c(maxYear); g = 1; croppingPolygons = FALSE; plottingAllNodes = FALSE
-		if (genotypes[h] == "B32")
+		if ((genotypes[h] == "B32"))
 			{
 				pdf(paste0(genotypes[h],"_RRW.pdf"), width=5.5, height=5.7)
 				par(oma=c(0,0,0,0), mar=c(1,0.4,1,0.4), mgp=c(0,0.1,0), lwd=0.3, bty="o")
@@ -825,7 +1012,7 @@ for (h in 1:length(genotypes))
 				rect(e2@xmin, e2@ymin, e2@xmax, e2@ymax, lwd=0.3, border="gray30")
 				dev.off()
 			}
-		if ((genotypes[h] == "B36")|(genotypes[h] == "D11"))
+		if ((genotypes[h] == "B36")|(genotypes[h] == "D11")|(genotypes[h] == "A1")|(genotypes[h] == "A3"))
 			{	
 				pdf(paste0(genotypes[h],"_RRW.pdf"), width=5.3, height=4.2)
 				par(oma=c(0,0,0,0), mar=c(0.0,0.4,0.2,0.4), mgp=c(0,0.1,0), lwd=0.3, bty="o")
@@ -902,7 +1089,7 @@ rast = raster(matrix(nrow=1, ncol=2)); rast[1] = minYear; rast[2] = maxYear
 for (h in 1:length(genotypes))
 	{
 		mcc = read.csv(paste0("Genotype_",genotypes[h],"/",genotypes[h],"_RRW_1000.csv"), head=T, sep=",")
-		pdf(paste0("All1_RRW_",genotypes[h],".pdf"), width=5.5, height=5.7)
+		pdf(paste0("All_BCD_",genotypes[h],".pdf"), width=5.5, height=5.7)
 		par(oma=c(0,0,0,0), mar=c(1,0.4,1,0.4), mgp=c(0,0.1,0), lwd=0.3, bty="o")
 		plot(countries_1, col="gray90", border=NA, ann=F, axes=F)
 		plot(borders_1, col="white", lwd=0.3, add=T)
@@ -910,7 +1097,7 @@ for (h in 1:length(genotypes))
 		plot(rast, legend.only=T, add=T, col=colour_scale, legend.width=0.5, legend.shrink=0.3, smallplot=c(0.15,0.50,0.280,0.287),
 			 legend.args=list(text="", cex=0.7, col="gray30"), horizontal=T,
 			 axis.args=list(cex.axis=0.5, lwd=0, lwd.tick=0.3, col.tick="gray30", tck=-1, col="gray30", col.axis="gray30", line=0, mgp=c(0,-0.15,0)))
-		for (i in 1:length(polygons))
+		for (i in 1:length(polygons_list[[h]]))
 			{
 				plot(polygons_list[[h]][[i]], axes=F, col=polygons_colours_list[[h]][i], add=T, border=NA)
 			}
@@ -933,7 +1120,7 @@ for (h in 1:length(genotypes))
 		rect(e1@xmin, e1@ymin, e1@xmax, e1@ymax, lwd=0.3, border="gray30")
 		dev.off()
 	}
-polygon_list = list(); prob = 0.80
+polygon_list = list(); coords_list = list(); prob = 0.80
 for (h in 1:length(genotypes))
 	{
 		coords = c()
@@ -949,14 +1136,14 @@ for (h in 1:length(genotypes))
 		for (i in 1:length(contourLines)) polygons[[i]] = Polygon(cbind(contourLines[[i]]$x,contourLines[[i]]$y))
 		ps = Polygons(polygons,1); contourPolygons = SpatialPolygons(list(ps))
 		spdf = SpatialPolygonsDataFrame(contourPolygons, data.frame(ID=1:length(contourPolygons)))
-		names(spdf) = genotypes[h]; polygon_list[[h]] = spdf
+		names(spdf) = genotypes[h]; polygon_list[[h]] = spdf; coords_list[[h]] = coords
 	}
 cols1 = list(); cols2 = list()
 cols1[[1]] = rgb(222,67,39,220,maxColorValue=255); cols2[[1]] = rgb(222,67,39,100,maxColorValue=255) # red
 cols1[[2]] = rgb(250,165,33,220,maxColorValue=255); cols2[[2]] = rgb(250,165,33,100,maxColorValue=255) # orange
 cols1[[3]] = rgb(106,61,154,255,maxColorValue=255); cols2[[3]] = rgb(106,61,154,100,maxColorValue=255) # purple
 cols1[[4]] = rgb(70,118,187,220,maxColorValue=255); cols2[[4]] = rgb(70,118,187,100,maxColorValue=255) # blue
-pdf(paste0("Ancestors_NEW.pdf"), width=5.5, height=5.7)
+pdf(paste0("MRCA_HPDs_NEW.pdf"), width=5.5, height=5.7)
 par(oma=c(0,0,0,0), mar=c(1,0.4,1,0.4), mgp=c(0,0.1,0), lwd=0.3, bty="o")
 plot(countries_1, col="gray90", border=NA, ann=F, axes=F)
 plot(borders_1, col="white", lwd=0.3, add=T)
@@ -971,10 +1158,21 @@ for (h in 1:length(genotypes))
 	}
 rect(e1@xmin, e1@ymin, e1@xmax, e1@ymax, lwd=0.3, border="gray30")
 dev.off()
+for (h in 1:length(genotypes))
+	{
+		pdf(paste0(genotypes[h],"_ancestor.pdf"), width=5.5, height=5.7)
+		par(oma=c(0,0,0,0), mar=c(1,0.4,1,0.4), mgp=c(0,0.1,0), lwd=0.3, bty="o")
+		plot(countries_1, col="gray90", border=NA, ann=F, axes=F)
+		plot(borders_1, col="white", lwd=0.3, add=T)
+		plot(coasts_1, col="gray70", lwd=0.5, add=T)
+		points(coords_list[[h]], axes=F, col=cols2[[h]], border=NA, add=T, pch=16, cex=0.3)
+		rect(e1@xmin, e1@ymin, e1@xmax, e1@ymax, lwd=0.3, border="gray30")
+		dev.off()
+	}
 
 	# 4.3. Unique map with all the dispersal histories
 
-mcc = read.csv("ALL_RRW.csv", head=T); localTreesDirectory = "Genotype_ALL"
+mcc = read.csv("BCD_RRW.csv", head=T); localTreesDirectory = "Genotype_BCD"
 minYear = min(mcc[,"startYear"]); maxYear = max(mcc[,"endYear"])
 endYears_indices = (((mcc[,"endYear"]-minYear)/(maxYear-minYear))*100)+1
 endYears_colours = colour_scale[endYears_indices]
@@ -988,7 +1186,7 @@ for (i in 1:length(polygons))
 		polygons_colours[i] = paste0(colour_scale[polygon_index],"20")
 	}
 rast = raster(matrix(nrow=1, ncol=2)); rast[1] = minYear; rast[2] = maxYear
-pdf(paste0("ALL_RRW_NEW.pdf"), width=11.0, height=11.4); cutOffs = c(2022.5,2023,2023.5,2025)
+pdf(paste0("All_BCD_2_NEW.pdf"), width=11.0, height=11.4); cutOffs = c(2022.5,2023,2023.5,2025)
 par(mfrow=c(2,2), oma=c(0,0,0,0), mar=c(1,0.4,1,0.4), mgp=c(0,0.1,0), lwd=0.3, bty="o")
 for (g in 1:length(cutOffs)) # date_decimal(c(2022.5,2023,2023.5,2025))
 	{
@@ -1028,6 +1226,6 @@ for (g in 1:length(cutOffs)) # date_decimal(c(2022.5,2023,2023.5,2025))
 	}
 dev.off()
 
-system(paste0("magick -units PixelsPerInch -density 1000 All1_RRW.pdf -background white -alpha remove -flatten All1_RRW.png"))
-system(paste0("magick -units PixelsPerInch -density 1000 All2_RRW.pdf -background white -alpha remove -flatten All2_RRW.png"))
+system(paste0("magick -units PixelsPerInch -density 1000 All_BCD_1.pdf -background white -alpha remove -flatten All_BCD_1.png"))
+system(paste0("magick -units PixelsPerInch -density 1000 All_BCD_2.pdf -background white -alpha remove -flatten All_BCD_2.png"))
 
