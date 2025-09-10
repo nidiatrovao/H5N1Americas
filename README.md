@@ -1,4 +1,4 @@
-### Supplementary Material for "Reassortant H5N1 avian influenza virus genotypes in the Americas"
+### Supplementary Material for "Emergence of D1.1 reassortant H5N1 avian influenza viruses in North America"
 
 
 
