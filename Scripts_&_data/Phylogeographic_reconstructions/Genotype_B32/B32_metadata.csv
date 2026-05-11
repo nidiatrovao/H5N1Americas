@@ -1,536 +1,583 @@
-trait,isolate_id,host,date,country,location,province/dept/region,canton,county/district,city/town/municipality,latitude,longitude,location_used
-A/Brown_Skua/Torgersen_Island/o81-b82/2024|H5N1|Torgersen_Island|2024-12-17|avian|B3.2,o81-b82,Brown_Skua,12/17/2024,Torgersen_Island,Antarctica,,,,Torgersen_Island,-64.46,-64.04,https://journals.asm.org/doi/10.1128/mra.00041-25
-A/kelp_gull/South_Shetland_Islands/10272/2024|H5N1|South_Shetland_Islands|2024-01-08|avian|B3.2,10272,kelp_gull,1/8/2024,South_Shetland_Islands,Antarctica,,,,South_Shetland_Islands,-62.6544,-60.6133,https://www.biorxiv.org/content/10.1101/2024.12.29.630510v1.full
-A/Chicken/Argentina/606-1/2023|H5N1|Argentina|2023-02-27|avian|B3.2,606-1,Chicken,2/27/2023,Argentina,Argentina,,,,,-60.56083205,-36.68104284,precise (Martha)
-A/Brown_Skua/Moltke_Harbour/133752/2023|H5N1|SGSSI|2023-10-31|avian|B3.2,133752,Brown_Skua,10/31/2023,SGSSI,Moltke_Harbour,,,,,-54.519908,-36.084355,precise (Martha)
-A/Kelp_Gull/Moltke_Harbour/133754/2023|H5N1|SGSSI|2023-10-31|avian|B3.2,133754,Kelp_Gull,10/31/2023,SGSSI,Moltke_Harbour,,,,,-54.519908,-36.084355,precise (Martha)
-A/Brown_Skua/Moltke_Harbour/133755/2023|H5N1|SGSSI|2023-10-31|avian|B3.2,133755,Brown_Skua,10/31/2023,SGSSI,Moltke_Harbour,,,,,-54.519908,-36.084355,precise (Martha)
-A/Kelp_Gull/Hound_Bay/133744/2023|H5N1|SGSSI|2023-10-30|avian|B3.2,133744,Kelp_Gull,10/30/2023,SGSSI,Hound_Bay,,,,,-54.381069,-36.253215,precise (Martha)
-A/Kelp_Gull/Hound_Bay/133747/2023|H5N1|SGSSI|2023-10-30|avian|B3.2,133747,Kelp_Gull,10/30/2023,SGSSI,Hound_Bay,,,,,-54.381069,-36.253215,precise (Martha)
-A/Brown_Skua/Hound_Bay/133947/2023|H5N1|SGSSI|2023-10-30|avian|B3.2,133947,Brown_Skua,10/30/2023,SGSSI,Hound_Bay,,,,,-54.381069,-36.253215,precise (Martha)
-A/Kelp_Gull/Penguin_River/141234/2023|H5N1|SGSSI|2023-11-08|avian|B3.2,141234,Kelp_Gull,11/8/2023,SGSSI,Penguin_River,,,,,-54.300917,-36.492071,precise (Martha)
-A/Brown_Skua/Penguin_River/141236/2023|H5N1|SGSSI|2023-11-08|avian|B3.2,141236,Brown_Skua,11/8/2023,SGSSI,Penguin_River,,,,,-54.300917,-36.492071,precise (Martha)
-A/Kelp_Gull/Penguin_River/141239/2023|H5N1|SGSSI|2023-11-08|avian|B3.2,141239,Kelp_Gull,11/8/2023,SGSSI,Penguin_River,,,,,-54.300917,-36.492071,precise (Martha)
-A/Antarctic_tern/King_Edward_Point/141271/2023|H5N1|SGSSI|2023-12-06|avian|B3.2,141271,Antarctic_tern,12/6/2023,SGSSI,King_Edward_Point,,,,,-54.283859,-36.496137,precise (Martha)
-A/South_Georgia_Shag/King_Edward_Cove/141245/2023|H5N1|SGSSI|2023-11-27|avian|B3.2,141245,South_Georgia_Shag,11/27/2023,SGSSI,King_Edward_Cove,,,,,-54.28349368,-36.50872,precise (Martha)
-A/Kelp_Gull/Harpon_Bay/133943/2023|H5N1|SGSSI|2023-11-03|avian|B3.2,133943,Kelp_Gull,11/3/2023,SGSSI,Harpon_Bay,,,,,-54.2786831,-36.6345639,precise (Martha)
-A/Southern_Elephant_Seal/Jason_Harbour/141027/2023|H5N1|SGSSI|2023-12-09|other_mammal|B3.2,141027,Southern_Elephant_Seal,12/9/2023,SGSSI,Jason_Harbour,,,,,-54.1998934,-36.589597,precise (Martha)
-A/Antarctic_Fur_Seal/Jason_Harbour/141037/2023|H5N1|SGSSI|2023-12-09|other_mammal|B3.2,141037,Antarctic_Fur_Seal,12/9/2023,SGSSI,Jason_Harbour,,,,,-54.1998934,-36.589597,precise (Martha)
-A/Southern_Elephant_Seal/Jason_Harbour/141078/2023|H5N1|SGSSI|2023-12-09|other_mammal|B3.2,141078,Southern_Elephant_Seal,12/9/2023,SGSSI,Jason_Harbour,,,,,-54.1998934,-36.589597,precise (Martha)
-A/Brown_skua/Bird_Island/128287/2023|H5N1|SGSSI|2023-10-08|avian|B3.2,128287,Brown_skua,10/8/2023,SGSSI,Bird_Island,,,,,-54.006334,-38.047372,precise (Martha)
-A/Brown_skua/Bird_Island/128288/2023|H5N1|SGSSI|2023-10-08|avian|B3.2,128288,Brown_skua,10/8/2023,SGSSI,Bird_Island,,,,,-54.006334,-38.047372,precise (Martha)
-A/Brown_Skua/Bird_Island/141232/2023|H5N1|SGSSI|2023-11-11|avian|B3.2,141232,Brown_Skua,11/11/2023,SGSSI,Bird_Island,,,,,-54.006334,-38.047372,precise (Martha)
-A/Sea_Lion/Argentina/3849-4/2023|H5N1|Argentina|2023-08-08|other_mammal|B3.2,3849-4,Sea_Lion,8/8/2023,Argentina,Argentina,,,,,-53.71557,-67.80045,precise (Martha)
-A/Southern_fulmar/Falkland_Islands/133789/2023|H5N1|Falkland_Islands|2023-10-30|avian|B3.2,133789,Southern_fulmar,10/30/2023,Falkland_Islands,Falkland_Islands,,,,,-51.693946,-57.8572918,precise (Martha)
-A/southern_elephant_seal/Argentina/CH-PD035/2023|H5N1|Argentina|2023-10-10|other_mammal|B3.2,CH-PD035,southern_elephant_seal,10/10/2023,Argentina,Argentina,,,,,-42.764,-63.6326,precise (Martha)
-A/royal_tern/Argentina/CH-PD036/2023|H5N1|Argentina|2023-10-10|avian|B3.2,CH-PD036,royal_tern,10/10/2023,Argentina,Argentina,,,,,-42.764,-63.6326,precise (Martha)
-A/southern_elephant_seal/Argentina/CH-PM053/2023|H5N1|Argentina|2023-11-01|other_mammal|B3.2,CH-PM053,southern_elephant_seal,11/1/2023,Argentina,Argentina,,,,,-42.597458,-64.818871,precise (Martha)
-A/South_American_sea_lion/Argentina/RN-PB004/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2,RN-PB004,South_American_sea_lion,8/26/2023,Argentina,Argentina,,,,,-41.1558,-63.1323,precise (Martha)
-A/South_American_sea_lion/Argentina/RN-PB007/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2,RN-PB007,South_American_sea_lion,8/26/2023,Argentina,Argentina,,,,,-41.155,-63.128,precise (Martha)
-A/South_American_sea_lion/Argentina/RN-PB011/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2,RN-PB011,South_American_sea_lion,8/26/2023,Argentina,Argentina,,,,,-41.155,-63.128,precise (Martha)
-A/South_American_sea_lion/Argentina/RN-PB013/2023|H5N1|Argentina|2023-08-26|other_mammal|B3.2,RN-PB013,South_American_sea_lion,8/26/2023,Argentina,Argentina,,,,,-41.155,-63.128,precise (Martha)
-A/South_American_tern/Argentina/RN-PB015/2023|H5N1|Argentina|2023-08-26|avian|B3.2,RN-PB015,South_American_tern,8/26/2023,Argentina,Argentina,,,,,-41.155,-63.128,precise (Martha)
-A/Sea_Lion/Argentina/3893-1/2023|H5N1|Argentina|2023-08-11|other_mammal|B3.2,3893-1,Sea_Lion,8/11/2023,Argentina,Argentina,,,,,-41.15491,-63.1613,precise (Martha)
-A/brown-hooded_gull/Los_Rios/247093-1/2023|H5N1|Chile|2023-04-04|avian|B3.2,247093-1,brown-hooded_gull,4/4/2023,Chile,Los_Rios,,,,,-39.813889,-73.245833,precise (Martha)
-A/Avian/Argentina/1790-5/2023|H5N1|Argentina|2023-04-24|avian|B3.2,1790-5,Avian,4/24/2023,Argentina,Argentina,,,,,-38.95667,-68.29917,precise (Martha)
-A/Domestic_duck/Araucania/239189-3/2023|H5N1|Chile|2023-02-28|avian|B3.2,239189-3,Domestic_duck,2/28/2023,Chile,Araucania,,,,,-38.7934,-72.9758,precise (Martha)
-A/South_American_sea_lion/Bio_Bio/246296-1/2023|H5N1|Chile|2023-03-26|other_mammal|B3.2,246296-1,South_American_sea_lion,3/26/2023,Chile,Bio_Bio,,,,,-37.47393,-72.3453308,precise (Martha)
-A/Chilean_dolphin/Nuble/248244-1/2023|H5N1|Chile|2023-04-01|other_mammal|B3.2,248244-1,Chilean_dolphin,4/1/2023,Chile,Nuble,,,,,-36.35902222,-72.85395556,precise (Martha)
-A/Chicken/Argentina/2796-2/2023|H5N1|Argentina|2023-06-13|avian|B3.2,2796-2,Chicken,6/13/2023,Argentina,Argentina,,,,,-35.089,-57.947197,precise (Martha)
-A/pinniped/Uruguay/P14_11923/2023|H5N1|Uruguay|2023-09-11|other_mammal|B3.2,P14_11923,pinniped,9/11/2023,Uruguay,Uruguay,,,,,-35.027041,-54.883736,precise (Martha)
-A/pinniped/Uruguay/P4_6923/2023|H5N1|Uruguay|2023-09-06|other_mammal|B3.2,P4_6923,pinniped,9/6/2023,Uruguay,Uruguay,,,,,-34.942845,-55.926936,precise (Martha)
-A/pinniped/Uruguay/P18_14923/2023|H5N1|Uruguay|2023-09-14|other_mammal|B3.2,P18_14923,pinniped,9/14/2023,Uruguay,Uruguay,,,,,-34.901762,-54.95159,precise (Martha)
-A/black-necked_swan/Uruguay/UDELAR-014-M3/2023|H5N1|Uruguay|2023-02-18|avian|B3.2,UDELAR-014-M3,black-necked_swan,2/18/2023,Uruguay,Uruguay,,,,,-34.798,-54.568,precise (Martha)
-A/Black-necked_swan/Uruguay/014-M3/2023|H5N1|Uruguay|2023-02-18|avian|B3.2,014-M3,Black-necked_swan,2/18/2023,Uruguay,Uruguay,,,,,-34.798,-54.568,precise (Martha)
-A/Backyard_chicken/Uruguay/127-M4/2023|H5N1|Uruguay|2023-04-17|avian|B3.2,127-M4,Backyard_chicken,4/17/2023,Uruguay,Uruguay,,,,,-34.7852,-56.1287,precise (Martha)
-A/Black-necked_swan/Uruguay/078-M2/2023|H5N1|Uruguay|2023-03-15|avian|B3.2,078-M2,Black-necked_swan,3/15/2023,Uruguay,Uruguay,,,,,-34.5713,-55.7469,precise (Martha)
-A/pinniped/Uruguay/P10_8923/2023|H5N1|Uruguay|2023-09-08|other_mammal|B3.2,P10_8923,pinniped,9/8/2023,Uruguay,Uruguay,,,,,-34.523896,-56.281724,precise (Martha)
-A/pinniped/Uruguay/P8_8923/2023|H5N1|Uruguay|2023-09-08|other_mammal|B3.2,P8_8923,pinniped,9/8/2023,Uruguay,Uruguay,,,,,-34.523896,-56.281724,precise (Martha)
-A/pinniped/Uruguay/P13_11923/2023|H5N1|Uruguay|2023-09-11|other_mammal|B3.2,P13_11923,pinniped,9/11/2023,Uruguay,Uruguay,,,,,-34.523896,-56.281724,precise (Martha)
-A/pinniped/Uruguay/P17_14923/2023|H5N1|Uruguay|2023-09-14|other_mammal|B3.2,P17_14923,pinniped,9/14/2023,Uruguay,Uruguay,,,,,-34.480131,-54.332445,precise (Martha)
-A/backyard_chicken/Uruguay/UDELAR-144-M3/2023|H5N1|Uruguay|2023-05-03|avian|B3.2,UDELAR-144-M3,backyard_chicken,5/3/2023,Uruguay,Uruguay,,,,,-33.69,-54.0993,precise (Martha)
-A/Backyard_chicken/Uruguay/144-M3/2023|H5N1|Uruguay|2023-05-03|avian|B3.2,144-M3,Backyard_chicken,5/3/2023,Uruguay,Uruguay,,,,,-33.69,-54.0993,precise (Martha)
-A/South_American_sea_lion/Valparaiso/243136-1/2023|H5N1|Chile|2023-03-19|other_mammal|B3.2,243136-1,South_American_sea_lion,3/19/2023,Chile,Valparaiso,,,,,-32.69895,-71.4293542,precise (Martha)
-A/Chicken/Argentina/3695-3/2023|H5N1|Argentina|2023-07-27|avian|B3.2,3695-3,Chicken,7/27/2023,Argentina,Argentina,,,,,-32.09246308,-63.76886109,precise (Martha)
-A/Otaria_flavescens/Rio_Grande_do_Sul/2148-N/2023|H5N1|Brazil|2023-10-03|other_mammal|B3.2,2148-N,Otaria_flavescens,10/3/2023,Brazil,Brazil,Rio_Grande_do_Sul,,,Rio Grande,-32.035,-52.098611,city/town/municipality
-A/Chicken/Argentina/2483-3/2023|H5N1|Argentina|2023-05-29|avian|B3.2,2483-3,Chicken,5/29/2023,Argentina,Argentina,,,,,-31.99319,-60.41929,precise (Martha)
-A/Otaria_flavescens/Rio_Grande_do_Sul/2165-SO/2023|H5N1|Brazil|2023-10-11|other_mammal|B3.2,2165-SO,Otaria_flavescens,10/11/2023,Brazil,Brazil,Rio_Grande_do_Sul,,,Torres,-29.326667,-49.7675,city/town/municipality
-A/Peruvean_booby/Atacama/230579-1/2023|H5N1|Chile|2023-01-03|avian|B3.2,230579-1,Peruvean_booby,1/3/2023,Chile,Atacama,,,,,-27.6448298,-70.98665,precise (Martha)
-A/Turkey/Argentina/1348-3/2023|H5N1|Argentina|2023-03-31|avian|B3.2,1348-3,Turkey,3/31/2023,Argentina,Argentina,,,,,-27.39907,-58.67021,precise (Martha)
-A/sea_lion/Atacama/242444-1/2023|H5N1|Chile|2023-03-13|other_mammal|B3.2,242444-1,sea_lion,3/13/2023,Chile,Atacama,,,,,-27.38183161,-69.93163954,precise (Martha)
-A/pelican/Atacama/229450-2/2022|H5N1|Chile|2022-12-26|avian|B3.2,229450-2,pelican,12/26/2022,Chile,Atacama,,,,,-27.066667,-70.833333,precise (Martha)
-A/pelican/Chile/229424-4/2022|H5N1|Chile|2022-12-22|avian|B3.2,229424-4,pelican,12/22/2022,Chile,Chile,,,,,-26.344444,-70.621944,precise (Martha)
-A/Sula_leucogaster/Sao_Francisco_do_Sul/2122-N/2023|H5N1|Brazil|2023-09-27|avian|B3.2,2122-N,Sula_leucogaster,9/27/2023,Brazil,Brazil,Santa Catarina,,,Sao_Francisco_do_Sul,-26.242778,-48.637778,city/town/municipality
-A/Thalasseus_acuflavidus/Parana/2277-N/2023|H5N1|Brazil|2023-11-14|avian|B3.2,2277-N,Thalasseus_acuflavidus,11/14/2023,Brazil,Brazil,Parana,,,Matinhos ,-25.816667,-48.533333,city/town/municipality
-A/Sula_leucogaster/Brazil-PR/A0001-IBTEC/2023|H5N1|Brazil|2023-07-25|avian|B3.2,A0001-IBTEC,Sula_leucogaster,7/25/2023,Brazil,Brazil-PR,,,,,-25.7751123,-48.5147336,precise (Martha)
-A/Thalasseus_maximus/Parana/1775-N/2023|H5N1|Brazil|2023-06-23|avian|B3.2,1775-N,Thalasseus_maximus,6/23/2023,Brazil,Brazil,Parana,,,Antonina,-25.1,-48.716667,city/town/municipality
-A/Thalasseus_maximus/Sao_Paulo/2339-N/2023|H5N1|Brazil|2023-12-13|avian|B3.2,2339-N,Thalasseus_maximus,12/13/2023,Brazil,Brazil,Sao_Paulo,,,Praia Grande,-24.006111,-46.402778,city/town/municipality
-A/Thalasseus_acuflavidus/Sao_Paulo/0291-N/2024|H5N1|Brazil|2024-02-22|avian|B3.2,0291-N,Thalasseus_acuflavidus,2/22/2024,Brazil,Brazil,Sao_Paulo,,,Bertioga,-23.854722,-46.138889,city/town/municipality
-A/turkey_vulture/Antofagasta/228252-1/2022|H5N1|Chile|2022-12-17|avian|B3.2,228252-1,turkey_vulture,12/17/2022,Chile,Antofagasta,,,,,-23.65,-70.4,precise (Martha)
-A/Antofagasta/25945/2023|H5N1|Chile|2023-03-24|human|B3.2,25945,Antofagasta,3/24/2023,Chile,Chile,,,,,-23.61671,-70.38642,precise (Martha)
-A/Chile/25945/2023|H5N1|Chile|2023-03-24|human|B3.2,25945,Chile,3/24/2023,Chile,Chile,,,,,-23.61671,-70.38642,precise (Martha)
-A/Burmeister_s_porpoise/Antofagasta/246506-1/2023|H5N1|Chile|2023-03-31|other_mammal|B3.2,246506-1,Burmeister_s_porpoise,3/31/2023,Chile,Antofagasta,,,,,-23.47021421,-69.11665873,precise (Martha)
-A/Sterna_hirundo/Rio_de_Janeiro/0613-N/2024|H5N1|Brazil|2024-03-09|avian|B3.2,0613-N,Sterna_hirundo,3/9/2024,Brazil,Brazil,Rio_de_Janeiro,,,Cabo Frio,-22.878889,-42.018889,city/town/municipality
-A/Sterna_hirundo/Rio_de_Janeiro/0721-N/2024|H5N1|Brazil|2024-03-15|avian|B3.2,0721-N,Sterna_hirundo,3/15/2024,Brazil,Brazil,Rio_de_Janeiro,,,Rio das Ostras,-22.526944,-41.945,city/town/municipality
-A/Sterna_hirundo/Rio_de_Janeiro/0177-N/2024|H5N1|Brazil|2024-02-09|avian|B3.2,0177-N,Sterna_hirundo,2/9/2024,Brazil,Brazil,Rio_de_Janeiro,,,Macae,-22.370833,-41.786944,city/town/municipality
-A/Pelican/CHL/226618-1/2022|H5N1|Chile|2022-12-05|avian|B3.2,226618-1,Pelican,12/5/2022,Chile,Chile,,,,,-22.1,-70.2,precise (Martha)
-A/Sterna_hirundo/Rio_de_Janeiro/0481-R/2024|H5N1|Brazil|2024-03-02|avian|B3.2,0481-R,Sterna_hirundo,3/2/2024,Brazil,Brazil,Rio_de_Janeiro,,,Sao Francisco de Itabapoana,-21.47,-41.118889,city/town/municipality
-A/Sterna_hirundo/Espirito_Santo/0155-N/2024|H5N1|Brazil|2024-02-02|avian|B3.2,0155-N,Sterna_hirundo,2/2/2024,Brazil,Brazil,Espirito_Santo,,,Itapemirim,-21.011111,-40.833889,city/town/municipality
-A/Sterna_hirundo/Espirito_Santo/0448-N/2024|H5N1|Brazil|2024-03-02|avian|B3.2,0448-N,Sterna_hirundo,3/2/2024,Brazil,Brazil,Espirito_Santo,,,Piuma,-20.839167,-40.726667,city/town/municipality
-A/pelican/Tarapaca/227436-2/2022|H5N1|Chile|2022-12-09|avian|B3.2,227436-2,pelican,12/9/2022,Chile,Chile,Tarapaca,,,,-20.216667,-70.15,precise (Martha)
-A/Megascops_choliba/Espirito_Santo/1409-N/2023|H5N1|Brazil|2023-05-26|avian|B3.2,1409-N,Megascops_choliba,5/26/2023,Brazil,Brazil,Espirito_Santo,,,Serra,-20.128889,-40.307778,city/town/municipality
-A/sea_lion/Arica_y_Parinacota/240270-1/2023|H5N1|Chile|2023-03-01|other_mammal|B3.2,240270-1,sea_lion,3/1/2023,Chile,Arica_y_Parinacota,,,,,-18.78511,-70.34921,precise (Martha)
-A/Inca_tern/Arica_y_Parinacota/227519-1/2022|H5N1|Chile|2022-12-12|avian|B3.2,227519-1,Inca_tern,12/12/2022,Chile,Arica_y_Parinacota,,,,,-18.477778,-70.318056,precise (Martha)
-A/sanderling/Arica_y_Parinacota/230758-1/2022|H5N1|Chile|2022-12-30|avian|B3.2,230758-1,sanderling,12/30/2022,Chile,Arica_y_Parinacota,,,,,-18.477778,-70.318056,precise (Martha)
-A/black_skimmer/Chile/C61962/2022|H5N1|Chile|2022-12-02|avian|B3.2,C61962,black_skimmer,12/2/2022,Chile,Chile,,,,,-18.4136444,-70.3245328,precise (Martha)
-A/sea_lion/Peru/TAC-INS-010/2023|H5N1|Peru|2023-03-07|other_mammal|B3.2,TAC-INS-010,sea_lion,3/7/2023,Peru,Peru,,,,,-18.137864,-70.699826,precise (Martha)
-A/sea_lion/Peru/TAC-INS-011/2023|H5N1|Peru|2023-03-07|other_mammal|B3.2,TAC-INS-011,sea_lion,3/7/2023,Peru,Peru,,,,,-17.64664722,-70.30376039,precise (Martha)
-A/chicken/Cochabamba/39356/2023|H5N1|Bolivia|2023-01-26|avian|B3.2,39356,chicken,1/26/2023,Bolivia,Bolivia,,,,Cochabamba,-17.388333,-66.159722,city/town/municipality
-A/chicken/Cochabamba/39383/2023|H5N1|Bolivia|2023-02-01|avian|B3.2,39383,chicken,2/1/2023,Bolivia,Bolivia,,,,Cochabamba,-17.388333,-66.159722,city/town/municipality
-A/chicken/Cochabamba/39425/2023|H5N1|Bolivia|2023-02-07|avian|B3.2,39425,chicken,2/7/2023,Bolivia,Bolivia,,,,Cochabamba,-17.388333,-66.159722,city/town/municipality
-A/chicken/Cochabamba/39476/2023|H5N1|Bolivia|2023-02-18|avian|B3.2,39476,chicken,2/18/2023,Bolivia,Bolivia,,,,Cochabamba,-17.388333,-66.159722,city/town/municipality
-A/chicken/Cochabamba/39539/2023|H5N1|Bolivia|2023-03-03|avian|B3.2,39539,chicken,3/3/2023,Bolivia,Bolivia,,,,Cochabamba,-17.388333,-66.159722,city/town/municipality
-A/sea_lion/Peru/AQP-SER00K/2023|H5N1|Peru|2023-02-07|other_mammal|B3.2,AQP-SER00K,sea_lion,2/7/2023,Peru,Peru,,,,,-12.91786123,-76.507071,precise (Martha)
-A/Sea_Lion/Peru/LIM-SER036/2023|H5N1|Peru|2023-01-23|other_mammal|B3.2,LIM-SER036,Sea_Lion,1/23/2023,Peru,Peru,,,,,-12.1218839,-77.045041,precise (Martha)
-A/Belcher_gull/Peru/UNMSM-A267/2022|H5N1|Peru|2022-12-01|avian|B3.2,UNMSM-A267,Belcher_gull,12/1/2022,Peru,Peru,,,,,-12.1077,-77.0606,precise (Martha)
-A/peruvian_booby/Peru/LIM-INS-004/2023|H5N1|Peru|2023-04-03|avian|B3.2,LIM-INS-004,peruvian_booby,4/3/2023,Peru,Peru,,,,,-12.1,-77.083333,precise (Martha)
-A/lion/Peru/AIS0554/2023|H5N1|Peru|2023-02-08|feline|B3.2,AIS0554,lion,2/8/2023,Peru,Peru,,,,,-12.0621201,-75.1961831,precise (Martha)
-A/chicken/Peru/AIS0551/2022|H5N1|Peru|2022-12-12|avian|B3.2,AIS0551,chicken,12/12/2022,Peru,Peru,,,,,-12.059548,-77.03883,precise (Martha)
-A/chicken/Peru/AIS0546/2022|H5N1|Peru|2022-12-18|avian|B3.2,AIS0546,chicken,12/18/2022,Peru,Peru,,,,,-12.059548,-77.03883,precise (Martha)
-A/chicken/Peru/AIS0548/2022|H5N1|Peru|2022-12-22|avian|B3.2,AIS0548,chicken,12/22/2022,Peru,Peru,,,,,-12.059548,-77.03883,precise (Martha)
-A/peruvian_booby/Peru/CAL-INS-008/2023|H5N1|Peru|2023-03-17|avian|B3.2,CAL-INS-008,peruvian_booby,3/17/2023,Peru,Peru,,,,,-12.052222,-77.139167,precise (Martha)
-A/guanay_cormorant/Peru/CAL-INS-009/2023|H5N1|Peru|2023-03-17|avian|B3.2,CAL-INS-009,guanay_cormorant,3/17/2023,Peru,Peru,,,,,-12.052222,-77.139167,precise (Martha)
-A/chicken/Peru/LIM-INS-003/2022|H5N1|Peru|2022-11-29|avian|B3.2,LIM-INS-003,chicken,11/29/2022,Peru,Peru,,,,,-12.005696,-76.878978,precise (Martha)
-A/peruvian_booby/Peru/LIM-INS-012/2023|H5N1|Peru|2023-04-12|avian|B3.2,LIM-INS-012,peruvian_booby,4/12/2023,Peru,Peru,,,,,-10.7953673,-77.744885,precise (Martha)
-A/pelican/Peru/AIS0541/2022|H5N1|Peru|2022-11-16|avian|B3.2,AIS0541,pelican,11/16/2022,Peru,Peru,,,,,-6.7172767,-79.906572,precise (Martha)
-A/pelican/Peru/AIS0538/2022|H5N1|Peru|2022-11-10|avian|B3.2,AIS0538,pelican,11/10/2022,Peru,Peru,,,,,-5.197348,-81.200409,precise (Martha)
-A/dolphin/Peru/PIU-SER002/2022|H5N1|Peru|2022-11-22|other_mammal|B3.2,PIU-SER002,dolphin,11/22/2022,Peru,Peru,,,,,-5.1499528,-81.170758,precise (Martha)
-A/dolphin/Peru/PIU-002/2022|H5N1|Peru|2022-11-22|other_mammal|B3.2,PIU-002,dolphin,11/22/2022,Peru,Peru,,,,,-5.14738205,-81.1719157,precise (Martha)
-A/wildbird-Fregata-magnificens/Ecuador/IC03-4587/2023|H5N1|Ecuador|2023-01-11|avian|B3.2,IC03-4587,wildbird-Fregata-magnificens,1/11/2023,Ecuador,Ecuador,,,,,-0.79805746,-80.5195928,precise (Martha)
-A/pelican/Costa_Rica/INC-0018-D0370-23/2023|H5N1|Costa_Rica|2023-01-26|avian|B3.2,INC-0018-D0370-23,pelican,1/26/2023,Costa_Rica,Costa_Rica,Limon,Talamanca,Playa Cocles,,9.6477,-82.7324,beach
-A/falcon/Costa_Rica/INC-0001-D0377-23/2023|H5N1|Costa_Rica|2023-01-26|avian|B3.2,INC-0001-D0377-23,falcon,1/26/2023,Costa_Rica,Costa_Rica,Limon,Pococi,Colorado,,10.613232,-83.593246,district
-A/american_wigeon/Florida/22-040720-004/2022|H5N1|USA-FL|2022-12-10|avian|B3.2,22-040720-004,american_wigeon,12/10/2022,USA-FL,USA,Florida,,Palm Beach,,26.71,-80.05,county
-A/muscovy_duck/Florida/22-036966-002/2022|H5N1|USA-FL|2022-11-04|avian|B3.2,22-036966-002,muscovy_duck,11/4/2022,USA-FL,USA,Florida,,Sarasota,,27.19,-82.37,county
-A/peregrine_falcon/Florida/22-035514-001/2022|H5N1|USA-FL|2022-10-29|avian|B3.2,22-035514-001,peregrine_falcon,10/29/2022,USA-FL,USA,Florida,,Polk,,27.96,-81.7,county
-A/chicken/Florida/22-032963-001/2022|H5N1|USA-FL|2022-10-11|avian|B3.2,22-032963-001,chicken,10/11/2022,USA-FL,USA,Florida,,Osceola,,28.06,-81.15,county
-A/american_coot/Florida/23-002762-015/2022|H5N1|USA-FL|2022-12-19|avian|B3.2,23-002762-015,american_coot,12/19/2022,USA-FL,USA,Florida,,Brevard,,28.3,-80.7,county
-A/gannet/Florida/23-002762-022/2022|H5N1|USA-FL|2022-12-30|avian|B3.2,23-002762-022,gannet,12/30/2022,USA-FL,USA,Florida,,Brevard,,28.3,-80.7,county
-A/double_crested_cormorant/Florida/22-036552-001/2022|H5N1|USA-FL|2022-11-03|avian|B3.2,22-036552-001,double_crested_cormorant,11/3/2022,USA-FL,USA,Florida,,Orange,,28.51,-81.32,county
-A/chicken/Florida/22-033923-001/2022|H5N1|USA-FL|2022-10-20|avian|B3.2,22-033923-001,chicken,10/20/2022,USA-FL,USA,Florida,,Lake,,28.77,-81.72,county
-A/gadwall/Texas/23-003062-010/2023|H5N1|USA-TX|2023-01-18|avian|B3.2,23-003062-010,gadwall,1/18/2023,USA-TX,USA,Texas,,Colorado,,29.62,-96.52,county
-A/american_wigeon/Texas/23-003062-016/2023|H5N1|USA-TX|2023-01-18|avian|B3.2,23-003062-016,american_wigeon,1/18/2023,USA-TX,USA,Texas,,Colorado,,29.62,-96.52,county
-A/american_wigeon/Texas/23-003062-020/2023|H5N1|USA-TX|2023-01-18|avian|B3.2,23-003062-020,american_wigeon,1/18/2023,USA-TX,USA,Texas,,Colorado,,29.62,-96.52,county
-A/northern_shoveler/Louisiana/22-037236-004/2022|H5N1|USA-LA|2022-11-12|avian|B3.2,22-037236-004,northern_shoveler,11/12/2022,USA-LA,USA,Louisiana,,Cameron,,29.85,-93.2,county
-A/gadwall/Texas/22-036753-040-R/2022|H5N1|USA-TX|2022-11-05|avian|B3.2,22-036753-040-R,gadwall,11/5/2022,USA-TX,USA,Texas,,Jefferson,,29.86,-94.14,county
-A/northern_shoveler/Texas/23-007477-003-original/2023|H5N1|USA-TX|2023-01-19|avian|B3.2,23-007477-003-original,northern_shoveler,1/19/2023,USA-TX,USA,Texas,,Orange,,30.13,-93.89,county
-A/snow_goose/Louisiana/22-039688-009/2022|H5N1|USA-LA|2022-11-30|avian|B3.2,22-039688-009,snow_goose,11/30/2022,USA-LA,USA,Louisiana,,Calcasieu,,30.23,-93.36,county
-A/blue_winged_teal/Louisiana/22-033477-003/2022|H5N1|USA-LA|2022-09-20|avian|B3.2,22-033477-003,blue_winged_teal,9/20/2022,USA-LA,USA,Louisiana,,Jefferson Davis,,30.2425,-92.6733,county
-A/american_green_winged_teal/Georgia/22-038443-007/2022|H5N1|USA-GA|2022-11-19|avian|B3.2,22-038443-007,american_green_winged_teal,11/19/2022,USA-GA,USA,Georgia,,Mcintosh,,31.48,-81.37,county
-A/american_green_winged_teal/Louisiana/22-041760-007/2022|H5N1|USA-LA|2022-12-17|avian|B3.2,22-041760-007,american_green_winged_teal,12/17/2022,USA-LA,USA,Louisiana,,LaSalle,,31.68,-92.16,county
-A/american_green_winged_teal/Texas/23-000110-004/2022|H5N1|USA-TX|2022-12-04|avian|B3.2,23-000110-004,american_green_winged_teal,12/4/2022,USA-TX,USA,Texas,,Freestone,,31.7,-96.15,county
-A/goose/Louisiana/22-033391-001/2022|H5N1|USA-LA|2022-10-14|avian|B3.2,22-033391-001,goose,10/14/2022,USA-LA,USA,Louisiana,,Ouachita,,32.48,-92.16,county
-A/mallard/Texas/22-035744-001/2022|H5N1|USA-TX|2022-10-31|avian|B3.2,22-035744-001,mallard,10/31/2022,USA-TX,USA,Texas,,Tarrant,,32.77,-97.29,county
-A/gadwall/South_Carolina/22-042020-005/2022|H5N1|USA-SC|2022-12-20|avian|B3.2,22-042020-005,gadwall,12/20/2022,USA-SC,USA,South_Carolina,,Charleston,,32.8,-79.94,county
-A/goose/Louisiana/23-000409-006/2022|H5N1|USA-LA|2022-12-02|avian|B3.2,23-000409-006,goose,12/2/2022,USA-LA,USA,Louisiana,,Morehouse,,32.82,-91.8,county
-A/gadwall/South_Carolina/22-042019-001/2022|H5N1|USA-SC|2022-12-15|avian|B3.2,22-042019-001,gadwall,12/15/2022,USA-SC,USA,South_Carolina,,Colleton,,32.84,-80.66,county
-A/mottled_duck/South_Carolina/22-042180-002/2022|H5N1|USA-SC|2022-12-16|avian|B3.2,22-042180-002,mottled_duck,12/16/2022,USA-SC,USA,South_Carolina,,Colleton,,32.84,-80.66,county
-A/bald_eagle/South_Carolina/23-008111-001/2023|H5N1|USA-SC|2023-03-04|avian|B3.2,23-008111-001,bald_eagle,3/4/2023,USA-SC,USA,South_Carolina,,Colleton,,32.84,-80.66,county
-A/bald_eagle/South_Carolina/23-008111-002/2023|H5N1|USA-SC|2023-03-04|avian|B3.2,23-008111-002,bald_eagle,3/4/2023,USA-SC,USA,South_Carolina,,Colleton,,32.84,-80.66,county
-A/american_white_pelican/California/22-035596-001/2022|H5N1|USA-CA|2022-10-27|avian|B3.2,22-035596-001,american_white_pelican,10/27/2022,USA-CA,USA,California,,San Diego,,33.02,-116.77,county
-A/pelican/Arizona/22-038234-002/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2,22-038234-002,pelican,10/15/2022,USA-AZ,USA,Arizona,,Maricopa,,33.513889,-112.475833,county
-A/pelican/Arizona/22-038234-003/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2,22-038234-003,pelican,10/15/2022,USA-AZ,USA,Arizona,,Maricopa,,33.513889,-112.475833,county
-A/pelican/Arizona/22-038234-004/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2,22-038234-004,pelican,10/15/2022,USA-AZ,USA,Arizona,,Maricopa,,33.513889,-112.475833,county
-A/pelican/Arizona/22-038234-005/2022|H5N1|USA-AZ|2022-10-15|avian|B3.2,22-038234-005,pelican,10/15/2022,USA-AZ,USA,Arizona,,Maricopa,,33.513889,-112.475833,county
-A/pelican/Arizona/22-038234-001/2022|H5N1|US-AZ|2022-10-15|avian|B3.2,22-038234-001,pelican,10/15/2022,US-AZ,USA,Arizona,,Maricopa,,33.513889,-112.475833,county
-A/canada_goose/Arizona/22-034128-001-R/2022|H5N1|US-AZ|2022-10-17|avian|B3.2,22-034128-001-R,canada_goose,10/17/2022,US-AZ,USA,Arizona,,Maricopa,,33.513889,-112.475833,county
-A/snow_goose/Mississippi/22-038820-002-R/2022|H5N1|USA-MS|2022-11-27|avian|B3.2,22-038820-002-R,snow_goose,11/27/2022,USA-MS,USA,Mississippi,,Leflore,,33.55,-90.3,county
-A/snow_goose/Mississippi/22-038820-006-R/2022|H5N1|USA-MS|2022-11-27|avian|B3.2,22-038820-006-R,snow_goose,11/27/2022,USA-MS,USA,Mississippi,,Leflore,,33.55,-90.3,county
-A/chicken/Mississippi/23-008358-001-original/2023|H5N1|USA-MS|2023-03-15|avian|B3.2,23-008358-001-original,chicken,3/15/2023,USA-MS,USA,Mississippi,,Monroe,,33.89,-88.49,county
-A/chicken/Mississippi/23-008358-002-original/2023|H5N1|USA-MS|2023-03-15|avian|B3.2,23-008358-002-original,chicken,3/15/2023,USA-MS,USA,Mississippi,,Monroe,,33.89,-88.49,county
-A/snow_goose/Mississippi/22-038821-004/2022|H5N1|USA-MS|2022-11-23|avian|B3.2,22-038821-004,snow_goose,11/23/2022,USA-MS,USA,Mississippi,,Tallahatchie,,33.95,-90.17,county
-A/snow_goose/Mississippi/22-038821-010/2022|H5N1|USA-MS|2022-11-23|avian|B3.2,22-038821-010,snow_goose,11/23/2022,USA-MS,USA,Mississippi,,Tallahatchie,,33.95,-90.17,county
-A/snow_goose/Mississippi/22-038821-023/2022|H5N1|USA-MS|2022-11-23|avian|B3.2,22-038821-023,snow_goose,11/23/2022,USA-MS,USA,Mississippi,,Tallahatchie,,33.95,-90.17,county
-A/snow_goose/Mississippi/22-038821-024/2022|H5N1|USA-MS|2022-11-23|avian|B3.2,22-038821-024,snow_goose,11/23/2022,USA-MS,USA,Mississippi,,Tallahatchie,,33.95,-90.17,county
-A/snow_goose/Mississippi/22-038821-030/2022|H5N1|USA-MS|2022-11-23|avian|B3.2,22-038821-030,snow_goose,11/23/2022,USA-MS,USA,Mississippi,,Tallahatchie,,33.95,-90.17,county
-A/goose/Arkansas/22-036798-001/2022|H5N1|US-AR|2022-11-14|avian|B3.2,22-036798-001,goose,11/14/2022,US-AR,USA,Arkansas,,Jefferson,,34.2875,-91.942222,county
-A/lesser_white-fronted_goose/Mississippi/22-041057-001/2022|H5N1|USA-MS|2022-12-08|avian|B3.2,22-041057-001,lesser_white-fronted_goose,12/8/2022,USA-MS,USA,Mississippi,,Lafayette,,34.36,-89.49,county
-A/blue_winged_teal/Oklahoma/22-029332-005/2022|H5N1|USA-OK|2022-09-10|avian|B3.2,22-029332-005,blue_winged_teal,9/10/2022,USA-OK,USA,Oklahoma,,Tillman,,34.38,-98.92,county
-A/blue_winged_teal/Oklahoma/22-029332-011/2022|H5N1|USA-OK|2022-09-10|avian|B3.2,22-029332-011,blue_winged_teal,9/10/2022,USA-OK,USA,Oklahoma,,Tillman,,34.38,-98.92,county
-A/blue_winged_teal/Oklahoma/22-029332-023/2022|H5N1|USA-OK|2022-09-10|avian|B3.2,22-029332-023,blue_winged_teal,9/10/2022,USA-OK,USA,Oklahoma,,Tillman,,34.38,-98.92,county
-A/blue_winged_teal/Oklahoma/22-029332-034/2022|H5N1|USA-OK|2022-09-10|avian|B3.2,22-029332-034,blue_winged_teal,9/10/2022,USA-OK,USA,Oklahoma,,Tillman,,34.38,-98.92,county
-A/american_blue_winged_teal/Oklahoma/22-032994-002/2022|H5N1|USA-OK|2022-10-10|avian|B3.2,22-032994-002,american_blue_winged_teal,10/10/2022,USA-OK,USA,Oklahoma,,Tillman,,34.38,-98.92,county
-A/chicken/Arizona/22-035006-002/2022|H5N1|US-AZ|2022-11-01|avian|B3.2,22-035006-002,chicken,11/1/2022,US-AZ,USA,Arizona,,Yavapai,,34.561389,-112.54,county
-A/chicken/Arizona/22-035241-003/2022|H5N1|US-AZ|2022-11-02|avian|B3.2,22-035241-003,chicken,11/2/2022,US-AZ,USA,Arizona,,Yavapai,,34.561389,-112.54,county
-A/northern_shoveler/Arkansas/23-002690-001/2023|H5N1|US-AR|2023-01-14|avian|B3.2,23-002690-001,northern_shoveler,1/14/2023,US-AR,USA,Arkansas,,Lonoke,,34.778056,-91.871667,county
-A/domestic_goose/Tennessee/22-036130-001/2022|H5N1|USA-TN|2022-11-09|avian|B3.2,22-036130-001,domestic_goose,11/9/2022,USA-TN,USA,Tennessee,,Lincoln,,35.14,-86.59,county
-A/chicken/Oklahoma/22-033558-001/2022|H5N1|USA-OK|2022-10-20|avian|B3.2,22-033558-001,chicken,10/20/2022,USA-OK,USA,Oklahoma,,Cleveland,,35.2,-97.33,county
-A/goose/Texas/22-038236-001/2022|H5N1|USA-TX|2022-11-23|avian|B3.2,22-038236-001,goose,11/23/2022,USA-TX,USA,Texas,,Carson,,35.41,-101.35,county
-A/cackling_goose/Texas/23-001028-001/2023|H5N1|USA-TX|2023-01-06|avian|B3.2,23-001028-001,cackling_goose,1/6/2023,USA-TX,USA,Texas,,Carson,,35.41,-101.35,county
-A/chicken/Arkansas/22-032566-001/2022|H5N1|US-AR|2022-10-13|avian|B3.2,22-032566-001,chicken,10/13/2022,US-AR,USA,Arkansas,,Pope,,35.426389,-93.031944,county
-A/canada_goose/North_Carolina/22-036623-001-R2/2022|H5N1|USA-NC|2022-10-30|avian|B3.2,22-036623-001-R2,canada_goose,10/30/2022,USA-NC,USA,North_Carolina,,Haywood,,35.56,-82.98,county
-A/canada_goose/Arizona/23-002260-001/2023|H5N1|US-AZ|2023-01-09|avian|B3.2,23-002260-001,canada_goose,1/9/2023,US-AZ,USA,Arizona,,Coconino,,35.7,-111.5,county
-A/canada_goose/Arizona/23-005233-001/2023|H5N1|US-AZ|2023-01-23|avian|B3.2,23-005233-001,canada_goose,1/23/2023,US-AZ,USA,Arizona,,Coconino,,35.7,-111.5,county
-A/chicken/Oklahoma/22-033387-001/2022|H5N1|USA-OK|2022-10-18|avian|B3.2,22-033387-001,chicken,10/18/2022,USA-OK,USA,Oklahoma,,Creek,,35.9,-96.37,county
-A/chicken/Arkansas/22-031667-003/2022|H5N1|US-AR|2022-10-06|avian|B3.2,22-031667-003,chicken,10/6/2022,US-AR,USA,Arkansas,,Madison,,36.027222,-93.695833,county
-A/chicken/Arkansas/22-031676-001/2022|H5N1|US-AR|2022-10-06|avian|B3.2,22-031676-001,chicken,10/6/2022,US-AR,USA,Arkansas,,Madison,,36.027222,-93.695833,county
-A/snow_goose/Arkansas/22-038202-001/2022|H5N1|US-AR|2022-11-25|avian|B3.2,22-038202-001,snow_goose,11/25/2022,US-AR,USA,Arkansas,,Lawrence,,36.030556,-91.113056,county
-A/guinea_fowl/Oklahoma/22-032674-001/2022|H5N1|USA-OK|2022-10-13|avian|B3.2,22-032674-001,guinea_fowl,10/13/2022,USA-OK,USA,Oklahoma,,Tulsa,,36.12,-95.94,county
-A/Muscovy_duck/California/22-034335-001/2022|H5N1|USA-CA|2022-10-16|avian|B3.2,22-034335-001,Muscovy_duck,10/16/2022,USA-CA,USA,California,,Fresno,,36.75,-119.65,county
-A/snow_goose/California/23-002594-003/2023|H5N1|USA-CA|2023-01-10|avian|B3.2,23-002594-003,snow_goose,1/10/2023,USA-CA,USA,California,,Merced,,37.19,-120.71,county
-A/pelican/Kansas/22-036624-001-R/2022|H5N1|USA-KS|2022-10-17|avian|B3.2,22-036624-001-R,pelican,10/17/2022,USA-KS,USA,Kansas,,Montgomery,,37.2,-95.733333,county
-A/chicken/Missouri/22-037522-001/2022|H5N1|USA-MO|2022-11-19|avian|B3.2,22-037522-001,chicken,11/19/2022,USA-MO,USA,Missouri,,Webster,,37.28,-92.87,county
-A/turkey/Missouri/22-038012-001/2022|H5N1|USA-MO|2022-11-24|avian|B3.2,22-038012-001,turkey,11/24/2022,USA-MO,USA,Missouri,,Webster,,37.28,-92.87,county
-A/chicken/Colorado/22-034082-001/2022|H5N1|USA-CO|2022-10-22|avian|B3.2,22-034082-001,chicken,10/22/2022,USA-CO,USA,Colorado,,La Plata,,37.29,-107.85,county
-A/american_black_duck/Virginia/22-038573-010/2022|H5N1|USA-VA|2022-11-19|avian|B3.2,22-038573-010,american_black_duck,11/19/2022,USA-VA,USA,Virginia,,Henrico,,37.55,-77.4,county
-A/rosss_goose/Kansas/22-040832-001/2022|H5N1|USA-KS|2022-12-07|avian|B3.2,22-040832-001,rosss_goose,12/7/2022,USA-KS,USA,Kansas,,Kingman,,37.566667,-98.133333,county
-A/great_horned_owl/Colorado/22-039952-001/2022|H5N1|USA-CO|2022-12-05|avian|B3.2,22-039952-001,great_horned_owl,12/5/2022,USA-CO,USA,Colorado,,Rio Grande,,37.61,-106.39,county
-A/raven/California/23-003756-001/2023|H5N1|USA-CA|2023-01-29|avian|B3.2,23-003756-001,raven,1/29/2023,USA-CA,USA,California,,San Francisco,,37.783333,-122.416667,county
-A/sanderling/California/23-005401-001/2023|H5N1|USA-CA|2023-02-14|avian|B3.2,23-005401-001,sanderling,2/14/2023,USA-CA,USA,California,,San Francisco,,37.783333,-122.416667,county
-A/red-tailed_hawk/Kentucky/W23-143/2022|H5N1|USA-KY|2022-12-22|avian|B3.2,W23-143,red-tailed_hawk,12/22/2022,USA-KY,USA,Kentucky,,Henderson,,37.8,-87.57,county
-A/snow_goose/Kansas/22-039690-007/2022|H5N1|USA-KS|2022-11-27|avian|B3.2,22-039690-007,snow_goose,11/27/2022,USA-KS,USA,Kansas,,Kearny,,37.983333,-101.316667,county
-A/great-tailed_grackle/Kansas/22-041130-006/2022|H5N1|USA-KS|2022-12-13|avian|B3.2,22-041130-006,great-tailed_grackle,12/13/2022,USA-KS,USA,Kansas,,Finney,,38.016667,-100.666667,county
-A/chicken/Nevada/22-032799-001/2022|H5N1|USA-NV|2022-10-14|avian|B3.2,22-032799-001,chicken,10/14/2022,USA-NV,USA,Nevada,,Nye,,38.05,-116.45,county
-A/chicken/Missouri/23-008296-001-original/2023|H5N1|USA-MO|2023-03-14|avian|B3.2,23-008296-001-original,chicken,3/14/2023,USA-MO,USA,Missouri,,Maries,,38.18,-91.92,county
-A/chicken/Missouri/23-008296-002-original/2023|H5N1|USA-MO|2023-03-14|avian|B3.2,23-008296-002-original,chicken,3/14/2023,USA-MO,USA,Missouri,,Maries,,38.18,-91.92,county
-A/chicken/Missouri/23-008296-003-original/2023|H5N1|USA-MO|2023-03-14|avian|B3.2,23-008296-003-original,chicken,3/14/2023,USA-MO,USA,Missouri,,Maries,,38.18,-91.92,county
-A/snow_goose/Missouri/22-040786-001/2022|H5N1|USA-MO|2022-12-08|avian|B3.2,22-040786-001,snow_goose,12/8/2022,USA-MO,USA,Missouri,,Bates,,38.26,-94.34,county
-A/snow_goose/Indiana/22-038827-003-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2,22-038827-003-R,snow_goose,11/23/2022,USA-IN,USA,Indiana,,Gibson,,38.31,-87.58,county
-A/snow_goose/Indiana/22-038827-005-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2,22-038827-005-R,snow_goose,11/23/2022,USA-IN,USA,Indiana,,Gibson,,38.31,-87.58,county
-A/snow_goose/Indiana/22-038827-007-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2,22-038827-007-R,snow_goose,11/23/2022,USA-IN,USA,Indiana,,Gibson,,38.31,-87.58,county
-A/snow_goose/Indiana/22-038827-008-R/2022|H5N1|USA-IN|2022-11-23|avian|B3.2,22-038827-008-R,snow_goose,11/23/2022,USA-IN,USA,Indiana,,Gibson,,38.31,-87.58,county
-A/hawk/Missouri/22-040785-002/2022|H5N1|USA-MO|2022-12-05|avian|B3.2,22-040785-002,hawk,12/5/2022,USA-MO,USA,Missouri,,Franklin,,38.41,-91.08,county
-A/red_tailed_hawk/California/23-004363-001/2023|H5N1|USA-CA|2023-01-25|avian|B3.2,23-004363-001,red_tailed_hawk,1/25/2023,USA-CA,USA,California,,Sacramento,,38.45,-121.35,county
-A/peregrine_falcon/California/22-032573-001/2022|H5N1|USA-CA|2022-10-03|avian|B3.2,22-032573-001,peregrine_falcon,10/3/2022,USA-CA,USA,California,,Napa,,38.5,-122.32,county
-A/great_horned_owl/California/22-035880-001/2022|H5N1|USA-CA|2022-11-01|avian|B3.2,22-035880-001,great_horned_owl,11/1/2022,USA-CA,USA,California,,Napa,,38.5,-122.32,county
-A/sanderling/California/23-006644-001/2023|H5N1|USA-CA|2023-02-14|avian|B3.2,23-006644-001,sanderling,2/14/2023,USA-CA,USA,California,,Sonoma,,38.51,-122.93,county
-A/turkey_vulture/California/23-016941-001/2023|H5N1|USA-CA|2023-05-23|avian|B3.2,23-016941-001,turkey_vulture,5/23/2023,USA-CA,USA,California,,Sonoma,,38.51,-122.93,county
-A/northern_shoveler/Nevada/22-037517-003/2022|H5N1|USA-NV|2022-11-05|avian|B3.2,22-037517-003,northern_shoveler,11/5/2022,USA-NV,USA,Nevada,,Mineral,,38.54,-118.43,county
-A/red_tailed_hawk/Missouri/23-001518-001/2022|H5N1|USA-MO|2022-12-21|avian|B3.2,23-001518-001,red_tailed_hawk,12/21/2022,USA-MO,USA,Missouri,,St. Louis,,38.64,-90.44,county
-A/american_crow/Kansas/23-002150-001/2022|H5N1|USA-KS|2022-12-23|avian|B3.2,23-002150-001,american_crow,12/23/2022,USA-KS,USA,Kansas,,Wabaunsee,,38.966667,-96.183333,county
-A/snow_goose/Missouri/22-037787-001/2022|H5N1|USA-MO|2022-11-13|avian|B3.2,22-037787-001,snow_goose,11/13/2022,USA-MO,USA,Missouri,,Jackson,,39.01,-94.34,county
-A/red-tailed_hawk/Colorado/23-006671-001/2023|H5N1|USA-CO|2023-02-18|avian|B3.2,23-006671-001,red-tailed_hawk,2/18/2023,USA-CO,USA,Colorado,,Mesa,,39.02,-108.47,county
-A/striped_skunk/Kansas/W23-175/2023|H5N1|USA-KS|2023-02-24|other_mammal|B3.2,W23-175,striped_skunk,2/24/2023,USA-KS,USA,Kansas,,Lincoln,,39.05,98.2,county
-A/goose/Kansas/W22-1154/2022|H5N1|USA-KS|2022-12-05|avian|B3.2,W22-1154,goose,12/5/2022,USA-KS,USA,Kansas,,Rooks,,39.35,-99.316667,county
-A/american_blue_winged_teal/Missouri/22-032511-101-R/2022|H5N1|USA-MO|2022-09-23|avian|B3.2,22-032511-101-R,american_blue_winged_teal,9/23/2022,USA-MO,USA,Missouri,,Chariton,,39.52,-92.96,county
-A/turkey_vulture/California/23-002030-001/2022|H5N1|USA-CA|2022-12-29|avian|B3.2,23-002030-001,turkey_vulture,12/29/2022,USA-CA,USA,California,,Butte,,39.66,-121.6,county
-A/ferruginous_hawk/Colorado/23-015630-001-original/2023|H5N1|USA-CO|2023-05-12|avian|B3.2,23-015630-001-original,ferruginous_hawk,5/12/2023,USA-CO,USA,Colorado,,Denver,,39.7392,-104.9849,county
-A/striped_skunk/Kansas/W23-094/2023|H5N1|USA-KS|2023-01-27|other_mammal|B3.2,W23-094,striped_skunk,1/27/2023,USA-KS,USA,Kansas,,Rawlins,,39.8,-101.1,county
-A/red-tailed_hawk/Kansas/23-009211-001/2023|H5N1|USA-KS|2023-03-15|avian|B3.2,23-009211-001,red-tailed_hawk,3/15/2023,USA-KS,USA,Kansas,,Marshall,,39.8,-96.55,county
-A/Ring-billed_gull/Colorado/22-030941-001/2022|H5N1|USA-CO|2022-09-28|avian|B3.2,22-030941-001,Ring-billed_gull,9/28/2022,USA-CO,USA,Colorado,,Boulder,,40.09,-105.36,county
-A/trumpeter_swan/Missouri/22-040427-001/2022|H5N1|USA-MO|2022-12-01|avian|B3.2,22-040427-001,trumpeter_swan,12/1/2022,USA-MO,USA,Missouri,,Holt,,40.09,-95.21,county
-A/goose/Utah/23-001040-001/2023|H5N1|USA-UT|2023-01-04|avian|B3.2,23-001040-001,goose,1/4/2023,USA-UT,USA,Utah,,Duchesne,,40.28,-110.44,county
-A/canada_goose/Colorado/22-038655-001/2022|H5N1|USA-CO|2022-11-28|avian|B3.2,22-038655-001,canada_goose,11/28/2022,USA-CO,USA,Colorado,,Weld,,40.54,-104.4,county
-A/great_horned_owl/Colorado/23-007822-001/2023|H5N1|USA-CO|2023-03-03|avian|B3.2,23-007822-001,great_horned_owl,3/3/2023,USA-CO,USA,Colorado,,Moffat,,40.61,-108.2,county
-A/Swainson_s_hawk/Colorado/23-014329-001/2023|H5N1|USA-CO|2023-05-02|avian|B3.2,23-014329-001,Swainson_s_hawk,5/2/2023,USA-CO,USA,Colorado,,Moffat,,40.61,-108.2,county
-A/red-tailed_hawk/Nevada/23-012114-001/2023|H5N1|USA-NV|2023-03-31|avian|B3.2,23-012114-001,red-tailed_hawk,3/31/2023,USA-NV,USA,Nevada,,Washoe,,40.63,-119.68,county
-A/eared_grebe/California/23-000276-003/2022|H5N1|USA-CA|2022-12-15|avian|B3.2,23-000276-003,eared_grebe,12/15/2022,USA-CA,USA,California,,Lassen,,40.65,-120.58,county
-A/red_tailed_hawk/Colorado/22-029818-001-R/2022|H5N1|USA-CO|2022-09-19|avian|B3.2,22-029818-001-R,red_tailed_hawk,9/19/2022,USA-CO,USA,Colorado,,Larimer,,40.65,-105.46,county
-A/red_tailed_hawk/Colorado/22-031741-001/2022|H5N1|USA-CO|2022-10-04|avian|B3.2,22-031741-001,red_tailed_hawk,10/4/2022,USA-CO,USA,Colorado,,Larimer,,40.65,-105.46,county
-A/canada_goose/Colorado/23-000399-001/2022|H5N1|USA-CO|2022-12-30|avian|B3.2,23-000399-001,canada_goose,12/30/2022,USA-CO,USA,Colorado,,Larimer,,40.65,-105.46,county
-A/red_tailed_hawk/Colorado/23-000403-001/2023|H5N1|USA-CO|2023-01-01|avian|B3.2,23-000403-001,red_tailed_hawk,1/1/2023,USA-CO,USA,Colorado,,Larimer,,40.65,-105.46,county
-A/red_tailed_hawk/Colorado/23-004223-001/2023|H5N1|USA-CO|2023-01-31|avian|B3.2,23-004223-001,red_tailed_hawk,1/31/2023,USA-CO,USA,Colorado,,Larimer,,40.65,-105.46,county
-A/turkey_vulture/Colorado/23-011447-001/2023|H5N1|USA-CO|2023-04-10|avian|B3.2,23-011447-001,turkey_vulture,4/10/2023,USA-CO,USA,Colorado,,Larimer,,40.65,-105.46,county
-A/peregrine_falcon/New_York/23-003717-001/2023|H5N1|USA-NY|2023-01-26|avian|B3.2,23-003717-001,peregrine_falcon,1/26/2023,USA-NY,USA,New_York,,Kings,,40.65,-73.95,county
-A/chicken/Utah/22-015245-001/2022|H5N1|USA-UT|2022-05-13|avian|B3.2,22-015245-001,chicken,5/13/2022,USA-UT,USA,Utah,,Salt Lake,,40.67,-111.93,county
-A/goose/Utah/22-018176-003/2022|H5N1|USA-UT|2022-06-08|avian|B3.2,22-018176-003,goose,6/8/2022,USA-UT,USA,Utah,,Salt Lake,,40.67,-111.93,county
-A/duck/Utah/22-031728-004-R/2022|H5N1|USA-UT|2022-10-04|avian|B3.2,22-031728-004-R,duck,10/4/2022,USA-UT,USA,Utah,,Salt Lake,,40.67,-111.93,county
-A/Canada_goose/NewYork/NYCVH-23-453/2023|H5N1|USA-NY|2023-02-01|avian|B3.2,NYCVH-23-453,Canada_goose,2/1/2023,USA-NY,USA,NewYork,,New York,,40.7127,-74.0059,county
-A/red-tailed_hawk/Colorado/23-008901-001/2023|H5N1|USA-CO|2023-03-15|avian|B3.2,23-008901-001,red-tailed_hawk,3/15/2023,USA-CO,USA,Colorado,,Logan,,40.73,-103.11,county
-A/great_horned_owl/Nebraska/22-038800-001/2022|H5N1|USA-NE|2022-11-30|avian|B3.2,22-038800-001,great_horned_owl,11/30/2022,USA-NE,USA,Nebraska,,Lancaster,,40.78,-96.69,county
-A/cat/Nebraska/23-010184-001/2023|H5N1|USA-NE|2023-03-30|feline|B3.2,23-010184-001,cat,3/30/2023,USA-NE,USA,Nebraska,,Buffalo,,40.86,-99.07,county
-A/snow_goose/Colorado/22-036625-001-R/2022|H5N1|USA-CO|2022-11-08|avian|B3.2,22-036625-001-R,snow_goose,11/8/2022,USA-CO,USA,Colorado,,Sedgwick,,40.88,-102.35,county
-A/blue_winged_teal/Indiana/22-034829-003-R2/2022|H5N1|USA-IN|2022-10-28|avian|B3.2,22-034829-003-R2,blue_winged_teal,10/28/2022,USA-IN,USA,Indiana,,Jasper,,41.016667,-87.116667,county
-A/mallard/Indiana/22-034829-007-R2/2022|H5N1|USA-IN|2022-10-28|avian|B3.2,22-034829-007-R2,mallard,10/28/2022,USA-IN,USA,Indiana,,Jasper,,41.016667,-87.116667,county
-A/canada_goose/Nebraska/23-001495-001/2023|H5N1|USA-NE|2023-01-10|avian|B3.2,23-001495-001,canada_goose,1/10/2023,USA-NE,USA,Nebraska,,Lincoln,,41.05,-100.75,county
-A/canada_goose/Nebraska/23-001495-002/2023|H5N1|USA-NE|2023-01-10|avian|B3.2,23-001495-002,canada_goose,1/10/2023,USA-NE,USA,Nebraska,,Lincoln,,41.05,-100.75,county
-A/canada_goose/Nevada/22-033403-003-R/2022|H5N1|USA-NV|2022-09-23|avian|B3.2,22-033403-003-R,canada_goose,9/23/2022,USA-NV,USA,Nevada,,Elko,,41.13,-115.35,county
-A/Peregrine_Falcon/Iowa/22-012093-001/2022|H5N1|USA-IA|2022-04-15|avian|B3.2,22-012093-001,Peregrine_Falcon,4/15/2022,USA-IA,USA,Iowa,,Louisa,,41.218056,-91.26,county
-A/hawk/Indiana/23-003026-001/2023|H5N1|USA-IN|2023-01-23|avian|B3.2,23-003026-001,hawk,1/23/2023,USA-IN,USA,Indiana,,Starke,,41.266667,-86.65,county
-A/pelican/Nebraska/22-032908-001/2022|H5N1|USA-NE|2022-10-13|avian|B3.2,22-032908-001,pelican,10/13/2022,USA-NE,USA,Nebraska,,Douglas,,41.29535,-96.15448,county
-A/American_crow/Utah/23-007867-006/2023|H5N1|USA-UT|2023-03-03|avian|B3.2,23-007867-006,American_crow,3/3/2023,USA-UT,USA,Utah,,Weber,,41.3,-111.92,county
-A/great_horned_owl/Wyoming/22-039597-001/2022|H5N1|USA-WY|2022-12-06|avian|B3.2,22-039597-001,great_horned_owl,12/6/2022,USA-WY,USA,Wyoming,,Laramie,,41.32,-104.69,county
-A/great_horned_owl/Nevada/22-040618-001/2022|H5N1|USA-NV|2022-12-06|avian|B3.2,22-040618-001,great_horned_owl,12/6/2022,USA-NV,USA,Nevada,,Humboldt,,41.41,-118.12,county
-A/peregrine_falcon/Indiana/22-032710-001/2022|H5N1|USA-IN|2022-10-07|avian|B3.2,22-032710-001,peregrine_falcon,10/7/2022,USA-IN,USA,Indiana,,Lake,,41.416667,-87.366667,county
-A/mallard/Connecticut/23-004773-001-original2/2023|H5N1|USA-CT|2023-02-06|avian|B3.2,23-004773-001-original2,mallard,2/6/2023,USA-CT,USA,Connecticut,,New London,,41.47,-72.1,county
-A/great_horned_owl/Utah/22-035956-007/2022|H5N1|USA-UT|2022-10-25|avian|B3.2,22-035956-007,great_horned_owl,10/25/2022,USA-UT,USA,Utah,,Box Elder,,41.51,-113.1,county
-A/chicken/Nebraska/22-013105-001/2022|H5N1|USA-NE|2022-04-26|avian|B3.2,22-013105-001,chicken,4/26/2022,USA-NE,USA,Nebraska,,Washington,,41.53,-96.22,county
-A/swan/Nebraska/22-041037-001/2022|H5N1|USA-NE|2022-12-15|avian|B3.2,22-041037-001,swan,12/15/2022,USA-NE,USA,Nebraska,,Colfax,,41.58,-97.09,county
-A/swan/Nebraska/22-041037-002/2022|H5N1|USA-NE|2022-12-15|avian|B3.2,22-041037-002,swan,12/15/2022,USA-NE,USA,Nebraska,,Colfax,,41.58,-97.09,county
-A/american_wigeon/Ohio/22-034080-032/2022|H5N1|USA-OH|2022-10-15|avian|B3.2,22-034080-032,american_wigeon,10/15/2022,USA-OH,USA,Ohio,,Ottawa,,41.59,-83.06,county
-A/mute_swan/Rhode_Island/23-007092-001/2023|H5N1|USA-RI|2023-02-13|avian|B3.2,23-007092-001,mute_swan,2/13/2023,USA-RI,USA,Rhode_Island,,Kent,,41.68,-71.58,county
-A/turkey_vulture/Utah/23-012747-001/2023|H5N1|USA-UT|2023-04-19|avian|B3.2,23-012747-001,turkey_vulture,4/19/2023,USA-UT,USA,Utah,,Cache,,41.69,-111.75,county
-A/turkey_vulture/Utah/23-014334-001/2023|H5N1|USA-UT|2023-04-28|avian|B3.2,23-014334-001,turkey_vulture,4/28/2023,USA-UT,USA,Utah,,Cache,,41.69,-111.75,county
-A/Great_Horned_Owl/Wyoming/22-013016-002/2022|H5N1|USA-WY|2022-04-25|avian|B3.2,22-013016-002,Great_Horned_Owl,4/25/2022,USA-WY,USA,Wyoming,,Carbon,,41.69,-106.93,county
-A/red_tailed_hawk/New_York/22-042014-001/2022|H5N1|USA-NY|2022-12-19|avian|B3.2,22-042014-001,red_tailed_hawk,12/19/2022,USA-NY,USA,New_York,,Dutchess,,41.76,-73.75,county
-A/american_white_pelican/Iowa/22-021277-001/2022|H5N1|USA-IA|2022-07-01|avian|B3.2,22-021277-001,american_white_pelican,7/1/2022,USA-IA,USA,Iowa,,Clinton,,41.892778,-90.5275,county
-A/american_white_pelican/Iowa/22-022114-001/2022|H5N1|USA-IA|2022-07-01|avian|B3.2,22-022114-001,american_white_pelican,7/1/2022,USA-IA,USA,Iowa,,Clinton,,41.892778,-90.5275,county
-A/hawk/Iowa/23-011213-001/2023|H5N1|USA-IA|2023-04-10|avian|B3.2,23-011213-001,hawk,4/10/2023,USA-IA,USA,Iowa,,Boone,,42.036389,-93.932222,county
-A/trumpeter_swan/Iowa/23-002039-002/2023|H5N1|USA-IA|2023-01-12|avian|B3.2,23-002039-002,trumpeter_swan,1/12/2023,USA-IA,USA,Iowa,,Story,,42.037778,-93.466389,county
-A/canada_goose/Iowa/23-028688-001/2023|H5N1|USA-IA|2023-01-13|avian|B3.2,23-028688-001,canada_goose,1/13/2023,USA-IA,USA,Iowa,,Story,,42.037778,-93.466389,county
-A/trumpeter_swan/Iowa/23-002662-002/2023|H5N1|USA-IA|2023-01-21|avian|B3.2,23-002662-002,trumpeter_swan,1/21/2023,USA-IA,USA,Iowa,,Story,,42.037778,-93.466389,county
-A/American_crow/Iowa/23-007468-001/2023|H5N1|USA-IA|2023-03-02|avian|B3.2,23-007468-001,American_crow,3/2/2023,USA-IA,USA,Iowa,,Story,,42.037778,-93.466389,county
-A/American_crow/Iowa/23-007781-002/2023|H5N1|USA-IA|2023-03-05|avian|B3.2,23-007781-002,American_crow,3/5/2023,USA-IA,USA,Iowa,,Story,,42.037778,-93.466389,county
-A/american_green_winged_teal/Iowa/22-034928-001-R2/2022|H5N1|USA-IA|2022-10-16|avian|B3.2,22-034928-001-R2,american_green_winged_teal,10/16/2022,USA-IA,USA,Iowa,,Monona,,42.047222,-95.968611,county
-A/canada_goose/Iowa/22-040790-001/2022|H5N1|USA-IA|2022-12-07|avian|B3.2,22-040790-001,canada_goose,12/7/2022,USA-IA,USA,Iowa,,Monona,,42.047222,-95.968611,county
-A/american_white_pelican/Illinois/22-021276-001/2022|H5N1|USA-IL|2022-07-01|avian|B3.2,22-021276-001,american_white_pelican,7/1/2022,USA-IL,USA,Illinois,,Caroll,,42.06,-89.92,county
-A/red_tailed_hawk/Wyoming/22-042090-001/2022|H5N1|USA-WY|2022-12-22|avian|B3.2,22-042090-001,red_tailed_hawk,12/22/2022,USA-WY,USA,Wyoming,,Goshen,,42.09,-104.36,county
-A/canada_goose/Wyoming/23-000336-002/2022|H5N1|USA-WY|2022-10-30|avian|B3.2,23-000336-002,canada_goose,10/30/2022,USA-WY,USA,Wyoming,,Platte,,42.13,-104.96,county
-A/turkey_vulture/Wyoming/23-013715-001/2023|H5N1|USA-WY|2023-04-19|avian|B3.2,23-013715-001,turkey_vulture,4/19/2023,USA-WY,USA,Wyoming,,Platte,,42.13,-104.96,county
-A/red-shouldered_hawk/New_York/23-012563-001/2023|H5N1|USA-NY|2023-04-13|avian|B3.2,23-012563-001,red-shouldered_hawk,4/13/2023,USA-NY,USA,New_York,,Columbia,,42.25,-73.63,county
-A/Canada_goose/MA/23-015884-006/2023|H5N1|USA-MA|2023-02-18|avian|B3.2,23-015884-006,Canada_goose,2/18/2023,USA-MA,USA,Massachusetts,,Worcester,,42.271389,-71.798889,county
-A/chicken/Illinois/22-015233-005/2022|H5N1|USA-IL|2022-05-14|avian|B3.2,22-015233-005,chicken,5/14/2022,USA-IL,USA,Illinois,,Boone,,42.33,-88.81,county
-A/chicken/Illinois/22-015233-006/2022|H5N1|USA-IL|2022-05-14|avian|B3.2,22-015233-006,chicken,5/14/2022,USA-IL,USA,Illinois,,Boone,,42.33,-88.81,county
-A/Canada_goose/MA/23-015884-009/2023|H5N1|USA-MA|2023-02-23|avian|B3.2,23-015884-009,Canada_goose,2/23/2023,USA-MA,USA,Massachusetts,,Hampshire,,42.34,-72.66,county
-A/Canada_Goose/MA/23-015884-019/2023|H5N1|USA-MA|2023-03-30|avian|B3.2,23-015884-019,Canada_Goose,3/30/2023,USA-MA,USA,Massachusetts,,Suffolk,,42.35892,-71.05781,county
-A/canada_goose/Iowa/22-040793-004/2022|H5N1|USA-IA|2022-12-06|avian|B3.2,22-040793-004,canada_goose,12/6/2022,USA-IA,USA,Iowa,,Woodbury,,42.391389,-96.050833,county
-A/american_white_pelican/Illinois/22-013436-001/2022|H5N1|USA-IL|2022-04-25|avian|B3.2,22-013436-001,american_white_pelican,4/25/2022,USA-IL,USA,Illinois,,Lake,,42.43,-87.78,county
-A/snow_goose/New_York/23-000618-001/2023|H5N1|USA-NY|2023-01-04|avian|B3.2,23-000618-001,snow_goose,1/4/2023,USA-NY,USA,New_York,,Tompkins,,42.451944,-76.473611,county
-A/american_crow/Iowa/23-000627-006/2023|H5N1|USA-IA|2023-01-05|avian|B3.2,23-000627-006,american_crow,1/5/2023,USA-IA,USA,Iowa,,Black Hawk,,42.468889,-92.305278,county
-A/American_crow/Iowa/23-010832-002/2023|H5N1|USA-IA|2023-04-04|avian|B3.2,23-010832-002,American_crow,4/4/2023,USA-IA,USA,Iowa,,Black Hawk,,42.468889,-92.305278,county
-A/american_crow/Massachusetts/23-004612-017/2023|H5N1|USA-MA|2023-01-10|avian|B3.2,23-004612-017,american_crow,1/10/2023,USA-MA,USA,Massachusetts,,Middlesex,,42.49,-71.39,county
-A/Canada_goose/MA/23-015884-014/2023|H5N1|USA-MA|2023-03-04|avian|B3.2,23-015884-014,Canada_goose,3/4/2023,USA-MA,USA,Massachusetts,,Middlesex,,42.49,-71.39,county
-A/Red-tailed_Hawk/MA/23-015884-018/2023|H5N1|USA-MA|2023-03-21|avian|B3.2,23-015884-018,Red-tailed_Hawk,3/21/2023,USA-MA,USA,Massachusetts,,Middlesex,Medford,42.49,-71.39,county
-A/chicken/Nebraska/22-038149-001/2022|H5N1|USA-NE|2022-11-24|avian|B3.2,22-038149-001,chicken,11/24/2022,USA-NE,USA,Nebraska,,Dixon,,42.5,-96.87,county
-A/peregrine_falcon/Michigan/23-003553-001/2023|H5N1|USA-MI|2023-01-26|avian|B3.2,23-003553-001,peregrine_falcon,1/26/2023,USA-MI,USA,Michigan,,Eaton,,42.59,-84.85,county
-A/chicken/Michigan/23-008143-001-original/2023|H5N1|USA-MI|2023-03-10|avian|B3.2,23-008143-001-original,chicken,3/10/2023,USA-MI,USA,Michigan,,Eaton,,42.59,-84.85,county
-A/chicken/Michigan/23-008143-002-original/2023|H5N1|USA-MI|2023-03-10|avian|B3.2,23-008143-002-original,chicken,3/10/2023,USA-MI,USA,Michigan,,Eaton,,42.59,-84.85,county
-A/red_tailed_hawk/New_York/23-003070-001/2023|H5N1|USA-NY|2023-01-18|avian|B3.2,23-003070-001,red_tailed_hawk,1/18/2023,USA-NY,USA,New_York,,Albany,,42.6,-73.966667,county
-A/chicken/Oregon/23-009029-001-original/2023|H5N1|USA-OR|2023-03-15|avian|B3.2,23-009029-001-original,chicken,3/15/2023,USA-OR,USA,Oregon,,Klamath,,42.68,-121.65,county
-A/red_tailed_hawk/New_York/23-001007-001/2023|H5N1|USA-NY|2023-01-10|avian|B3.2,23-001007-001,red_tailed_hawk,1/10/2023,USA-NY,USA,New_York,,Cayuga,,42.94,-76.56,county
-A/american_wigeon/Idaho/22-039598-001/2022|H5N1|USA-ID|2022-11-23|avian|B3.2,22-039598-001,american_wigeon,11/23/2022,USA-ID,USA,Idaho,,Gooding,,42.97,-114.8,county
-A/turkey_vulture/Wyoming/23-012565-001/2023|H5N1|USA-WY|2023-04-19|avian|B3.2,23-012565-001,turkey_vulture,4/19/2023,USA-WY,USA,Wyoming,,Converse,,42.97,-105.5,county
-A/american_green_winged_teal/New_York/22-033592-029/2022|H5N1|USA-NY|2022-10-15|avian|B3.2,22-033592-029,american_green_winged_teal,10/15/2022,USA-NY,USA,New_York,,Genesee,,43,-78.19,county
-A/chicken/Wisconsin/22-034812-002/2022|H5N1|USA-WI|2022-10-31|avian|B3.2,22-034812-002,chicken,10/31/2022,USA-WI,USA,Wisconsin,,Waukesha,,43.02,-88.31,county
-A/canada_goose/Wyoming/22-036111-001/2022|H5N1|USA-WY|2022-11-03|avian|B3.2,22-036111-001,canada_goose,11/3/2022,USA-WY,USA,Wyoming,,Fremont,,43.03,-108.63,county
-A/tundra_swan/Wisconsin/22-038828-001-R/2022|H5N1|USA-WI|2022-11-22|avian|B3.2,22-038828-001-R,tundra_swan,11/22/2022,USA-WI,USA,Wisconsin,,Dane,,43.07,-89.42,county
-A/fox/Iowa/22-014421-001/2022|H5N1|USA-IA|2022-05-06|other_mammal|B3.2,22-014421-001,fox,5/6/2022,USA-IA,USA,Iowa,,Hancock,,43.083333,-93.736389,county
-A/sanderling/Oregon/23-011964-001/2023|H5N1|USA-OR|2023-04-13|avian|B3.2,23-011964-001,sanderling,4/13/2023,USA-OR,USA,Oregon,,Coos,,43.18,-124.09,county
-A/pheasant/South_Dakota/22-034797-001/2022|H5N1|USA-SD|2022-10-27|avian|B3.2,22-034797-001,pheasant,10/27/2022,USA-SD,USA,South_Dakota,,Gregory,,43.2,-99.18,county
-A/red_fox/Michigan/22-018712-001/2022|H5N1|USA-MI|2022-06-08|other_mammal|B3.2,22-018712-001,red_fox,6/8/2022,USA-MI,USA,Michigan,,Muskegon,,43.29,-86.45,county
-A/red_fox/Michigan/22-021733-002/2022|H5N1|USA-MI|2022-07-06|other_mammal|B3.2,22-021733-002,red_fox,7/6/2022,USA-MI,USA,Michigan,,Muskegon,,43.29,-86.45,county
-A/american_wigeon/Idaho/22-036873-001/2022|H5N1|USA-ID|2022-10-26|avian|B3.2,22-036873-001,american_wigeon,10/26/2022,USA-ID,USA,Idaho,,Elmore,,43.34,-115.47,county
-A/turkey_vulture/Idaho/22-014968-007/2022|H5N1|USA-ID|2022-05-05|avian|B3.2,22-014968-007,turkey_vulture,5/5/2022,USA-ID,USA,Idaho,,Bonneville,,43.38,-111.6,county
-A/great_horned_owl/Idaho/23-017158-001/2023|H5N1|USA-ID|2023-05-20|avian|B3.2,23-017158-001,great_horned_owl,5/20/2023,USA-ID,USA,Idaho,,Bonneville,,43.38,-111.6,county
-A/canada_goose/Idaho/22-017360-002/2022|H5N1|USA-ID|2022-05-31|avian|B3.2,22-017360-002,canada_goose,5/31/2022,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/canada_goose/Idaho/22-018980-001/2022|H5N1|USA-ID|2022-06-04|avian|B3.2,22-018980-001,canada_goose,6/4/2022,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/hawk/Idaho/22-017864-001/2022|H5N1|USA-ID|2022-06-06|avian|B3.2,22-017864-001,hawk,6/6/2022,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/skunk/Idaho/22-023547-001/2022|H5N1|USA-ID|2022-07-22|other_mammal|B3.2,22-023547-001,skunk,7/22/2022,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/magpie/Idaho/23-001085-001/2023|H5N1|USA-ID|2023-01-04|avian|B3.2,23-001085-001,magpie,1/4/2023,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/magpie/Idaho/23-011169-002/2023|H5N1|USA-ID|2023-03-28|avian|B3.2,23-011169-002,magpie,3/28/2023,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/great_horned_owl/Idaho/23-011169-003/2023|H5N1|USA-ID|2023-03-28|avian|B3.2,23-011169-003,great_horned_owl,3/28/2023,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/barn_owl/Idaho/23-013072-002/2023|H5N1|USA-ID|2023-04-18|avian|B3.2,23-013072-002,barn_owl,4/18/2023,USA-ID,USA,Idaho,,Ada,,43.45,-116.24,county
-A/chicken/New_Hampshire/23-002392-001-original2/2023|H5N1|USA-NH|2023-01-19|avian|B3.2,23-002392-001-original2,chicken,1/19/2023,USA-NH,USA,New_Hampshire,,Belknap,,43.52,-71.42,county
-A/snow_goose/Idaho/22-038611-002/2022|H5N1|USA-ID|2022-11-18|avian|B3.2,22-038611-002,snow_goose,11/18/2022,USA-ID,USA,Idaho,,Canyon,,43.63,-116.71,county
-A/red-tailed_hawk/South_Dakota/23-012031-001/2023|H5N1|USA-SD|2023-04-11|avian|B3.2,23-012031-001,red-tailed_hawk,4/11/2023,USA-SD,USA,South_Dakota,,Minnehaha,,43.667472,-96.795726,county
-A/canada_goose/Wyoming/23-002120-001/2023|H5N1|USA-WY|2023-01-11|avian|B3.2,23-002120-001,canada_goose,1/11/2023,USA-WY,USA,Wyoming,,Hot Springs,,43.71,-108.44,county
-A/american_green_winged_teal/Idaho/22-034533-007-R2/2022|H5N1|USA-ID|2022-10-01|avian|B3.2,22-034533-007-R2,american_green_winged_teal,10/1/2022,USA-ID,USA,Idaho,,Jefferson,,43.82,-112.31,county
-A/striped_skunk/Idaho/22-037165-002/2022|H5N1|USA-ID|2022-11-04|other_mammal|B3.2,22-037165-002,striped_skunk,11/4/2022,USA-ID,USA,Idaho,,Jefferson,,43.82,-112.31,county
-A/american_green_winged_teal/Oregon/22-040176-004/2022|H5N1|USA-OR|2022-12-05|avian|B3.2,22-040176-004,american_green_winged_teal,12/5/2022,USA-OR,USA,Oregon,,Lane,,43.95,-122.88,county
-A/red_tailed_hawk/Oregon/23-001496-001/2022|H5N1|USA-OR|2022-12-28|avian|B3.2,23-001496-001,red_tailed_hawk,12/28/2022,USA-OR,USA,Oregon,,Lane,,43.95,-122.88,county
-A/sanderling/Oregon/23-008234-001/2023|H5N1|USA-OR|2023-02-04|avian|B3.2,23-008234-001,sanderling,2/4/2023,USA-OR,USA,Oregon,,Lane,,43.95,-122.88,county
-A/great_horned_owl/Wyoming/22-029194-001/2022|H5N1|USA-WY|2022-09-11|avian|B3.2,22-029194-001,great_horned_owl,9/11/2022,USA-WY,USA,Wyoming,,Johnson,,44.04,-106.59,county
-A/red_tailed_hawk/Oregon/23-003379-001/2023|H5N1|USA-OR|2023-01-20|avian|B3.2,23-003379-001,red_tailed_hawk,1/20/2023,USA-OR,USA,Oregon,,Crook,,44.13,-120.36,county
-A/chicken/South_Dakota/22-008704-001/2022|H5N1|USA-SD|2022-03-22|avian|B3.2,22-008704-001,chicken,3/22/2022,USA-SD,USA,South_Dakota,,Kingsbury ,,44.37,-97.49,county
-A/chicken/South_Dakota/22-008704-002/2022|H5N1|USA-SD|2022-03-22|avian|B3.2,22-008704-002,chicken,3/22/2022,USA-SD,USA,South_Dakota,,Kingsbury ,,44.37,-97.49,county
-A/red_tailed_hawk/South_Dakota/23-002914-001/2023|H5N1|USA-SD|2023-01-17|avian|B3.2,23-002914-001,red_tailed_hawk,1/17/2023,USA-SD,USA,South_Dakota,,Hughes,,44.39,-99.99,county
-A/canada_goose/South_Dakota/22-037528-002/2022|H5N1|USA-SD|2022-11-14|avian|B3.2,22-037528-002,canada_goose,11/14/2022,USA-SD,USA,South_Dakota,,Stanley,,44.4,-100.75,county
-A/turkey/South_Dakota/22-037933-001/2022|H5N1|USA-SD|2022-11-22|avian|B3.2,22-037933-001,turkey,11/22/2022,USA-SD,USA,South_Dakota,,Beadle,,44.41,-98.28,county
-A/hooded_merganser/Maine/23-004172-006/2023|H5N1|USA-ME|2023-01-31|avian|B3.2,23-004172-006,hooded_merganser,1/31/2023,USA-ME,USA,Maine,,Kennebec,,44.41,-69.77,county
-A/hooded_merganser/Maine/23-004172-002/2023|H5N1|USA-ME|2023-02-02|avian|B3.2,23-004172-002,hooded_merganser,2/2/2023,USA-ME,USA,Maine,,Kennebec,,44.41,-69.77,county
-A/great_horned_owl/Wyoming/22-031607-001/2022|H5N1|USA-WY|2022-09-29|avian|B3.2,22-031607-001,great_horned_owl,9/29/2022,USA-WY,USA,Wyoming,,Park,,44.49,-109.56,county
-A/canada_goose/Wyoming/23-000980-001/2023|H5N1|USA-WY|2023-01-05|avian|B3.2,23-000980-001,canada_goose,1/5/2023,USA-WY,USA,Wyoming,,Park,,44.49,-109.56,county
-A/American_Crow/Minnesota/22-009668-001/2022|H5N1|USA-MN|2022-03-29|avian|B3.2,22-009668-001,American_Crow,3/29/2022,USA-MN,USA,Minnesota,,Dakota,,44.68,-93.06,county
-A/hawk/South_Dakota/23-000319-001/2022|H5N1|USA-SD|2022-12-28|avian|B3.2,23-000319-001,hawk,12/28/2022,USA-SD,USA,South_Dakota,,Butte,,44.91,-103.49,county
-A/chicken/South_Dakota/22-033350-001/2022|H5N1|USA-SD|2022-10-18|avian|B3.2,22-033350-001,chicken,10/18/2022,USA-SD,USA,South_Dakota,,Spink,,44.94,-98.35,county
-A/red_fox/Minnesota/22-014661-002/2022|H5N1|USA-MN|2022-05-09|other_mammal|B3.2,22-014661-002,red_fox,5/9/2022,USA-MN,USA,Minnesota,,Hennepin,,45.006121,-93.475228,county
-A/peregrine_falcon/Minnesota/22-016225-001/2022|H5N1|USA-MN|2022-05-23|avian|B3.2,22-016225-001,peregrine_falcon,5/23/2022,USA-MN,USA,Minnesota,,Hennepin,,45.006121,-93.475228,county
-A/trumpeter_swan/Minnesota/22-026969-001/2022|H5N1|USA-MN|2022-08-29|avian|B3.2,22-026969-001,trumpeter_swan,8/29/2022,USA-MN,USA,Minnesota,,Hennepin,,45.006121,-93.475228,county
-A/barred_owl/Minnesota/22-013395-005/2022|H5N1|USA-MN|2022-04-29|avian|B3.2,22-013395-005,barred_owl,4/29/2022,USA-MN,USA,Minnesota,,Ramsey,,45.015204,-93.099965,county
-A/american_crow/Wisconsin/22-016277-001/2022|H5N1|USA-WI|2022-04-30|avian|B3.2,22-016277-001,american_crow,4/30/2022,USA-WI,USA,Wisconsin,,Door,,45.02,-87.01,county
-A/snow_goose/Minnesota/22-037439-001/2022|H5N1|USA-MN|2022-11-17|avian|B3.2,22-037439-001,snow_goose,11/17/2022,USA-MN,USA,Minnesota,,Washington,,45.04,-92.89,county
-A/canada_goose/Minnesota/22-041306-001/2022|H5N1|USA-MN|2022-12-19|avian|B3.2,22-041306-001,canada_goose,12/19/2022,USA-MN,USA,Minnesota,,Washington,,45.04,-92.89,county
-A/fisher/Wisconsin/22-019946-001/2022|H5N1|USA-WI|2022-04-14|other_mammal|B3.2,22-019946-001,fisher,4/14/2022,USA-WI,USA,Wisconsin,,Saint Croix,,45.04,-92.45,county
-A/Caspian_tern/Oregon/23-018836-001/2023|H5N1|USA-OR|2023-06-15|avian|B3.2,23-018836-001,Caspian_tern,6/15/2023,USA-OR,USA,Oregon,,Wasco,,45.16,-121.16,county
-A/Caspian_tern/Oregon/23-018836-002/2023|H5N1|USA-OR|2023-06-15|avian|B3.2,23-018836-002,Caspian_tern,6/15/2023,USA-OR,USA,Oregon,,Wasco,,45.16,-121.16,county
-A/Caspian_tern/Oregon/23-018836-003/2023|H5N1|USA-OR|2023-06-15|avian|B3.2,23-018836-003,Caspian_tern,6/15/2023,USA-OR,USA,Oregon,,Wasco,,45.16,-121.16,county
-A/red-tailed_hawk/Minnesota/23-010018-001/2023|H5N1|USA-MN|2023-03-26|avian|B3.2,23-010018-001,red-tailed_hawk,3/26/2023,USA-MN,USA,Minnesota,,Wright,,45.18,-93.97,county
-A/chicken/Oregon/22-035197-001/2022|H5N1|USA-OR|2022-11-01|avian|B3.2,22-035197-001,chicken,11/1/2022,USA-OR,USA,Oregon,,Yamhill,,45.23,-123.31,county
-A/raven/Montana/23-003666-002/2023|H5N1|USA-MT|2023-01-30|avian|B3.2,23-003666-002,raven,1/30/2023,USA-MT,USA,Montana,,Carbon,,45.23,-109.02,county
-A/fox/Minnesota/22-014182-001/2022|H5N1|USA-MN|2022-04-22|other_mammal|B3.2,22-014182-001,fox,4/22/2022,USA-MN,USA,Minnesota,,Anoka,,45.27,-93.24,county
-A/Hooded_Merganser/Wisconsin/22-011817-001/2022|H5N1|USA-WI|2022-04-03|avian|B3.2,22-011817-001,Hooded_Merganser,4/3/2022,USA-WI,USA,Wisconsin,,Lincoln,,45.33,-89.73,county
-A/mallard/Maine/22-040719-016/2022|H5N1|USA-ME|2022-12-09|avian|B3.2,22-040719-016,mallard,12/9/2022,USA-ME,USA,Maine,,Penobscot,,45.4,-68.63,county
-A/mallard/Maine/22-041145-001/2022|H5N1|USA-ME|2022-12-14|avian|B3.2,22-041145-001,mallard,12/14/2022,USA-ME,USA,Maine,,Penobscot,,45.4,-68.63,county
-A/mallard/Maine/22-041145-003/2022|H5N1|USA-ME|2022-12-14|avian|B3.2,22-041145-003,mallard,12/14/2022,USA-ME,USA,Maine,,Penobscot,,45.4,-68.63,county
-A/american_wigeon/Oregon/22-033876-019/2022|H5N1|USA-OR|2022-10-15|avian|B3.2,22-033876-019,american_wigeon,10/15/2022,USA-OR,USA,Oregon,,Morrow,,45.42,-119.57,county
-A/turkey/Wisconsin/22-013448-001/2022|H5N1|USA-WI|2022-05-01|avian|B3.2,22-013448-001,turkey,5/1/2022,USA-WI,USA,Wisconsin,,Barron,,45.42,-91.85,county
-A/turkey/Wisconsin/22-014126-001/2022|H5N1|USA-WI|2022-05-05|avian|B3.2,22-014126-001,turkey,5/5/2022,USA-WI,USA,Wisconsin,,Barron,,45.42,-91.85,county
-A/turkey/Wisconsin/22-014948-001/2022|H5N1|USA-WI|2022-05-11|avian|B3.2,22-014948-001,turkey,5/11/2022,USA-WI,USA,Wisconsin,,Barron,,45.42,-91.85,county
-A/mallard/Montana/22-039947-005/2022|H5N1|USA-MT|2022-12-02|avian|B3.2,22-039947-005,mallard,12/2/2022,USA-MT,USA,Montana,,Big Horn,,45.43,-107.49,county
-A/domestic_duck/Michigan/22-012454-001/2022|H5N1|USA-MI|2022-04-22|avian|B3.2,22-012454-001,domestic_duck,4/22/2022,USA-MI,USA,Michigan,,Menominee,,45.52,-87.53,county
-A/domestic_goose/Michigan/22-012454-002/2022|H5N1|USA-MI|2022-04-22|avian|B3.2,22-012454-002,domestic_goose,4/22/2022,USA-MI,USA,Michigan,,Menominee,,45.52,-87.53,county
-A/greater_scaup/Montana/23-001334-001/2023|H5N1|USA-MT|2023-01-06|avian|B3.2,23-001334-001,greater_scaup,1/6/2023,USA-MT,USA,Montana,,Gallatin,,45.56,-111.17,county
-A/great_horned_owl/Montana/23-011850-001/2023|H5N1|USA-MT|2023-04-12|avian|B3.2,23-011850-001,great_horned_owl,4/12/2023,USA-MT,USA,Montana,,Gallatin,,45.56,-111.17,county
-A/red-tailed_hawk/Montana/23-011216-001/2023|H5N1|USA-MT|2023-04-03|avian|B3.2,23-011216-001,red-tailed_hawk,4/3/2023,USA-MT,USA,Montana,,Silver Bow,,45.9,-112.66,county
-A/wood_duck/Wisconsin/22-014367-001/2022|H5N1|USA-WI|2022-04-14|avian|B3.2,22-014367-001,wood_duck,4/14/2022,USA-WI,USA,Wisconsin,,Washburn,,45.9,-91.79,county
-A/cackling_goose/Oregon/22-036878-001-R2/2022|H5N1|USA-OR|2022-10-02|avian|B3.2,22-036878-001-R2,cackling_goose,10/2/2022,USA-OR,USA,Oregon,,Columbia,,45.95,-123.08,county
-A/chicken/Oregon/22-037712-001/2022|H5N1|USA-OR|2022-11-21|avian|B3.2,22-037712-001,chicken,11/21/2022,USA-OR,USA,Oregon,,Columbia,,45.95,-123.08,county
-A/red_tailed_hawk/Oregon/23-005360-001/2022|H5N1|USA-OR|2022-12-15|avian|B3.2,23-005360-001,red_tailed_hawk,12/15/2022,USA-OR,USA,Oregon,,Columbia,,45.95,-123.08,county
-A/american_wigeon/Oregon/22-035736-015/2022|H5N1|USA-OR|2022-10-27|avian|B3.2,22-035736-015,american_wigeon,10/27/2022,USA-OR,USA,Oregon,,Clatsop,,46.01,-123.71,county
-A/sanderling/Oregon/23-000771-001/2023|H5N1|USA-OR|2023-01-03|avian|B3.2,23-000771-001,sanderling,1/3/2023,USA-OR,USA,Oregon,,Clatsop,,46.01,-123.71,county
-A/trumpeter_swan/Montana/22-030263-001/2022|H5N1|USA-MT|2022-09-16|avian|B3.2,22-030263-001,trumpeter_swan,9/16/2022,USA-MT,USA,Montana,,Ravalli,,46.08,-114.12,county
-A/red_tailed_hawk/Montana/23-002509-001/2023|H5N1|USA-MT|2023-01-18|avian|B3.2,23-002509-001,red_tailed_hawk,1/18/2023,USA-MT,USA,Montana,,Ravalli,,46.08,-114.12,county
-A/snow_goose/Washington/22-041983-001/2022|H5N1|USA-WA|2022-12-16|avian|B3.2,22-041983-001,snow_goose,12/16/2022,USA-WA,USA,Washington,,Walla Walla,,46.23,-118.48,county
-A/Western_screech_owl/Washington/23-010027-001/2023|H5N1|USA-WA|2023-03-23|avian|B3.2,23-010027-001,Western_screech_owl,3/23/2023,USA-WA,USA,Washington,,Benton,,46.25,-119.5,county
-A/sanderling/Washington/23-004228-001/2023|H5N1|USA-WA|2023-01-26|avian|B3.2,23-004228-001,sanderling,1/26/2023,USA-WA,USA,Washington,,Pacific,,46.56,-123.78,county
-A/skunk/Idaho/22-018976-004/2022|H5N1|USA-ID|2022-06-06|other_mammal|B3.2,22-018976-004,skunk,6/6/2022,USA-ID,USA,Idaho,,Latah,,46.84,-116.6767,county
-A/skunk/Washington/22-019274-001/2022|H5N1|USA-WA|2022-06-07|other_mammal|B3.2,22-019274-001,skunk,6/7/2022,USA-WA,USA,Washington,,Whitman,,46.89,-117.52,county
-A/skunk/Washington/22-019274-004/2022|H5N1|USA-WA|2022-06-07|other_mammal|B3.2,22-019274-004,skunk,6/7/2022,USA-WA,USA,Washington,,Whitman,,46.89,-117.52,county
-A/great_horned_owl/North_Dakota/22-032264-001/2022|H5N1|USA-ND|2022-09-28|avian|B3.2,22-032264-001,great_horned_owl,9/28/2022,USA-ND,USA,North_Dakota,,Burleigh,,46.98,-100.47,county
-A/american_crow/North_Dakota/22-014532-001/2022|H5N1|USA-ND|2022-05-05|avian|B3.2,22-014532-001,american_crow,5/5/2022,USA-ND,USA,North_Dakota,,Stutsman,,46.98,-98.96,county
-A/Caspian_tern/Washington/23-023703-001/2023|H5N1|USA-WA|2023-07-31|avian|B3.2,23-023703-001,Caspian_tern,7/31/2023,USA-WA,USA,Washington,,Pierce,,47.05,-122.11,county
-A/red_tailed_hawk/Montana/22-036316-001/2022|H5N1|USA-MT|2022-11-09|avian|B3.2,22-036316-001,red_tailed_hawk,11/9/2022,USA-MT,USA,Montana,,Lewis and Clark,,47.11,-112.38,county
-A/Cooper_s_hawk/Montana/23-016105-001/2023|H5N1|USA-MT|2023-04-16|avian|B3.2,23-016105-001,Cooper_s_hawk,4/16/2023,USA-MT,USA,Montana,,Cascade,,47.31,-111.35,county
-A/Snow_Goose/North_Dakota/22-009481-003/2022|H5N1|USA-ND|2022-03-23|avian|B3.2,22-009481-003,Snow_Goose,3/23/2022,USA-ND,USA,North_Dakota,,Foster,,47.46,-98.89,county
-A/Ross_s_Goose/North_Dakota/22-009481-019/2022|H5N1|USA-ND|2022-03-23|avian|B3.2,22-009481-019,Ross_s_Goose,3/23/2022,USA-ND,USA,North_Dakota,,Foster,,47.46,-98.89,county
-A/mallard/Washington/22-039095-002/2022|H5N1|USA-WA|2022-11-25|avian|B3.2,22-039095-002,mallard,11/25/2022,USA-WA,USA,Washington,,King,,47.466667,-121.833333,county
-A/fox/Minnesota/22-016487-001/2022|H5N1|USA-MN|2022-05-13|other_mammal|B3.2,22-016487-001,fox,5/13/2022,USA-MN,USA,Minnesota,,Itasca,,47.51,-93.63,county
-A/Caspian_tern/Washington/23-021119-003/2023|H5N1|USA-WA|2023-07-11|avian|B3.2,23-021119-003,Caspian_tern,7/11/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/caspian_tern/Washington/23-025001-001/2023|H5N1|USA-WA|2023-08-11|avian|B3.2,23-025001-001,caspian_tern,8/11/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/glaucous_gull/Washington/23-025001-003/2023|H5N1|USA-WA|2023-08-11|avian|B3.2,23-025001-003,glaucous_gull,8/11/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/harbor_seal/Washington/23-027069-002/2023|H5N1|USA-WA|2023-08-13|other_mammal|B3.2,23-027069-002,harbor_seal,8/13/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/harbor_seal/Washington/23-025744-001/2023|H5N1|USA-WA|2023-08-19|other_mammal|B3.2,23-025744-001,harbor_seal,8/19/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/harbor_seal/Washington/23-025744-002/2023|H5N1|USA-WA|2023-08-19|other_mammal|B3.2,23-025744-002,harbor_seal,8/19/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/harbor_seal/Washington/23-025991-001/2023|H5N1|USA-WA|2023-08-25|other_mammal|B3.2,23-025991-001,harbor_seal,8/25/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/harbor_seal/Washington/23-026504-001/2023|H5N1|USA-WA|2023-08-29|other_mammal|B3.2,23-026504-001,harbor_seal,8/29/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/harbor_seal/Washington/23-026504-002/2023|H5N1|USA-WA|2023-08-29|other_mammal|B3.2,23-026504-002,harbor_seal,8/29/2023,USA-WA,USA,Washington,,Jefferson,,47.84,-123.58,county
-A/blue_winged_teal/Montana/22-031163-004-R/2022|H5N1|USA-MT|2022-09-24|avian|B3.2,22-031163-004-R,blue_winged_teal,9/24/2022,USA-MT,USA,Montana,,Teton,,47.85,-112.23,county
-A/chicken/Washington/22-035749-001/2022|H5N1|USA-WA|2022-11-02|avian|B3.2,22-035749-001,chicken,11/2/2022,USA-WA,USA,Washington,,Snohomish,,48.04,-121.71,county
-A/dunlin/Washington/22-040394-001/2022|H5N1|USA-WA|2022-12-03|avian|B3.2,22-040394-001,dunlin,12/3/2022,USA-WA,USA,Washington,,Snohomish,,48.04,-121.71,county
-A/hooded_merganser/Washington/23-003784-001/2023|H5N1|USA-WA|2023-01-18|avian|B3.2,23-003784-001,hooded_merganser,1/18/2023,USA-WA,USA,Washington,,Snohomish,,48.04,-121.71,county
-A/caspian_tern/Washington/23-024996-001/2023|H5N1|USA-WA|2023-08-07|avian|B3.2,23-024996-001,caspian_tern,8/7/2023,USA-WA,USA,Washington,,Snohomish,,48.04,-121.71,county
-A/american_white_pelican/Minnesota/22-023116-001/2022|H5N1|USA-MN|2022-07-19|avian|B3.2,22-023116-001,american_white_pelican,7/19/2022,USA-MN,USA,Minnesota,,Marshall,,48.35,-96.38,county
-A/barn_owl/Washington/22-041081-001/2022|H5N1|USA-WA|2022-12-12|avian|B3.2,22-041081-001,barn_owl,12/12/2022,USA-WA,USA,Washington,,Skagit,,48.48,-121.78,county
-A/chicken/Montana/22-033348-001/2022|H5N1|USA-MT|2022-10-18|avian|B3.2,22-033348-001,chicken,10/18/2022,USA-MT,USA,Montana,,Hill,,48.63,-110.11,county
-A/snow_goose/North_Dakota/22-013421-001/2022|H5N1|USA-ND|2022-04-28|avian|B3.2,22-013421-001,snow_goose,4/28/2022,USA-ND,USA,North_Dakota,,Towner,,48.69,-99.25,county
-A/chicken/North_Dakota/22-035070-001/2022|H5N1|USA-ND|2022-11-01|avian|B3.2,22-035070-001,chicken,11/1/2022,USA-ND,USA,North_Dakota,,Bottineau,,48.79,-100.84,county
-A/northern_pintail/Alaska/23-002693-016/2022|H5N1|USA-AK|2022-09-30|avian|B3.2,23-002693-016,northern_pintail,9/30/2022,USA-AK,USA,Alaska,,Aleutians East,,55.23,-161.92,county
-A/mallard/Alaska/23-003641-008/2022|H5N1|USA-AK|2022-10-14|avian|B3.2,23-003641-008,mallard,10/14/2022,USA-AK,USA,Alaska,,Aleutians East,,55.23,-161.92,county
-A/Canada_goose/Alaska/22-013831-003/2022|H5N1|USA-AK|2022-04-29|avian|B3.2,22-013831-003,Canada_goose,4/29/2022,USA-AK,USA,Alaska,,,Anchorage,61.216667,-149.893611,city
-A/glaucous_gull/Alaska/22-021855-001/2022|H5N1|USA-AK|2022-05-31|avian|B3.2,22-021855-001,glaucous_gull,5/31/2022,USA-AK,USA,Alaska,,Valdez-Cordoba,,61.4,-144.5,county
-A/chicken/Alaska/22-037940-001/2022|H5N1|USA-AK|2022-11-23|avian|B3.2,22-037940-001,chicken,11/23/2022,USA-AK,USA,Alaska,,Matanuska-Susitna,,62.4,-149.58,county
-A/red_fox/Alaska/22-020792-002/2022|H5N1|USA-AK|2022-06-13|other_mammal|B3.2,22-020792-002,red_fox,6/13/2022,USA-AK,USA,Alaska,,Nome Census Area,,64.74,-164.19,county
-A/raven/Alaska/22-020951-001/2022|H5N1|USA-AK|2022-06-26|avian|B3.2,22-020951-001,raven,6/26/2022,USA-AK,USA,Alaska,,North Slope,,69.3,-153.45,county
-A/Snow_Goose/AB/FAV-0505-32/2022|H5N1|Canada-AB|2022-04-29|avian|B3.2,FAV-0505-32,Snow_Goose,4/29/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Striped_Skunk/AB/FAV-0918-17/2022|H5N1|Canada-AB|2022-05-04|other_mammal|B3.2,FAV-0918-17,Striped_Skunk,5/4/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Common_Raven/AB/FAV-0833-35/2022|H5N1|Canada-AB|2022-05-27|avian|B3.2,FAV-0833-35,Common_Raven,5/27/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Skunk/AB/FAV-0835-11/2022|H5N1|Canada-AB|2022-05-31|other_mammal|B3.2,FAV-0835-11,Skunk,5/31/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Western_Grebe/AB/FAV-0833-75/2022|H5N1|Canada-AB|2022-06-23|avian|B3.2,FAV-0833-75,Western_Grebe,6/23/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Skunk/AB/FAV-0897-01/2022|H5N1|Canada-AB|2022-06-28|other_mammal|B3.2,FAV-0897-01,Skunk,6/28/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Canada_Goose/AB/FAV-0896-6/2022|H5N1|Canada-AB|2022-07-19|avian|B3.2,FAV-0896-6,Canada_Goose,7/19/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Skunk/AB/FAV-0897-02/2022|H5N1|Canada-AB|2022-07-19|other_mammal|B3.2,FAV-0897-02,Skunk,7/19/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Striped_Skunk/AB/OTH-0136-1/2022|H5N1|Canada-AB|2022-09-14|other_mammal|B3.2,OTH-0136-1,Striped_Skunk,9/14/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Turkey/AB/FAV-0987-1/2022|H5N1|Canada-AB|2022-09-28|avian|B3.2,FAV-0987-1,Turkey,9/28/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Striped_Skunk/AB/FAV-1509-3/2022|H5N1|Canada-AB|2022-10-24|other_mammal|B3.2,FAV-1509-3,Striped_Skunk,10/24/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Chicken/AB/FAV-1260-2/2022|H5N1|Canada-AB|2022-10-25|avian|B3.2,FAV-1260-2,Chicken,10/25/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Striped_Skunk/AB/FAV-1509-1/2022|H5N1|Canada-AB|2022-11-08|other_mammal|B3.2,FAV-1509-1,Striped_Skunk,11/8/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Striped_Skunk/AB/FAV-1509-2/2022|H5N1|Canada-AB|2022-11-08|other_mammal|B3.2,FAV-1509-2,Striped_Skunk,11/8/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Canada_Goose/AB/FAV-1655-11/2022|H5N1|Canada-AB|2022-11-24|avian|B3.2,FAV-1655-11,Canada_Goose,11/24/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Mixed/AB/FAV-1654/2022|H5N1|Canada-AB|2022-12-14|avian|B3.2,FAV-1654,Mixed,12/14/2022,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/Striped_Skunk/AB/FAV-0085-1/2023|H5N1|Canada-AB|2023-02-01|other_mammal|B3.2,FAV-0085-1,Striped_Skunk,2/1/2023,Canada-AB,Canada,AB,,,,55.2816,-115,centroid
-A/American_White_Pelican/BC/FAV-0585-1/2022|H5N1|Canada-BC|2022-05-27|avian|B3.2,FAV-0585-1,American_White_Pelican,5/27/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/American_White_Pelican/BC/FAV-0585-3/2022|H5N1|Canada-BC|2022-05-27|avian|B3.2,FAV-0585-3,American_White_Pelican,5/27/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Mixed/BC/FAV-0772-1/2022|H5N1|Canada-BC|2022-06-16|avian|B3.2,FAV-0772-1,Mixed,6/16/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/American_White_Pelican/BC/OTH-0134-4/2022|H5N1|Canada-BC|2022-08-12|avian|B3.2,OTH-0134-4,American_White_Pelican,8/12/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Mixed/BC/FAV-1128/2022|H5N1|Canada-BC|2022-10-11|avian|B3.2,FAV-1128,Mixed,10/11/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Chicken/BC/FAV-1579-2/2022|H5N1|Canada-BC|2022-11-30|avian|B3.2,FAV-1579-2,Chicken,11/30/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Duck/BC/FAV-1593-4/2022|H5N1|Canada-BC|2022-12-01|avian|B3.2,FAV-1593-4,Duck,12/1/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Trumpeter_Swan/BC/FAV-0053-25/2022|H5N1|Canada-BC|2022-12-31|avian|B3.2,FAV-0053-25,Trumpeter_Swan,12/31/2022,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/American_Crow/BC/FAV-0053-42/2023|H5N1|Canada-BC|2023-01-02|avian|B3.2,FAV-0053-42,American_Crow,1/2/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/American_Crow/BC/AIVPHL-922/2023|H5N1|Canada-BC|2023-01-30|avian|B3.2,AIVPHL-922,American_Crow,1/30/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Dunlin/BC/AIVPHL-940/2023|H5N1|Canada-BC|2023-02-06|avian|B3.2,AIVPHL-940,Dunlin,2/6/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Red_Tailed_Hawk/BC/AIVPHL-1009/2023|H5N1|Canada-BC|2023-03-20|avian|B3.2,AIVPHL-1009,Red_Tailed_Hawk,3/20/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Striped_Skunk/BC/AIVPHL-1080/2023|H5N1|Canada-BC|2023-04-20|other_mammal|B3.2,AIVPHL-1080,Striped_Skunk,4/20/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Striped_Skunk/BC/AIVPHL-1082/2023|H5N1|Canada-BC|2023-04-20|other_mammal|B3.2,AIVPHL-1082,Striped_Skunk,4/20/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Striped_Skunk/BC/AIVPHL-1083/2023|H5N1|Canada-BC|2023-04-20|other_mammal|B3.2,AIVPHL-1083,Striped_Skunk,4/20/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Cooper_s_Hawk/BC/AIVPHL-1125/2023|H5N1|Canada-BC|2023-05-23|avian|B3.2,AIVPHL-1125,Cooper_s_Hawk,5/23/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Peregrine_Falcon/BC/AIVPHL-1151/2023|H5N1|Canada-BC|2023-06-05|avian|B3.2,AIVPHL-1151,Peregrine_Falcon,6/5/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Barred_Owl/BC/AIVPHL-1238/2023|H5N1|Canada-BC|2023-07-24|avian|B3.2,AIVPHL-1238,Barred_Owl,7/24/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Red_Tailed_Hawk/BC/AIVPHL-1445/2023|H5N1|Canada-BC|2023-11-27|avian|B3.2,AIVPHL-1445,Red_Tailed_Hawk,11/27/2023,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Hooded_Merganser/BC/AIVPHL-2033/2024|H5N1|Canada-BC|2024-02-16|avian|B3.2,AIVPHL-2033,Hooded_Merganser,2/16/2024,Canada-BC,Canada,BC,,,,54.6943,-124.662,centroid
-A/Red_Fox/MB/FAV-370-01/2022|H5N1|Canada-MB|2022-04-07|other_mammal|B3.2,FAV-370-01,Red_Fox,4/7/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Snow_Goose/MB/FAV-0227-3/2022|H5N1|Canada-MB|2022-04-08|avian|B3.2,FAV-0227-3,Snow_Goose,4/8/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Turkey_Vulture/MB/FAV-0415-5/2022|H5N1|Canada-MB|2022-04-27|avian|B3.2,FAV-0415-5,Turkey_Vulture,4/27/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/American_Crow/MB/FAV-0687-5/2022|H5N1|Canada-MB|2022-05-21|avian|B3.2,FAV-0687-5,American_Crow,5/21/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Mixed/MB/FAV-0716-4/2022|H5N1|Canada-MB|2022-06-15|avian|B3.2,FAV-0716-4,Mixed,6/15/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Western_Grebe/MB/FAV-0846-2/2022|H5N1|Canada-MB|2022-07-04|avian|B3.2,FAV-0846-2,Western_Grebe,7/4/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Turkey/MB/FAV-0994-8/2022|H5N1|Canada-MB|2022-09-29|avian|B3.2,FAV-0994-8,Turkey,9/29/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Chicken/MB/FAV-1034-1/2022|H5N1|Canada-MB|2022-10-03|avian|B3.2,FAV-1034-1,Chicken,10/3/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Bald_Eagle/MB/OTH-0142-1/2022|H5N1|Canada-MB|2022-10-12|avian|B3.2,OTH-0142-1,Bald_Eagle,10/12/2022,Canada-MB,Canada,MB,,,,54.85,-97.3828,centroid
-A/Chicken/NB/FAV-0013/2023|H5N1|Canada-NB|2023-01-10|avian|B3.2,FAV-0013,Chicken,1/10/2023,Canada-NB,Canada,NB,,,,46.5822,-66.4558,centroid
-A/American_Crow/NS/FAV-0122-1/2023|H5N1|Canada-NS|2023-03-21|avian|B3.2,FAV-0122-1,American_Crow,3/21/2023,Canada-NS,Canada,NS,,,,45.2293,-62.8113,centroid
-A/American_White_Pelican/ON/FAV-0803-1/2022|H5N1|Canada-ON|2022-05-16|avian|B3.2,FAV-0803-1,American_White_Pelican,5/16/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/American_White_Pelican/ON/FAV-0773-3/2022|H5N1|Canada-ON|2022-05-31|avian|B3.2,FAV-0773-3,American_White_Pelican,5/31/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/Peregrine_Falcon/ON/FAV-0853-3/2022|H5N1|Canada-ON|2022-06-12|avian|B3.2,FAV-0853-3,Peregrine_Falcon,6/12/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/American_White_Pelican/ON/FAV-0867-2/2022|H5N1|Canada-ON|2022-07-07|avian|B3.2,FAV-0867-2,American_White_Pelican,7/7/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/American_Crow/ON/FAV-1611-1/2022|H5N1|Canada-ON|2022-11-27|avian|B3.2,FAV-1611-1,American_Crow,11/27/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/Tundra_Swan/ON/FAV-1653-1/2022|H5N1|Canada-ON|2022-11-30|avian|B3.2,FAV-1653-1,Tundra_Swan,11/30/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/Great_Horned_Owl/ON/FAV-0002-2/2022|H5N1|Canada-ON|2022-12-10|avian|B3.2,FAV-0002-2,Great_Horned_Owl,12/10/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/Snow_Goose/ON/FAV-1652-5/2022|H5N1|Canada-ON|2022-12-26|avian|B3.2,FAV-1652-5,Snow_Goose,12/26/2022,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/Turkey/ON/FAV-0098-1/2023|H5N1|Canada-ON|2023-03-13|avian|B3.2,FAV-0098-1,Turkey,3/13/2023,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/American_Crow/ON/FAV-0149-1/2023|H5N1|Canada-ON|2023-03-24|avian|B3.2,FAV-0149-1,American_Crow,3/24/2023,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/American_Crow/ON/FAV-0149-2/2023|H5N1|Canada-ON|2023-03-24|avian|B3.2,FAV-0149-2,American_Crow,3/24/2023,Canada-ON,Canada,ON,,,,50.5244,-84.7943,centroid
-A/Striped_Skunk/PE/FAV-1642-1/2022|H5N1|Canada-PE|2022-11-15|other_mammal|B3.2,FAV-1642-1,Striped_Skunk,11/15/2022,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Canada_Goose/PE/FAV-0008-1/2022|H5N1|Canada-PE|2022-12-21|avian|B3.2,FAV-0008-1,Canada_Goose,12/21/2022,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PEI/FAV-0019-2/2022|H5N1|Canada-PE|2022-12-26|avian|B3.2,FAV-0019-2,American_Crow,12/26/2022,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PEI/FAV-0019-52022|H5N1|Canada-PE|2022-12-28|avian|B3.2,FAV-0019-52022,American_Crow,12/28/2022,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PEI/FAV-0019-3/2022|H5N1|Canada-PE|2022-12-28|avian|B3.2,FAV-0019-3,American_Crow,12/28/2022,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PEI/FAV-0019-4/2022|H5N1|Canada-PE|2022-12-28|avian|B3.2,FAV-0019-4,American_Crow,12/28/2022,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PEI/FAV-0019-6/2022|H5N1|Canada-PE|2022-12-28|avian|B3.2,FAV-0019-6,American_Crow,12/28/2022,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PE/FAV-0035-5/2023|H5N1|Canada-PE|2023-01-09|avian|B3.2,FAV-0035-5,American_Crow,1/9/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Herring_Gull/PE/FAV-0058-2/2023|H5N1|Canada-PE|2023-01-21|avian|B3.2,FAV-0058-2,Herring_Gull,1/21/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Striped_Skunk/PE/FAV-0060-1/2023|H5N1|Canada-PE|2023-01-22|other_mammal|B3.2,FAV-0060-1,Striped_Skunk,1/22/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Striped_Skunk/PE/FAV-0060-2/2023|H5N1|Canada-PE|2023-01-24|other_mammal|B3.2,FAV-0060-2,Striped_Skunk,1/24/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PE/FAV-0068-5/2023|H5N1|Canada-PE|2023-01-31|avian|B3.2,FAV-0068-5,American_Crow,1/31/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Canada_goose/PE/FAV-0080-1/2023|H5N1|Canada-PE|2023-02-09|avian|B3.2,FAV-0080-1,Canada_goose,2/9/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Striped_Skunk/PE/FAV-0089-1/2023|H5N1|Canada-PE|2023-02-25|other_mammal|B3.2,FAV-0089-1,Striped_Skunk,2/25/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Canada_Goose/PE/FAV-0096-1/2023|H5N1|Canada-PE|2023-02-27|avian|B3.2,FAV-0096-1,Canada_Goose,2/27/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Canada_Goose/PE/FAV-0096-4/2023|H5N1|Canada-PE|2023-03-01|avian|B3.2,FAV-0096-4,Canada_Goose,3/1/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PE/FAV-0096-8/2023|H5N1|Canada-PE|2023-03-02|avian|B3.2,FAV-0096-8,American_Crow,3/2/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Striped_Skunk/PE/FAV-0123-1/2023|H5N1|Canada-PE|2023-03-21|other_mammal|B3.2,FAV-0123-1,Striped_Skunk,3/21/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/American_Crow/PE/FAV-0121-1/2023|H5N1|Canada-PE|2023-03-22|avian|B3.2,FAV-0121-1,American_Crow,3/22/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Striped_Skunk/PE/FAV-0145-1/2023|H5N1|Canada-PE|2023-04-04|other_mammal|B3.2,FAV-0145-1,Striped_Skunk,4/4/2023,Canada-PE,Canada,PE,,,,46.3417,-63.3862,centroid
-A/Snow_Goose/QC/FAV-1493-1/2022|H5N1|Canada-QC|2022-11-02|avian|B3.2,FAV-1493-1,Snow_Goose,11/2/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/American_Crow/QC/FAV-1627-4/2022|H5N1|Canada-QC|2022-11-14|avian|B3.2,FAV-1627-4,American_Crow,11/14/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Snow_Goose/QC/FAV-1628-7/2022|H5N1|Canada-QC|2022-11-22|avian|B3.2,FAV-1628-7,Snow_Goose,11/22/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Snow_Goose/QC/FAV-0017-4/2022|H5N1|Canada-QC|2022-11-30|avian|B3.2,FAV-0017-4,Snow_Goose,11/30/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/American_Crow/QC/FAV-1659-2/2022|H5N1|Canada-QC|2022-12-01|avian|B3.2,FAV-1659-2,American_Crow,12/1/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Mixed/QC/FAV-1625-3/2022|H5N1|Canada-QC|2022-12-07|avian|B3.2,FAV-1625-3,Mixed,12/7/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/American_Crow/QC/FAV-0050-4/2022|H5N1|Canada-QC|2022-12-16|avian|B3.2,FAV-0050-4,American_Crow,12/16/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Red-Tailed_Hawk/QC/FAV-0076-3/2022|H5N1|Canada-QC|2022-12-26|avian|B3.2,FAV-0076-3,Red-Tailed_Hawk,12/26/2022,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/American_Crow/QC/FAV-0103-1/2023|H5N1|Canada-QC|2023-01-09|avian|B3.2,FAV-0103-1,American_Crow,1/9/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Duck/QC/FAV-0051-1/2023|H5N1|Canada-QC|2023-02-01|avian|B3.2,FAV-0051-1,Duck,2/1/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Duck/QC/FAV-0052-1/2023|H5N1|Canada-QC|2023-02-01|avian|B3.2,FAV-0052-1,Duck,2/1/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Duck/QC/FAV-0056-3/2023|H5N1|Canada-QC|2023-02-02|avian|B3.2,FAV-0056-3,Duck,2/2/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Duck/QC/FAV-0064-1/2023|H5N1|Canada-QC|2023-02-06|avian|B3.2,FAV-0064-1,Duck,2/6/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Duck/QC/FAV-0064-2/2023|H5N1|Canada-QC|2023-02-06|avian|B3.2,FAV-0064-2,Duck,2/6/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Duck/QC/FAV-0069-2/2023|H5N1|Canada-QC|2023-02-08|avian|B3.2,FAV-0069-2,Duck,2/8/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Duck/QC/FAV-0069-6/2023|H5N1|Canada-QC|2023-02-08|avian|B3.2,FAV-0069-6,Duck,2/8/2023,Canada-QC,Canada,QC,,,,52.2593,-73.7168,centroid
-A/Snow_Goose/SK/FAV-0216-5/2022|H5N1|Canada-SK|2022-04-04|avian|B3.2,FAV-0216-5,Snow_Goose,4/4/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/American_Crow/SK/FAV-0575-18/2022|H5N1|Canada-SK|2022-04-28|avian|B3.2,FAV-0575-18,American_Crow,4/28/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Red_Fox/SK/FAV-0824-96/2022|H5N1|Canada-SK|2022-05-05|other_mammal|B3.2,FAV-0824-96,Red_Fox,5/5/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Red_Fox/SK/FAV-0548-03/2022|H5N1|Canada-SK|2022-05-19|other_mammal|B3.2,FAV-0548-03,Red_Fox,5/19/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Chicken/SK/FAV-0578-2/2022|H5N1|Canada-SK|2022-05-30|avian|B3.2,FAV-0578-2,Chicken,5/30/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Striped_Skunk/SK/FAV-0824-01/2022|H5N1|Canada-SK|2022-05-30|other_mammal|B3.2,FAV-0824-01,Striped_Skunk,5/30/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Double-Crested_Cormorant/SK/FAV-0912-2/2022|H5N1|Canada-SK|2022-06-08|avian|B3.2,FAV-0912-2,Double-Crested_Cormorant,6/8/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Mallard/SK/FAV-1470-18/2022|H5N1|Canada-SK|2022-08-31|avian|B3.2,FAV-1470-18,Mallard,8/31/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Mixed/SK/FAV-1053-1/2022|H5N1|Canada-SK|2022-09-29|avian|B3.2,FAV-1053-1,Mixed,9/29/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Striped_Skunk/SK/FAV-1470-26/2022|H5N1|Canada-SK|2022-10-11|other_mammal|B3.2,FAV-1470-26,Striped_Skunk,10/11/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Striped_Skunk/SK/FAV-1470-30/2022|H5N1|Canada-SK|2022-10-17|other_mammal|B3.2,FAV-1470-30,Striped_Skunk,10/17/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Red-Tailed_Hawk/SK/FAV-1470-33/2022|H5N1|Canada-SK|2022-10-26|avian|B3.2,FAV-1470-33,Red-Tailed_Hawk,10/26/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Chicken/SK/FAV-1471-1/2022|H5N1|Canada-SK|2022-11-21|avian|B3.2,FAV-1471-1,Chicken,11/21/2022,Canada-SK,Canada,SK,,,,54.4965,-105.682,centroid
-A/Snow_Goose/YT/FAV-0795-3/2022|H5N1|Canada-YT|2022-05-30|avian|B3.2,FAV-0795-3,Snow_Goose,5/30/2022,Canada-YT,Canada,YT,,,,63.6088,-135.7,centroid
-A/chicken/Colombia/Bolivar/3500/2022|H5N1|Colombia|2022-11-08|avian|B3.2,3500,chicken,11/8/2022,Colombia,Colombia,Bolivar,,,,,,
-A/chicken/Colombia/Magdalena/3503/2022|H5N1|Colombia|2022-11-18|avian|B3.2,3503,chicken,11/18/2022,Colombia,Colombia,Magdalena,,,,,,
-A/chicken/Colombia/Cordoba/3499/2022|H5N1|Colombia|2022-11-26|avian|B3.2,3499,chicken,11/26/2022,Colombia,Colombia,Cordoba,,,,,,
-A/chicken/Cordoba/ICA-3499/2022|H5N1|Colombia|2022-11-26|avian|B3.2,ICA-3499,chicken,11/26/2022,Colombia,Cordoba,Cordoba,,,,,,
-A/pelican/Honduras/23-000009-001/2022|H5N1|Honduras|2022-12-27|avian|B3.2,23-000009-001,pelican,12/27/2022,Honduras,Honduras,Atlantida,,,,,,
+trait,country,admin1,admin2,collection_date,latitude,longitude,location_used
+EPI_ISL_20179903|A/Skua/Beak_Island/SK09-147/2024|H5N1|Antarctica-Beak_Island|2024-03-20|wild_avian|B3.2,Antarctica,Beak_Island,Unknown,2024-03-20,NA,NA,
+EPI_ISL_20180235|A/Skua/Beak_Island/SK13-180/2024|H5N1|Antarctica-Beak_Island|2024-03-21|wild_avian|B3.2,Antarctica,Beak_Island,Unknown,2024-03-21,NA,NA,
+EPI_ISL_20180245|A/Skua/Devil_Island/SK07-52/2024|H5N1|Antarctica-Devil_Island|2024-03-19|wild_avian|B3.2,Antarctica,Devil_Island,Unknown,2024-03-19,NA,NA,
+EPI_ISL_20179748|A/Brown_skua/Hope_Bay/SK02-30/2024|H5N1|Antarctica-Hope_Bay|2024-03-18|wild_avian|B3.2,Antarctica,Hope_Bay,Unknown,2024-03-18,NA,NA,
+EPI_ISL_19410266|A/South_polar_skua/Antarctica/INACH-UC-UCHILE-SKU5L/2024|H5N1|Antarctica|2024-03-03|wild_avian|B3.2,Antarctica,James Ross Island,Unknown,2024-03-03,-63.7989,-57.8105,precise (https://pubmed.ncbi.nlm.nih.gov/40633557/)
+EPI_ISL_19847535|A/Brown_skua/Fildes_Peninsula/B1/2024_H5N1_|H5N1|Antarctica-Fildes_Peninsula|2024-12-10|wild_avian|B3.2,Antarctica,King_George_Island,Fildes_Peninsula,2024-12-10,NA,NA,
+EPI_ISL_20180699|A/antarctic_fur_seal/Antarctica/O2904-BR/2024|H5N1|Antarctica-King_George_Island|2024-12-09|other_mammal|B3.2,Antarctica,King_George_Island,Unknown,2024-12-09,NA,NA,
+EPI_ISL_20180690|A/skua/Antarctica/O3577-CL/2025|H5N1|Antarctica-King_George_Island|2025-02-25|wild_avian|B3.2,Antarctica,King_George_Island,Unknown,2025-02-25,NA,NA,
+EPI_ISL_20180691|A/skua/Antarctica/O3588-CL/2025|H5N1|Antarctica-King_George_Island|2025-02-28|wild_avian|B3.2,Antarctica,King_George_Island,Unknown,2025-02-28,NA,NA,
+EPI_ISL_20180696|A/skua/Antarctica/O3610-OR/2025|H5N1|Antarctica-King_George_Island|2025-03-05|wild_avian|B3.2,Antarctica,King_George_Island,Unknown,2025-03-05,NA,NA,
+EPI_ISL_19879314|A/pintado_petrel/Antarctica/O3121-CL/2024|H5N1|Antarctica-Livingston_Island|2024-12-03|wild_avian|B3.2,Antarctica,Livingston_Island,Unknown,2024-12-03,NA,NA,
+EPI_ISL_19879315|A/antarctic_fur_seal/Antarctica/O3122-BR/2024|H5N1|Antarctica-Robert_Island|2024-12-04|other_mammal|B3.2,Antarctica,Robert_Island,Unknown,2024-12-04,NA,NA,
+EPI_ISL_18439563|A/Brown_skua/Bird_Island/128288/2023|H5N1|Antarctica-Bird_Island|2023-10-08|wild_avian|B3.2,Antarctica,South_Georgia_and_the_South_Sandwich_Islands,Bird Island,2023-10-08,-54.006334,-38.047372,precise (Martha)
+EPI_ISL_18592427|A/Kelp_Gull/Harpon_Bay/133943/2023|H5N1|Antarctica-Harpon_Bay|2023-11-03|wild_avian|B3.2,Antarctica,South_Georgia_and_the_South_Sandwich_Islands,Harpon Bay,2023-11-03,-54.2786831,-36.6345639,precise (Martha)
+EPI_ISL_18592428|A/Brown_Skua/Hound_Bay/133947/2023|H5N1|Antarctica-Hound_Bay|2023-10-30|wild_avian|B3.2,Antarctica,South_Georgia_and_the_South_Sandwich_Islands,Hound Bay,2023-10-30,-54.381069,-36.253215,precise (Martha)
+EPI_ISL_18742212|A/Antarctic_Fur_Seal/Jason_Harbour/141037/2023|H5N1|Antarctica-Jason_Harbour|2023-12-09|other_mammal|B3.2,Antarctica,South_Georgia_and_the_South_Sandwich_Islands,Jason_harbour,2023-12-09,-54.1998934,-36.589597,precise (Martha)
+EPI_ISL_18742219|A/South_Georgia_Shag/King_Edward_Cove/141245/2023|H5N1|Antarctica-King_Edward_Cove|2023-11-27|wild_avian|B3.2,Antarctica,South_Georgia_and_the_South_Sandwich_Islands,King_edward_cove,2023-11-27,-54.28349368,-36.50872,precise (Martha)
+EPI_ISL_18742220|A/Antarctic_tern/King_Edward_Point/141271/2023|H5N1|Antarctica-King_Edward_Point|2023-12-06|wild_avian|B3.2,Antarctica,South_Georgia_and_the_South_Sandwich_Islands,King_edward_point,2023-12-06,-54.283859,-36.496137,precise (Martha)
+EPI_ISL_19589149|A/kelp_gull/Antartica/O2601-CL/2024|H5N1|Antarctica-South_Shetlands_Islands|2024-01-08|wild_avian|B3.2,Antarctica,South_Shetlands_Islands,Unknown,2024-01-08,NA,NA,
+EPI_ISL_19745586|A/Brown_skua/Torgersen_Island/o8182/2024|H5N1|Antarctica-Torgersen_Island|2024-12-01|wild_avian|B3.2,Antarctica,Torgersen_Island,Unknown,2024-12-01,NA,NA,
+EPI_ISL_18698494|A/Chicken/Argentina/736-1/2023|H5N1|Argentina-Buenos_Aires|2023-03-03|domestic_avian|B3.2,Argentina,Buenos_Aires,General Pueyrredon,2023-03-03,-38.04594,-57.8241,precise (Martha)
+EPI_ISL_18698516|A/Avian/Argentina/1762-2/2023|H5N1|Argentina-Buenos_Aires|2023-04-21|wild_avian|B3.2,Argentina,Buenos_Aires,Olavarria,2023-04-21,-36.68104284,-60.56083205,precise (Martha)
+EPI_ISL_18698469|A/Chicken/Argentina/491-2/2023|H5N1|Argentina-Buenos_Aires|2023-02-20|domestic_avian|B3.2,Argentina,Buenos_Aires,Olavarria,2023-02-20,-36.68104284,-60.56083205,precise (Martha)
+EPI_ISL_18698478|A/Chicken/Argentina/556-6/2023|H5N1|Argentina-Buenos_Aires|2023-02-23|domestic_avian|B3.2,Argentina,Buenos_Aires,Olavarria,2023-02-23,-36.68104284,-60.56083205,precise (Martha)
+EPI_ISL_18698507|A/Chicken/Argentina/1340-2/2023|H5N1|Argentina-Buenos_Aires|2023-03-31|domestic_avian|B3.2,Argentina,Buenos_Aires,Lobos,2023-03-31,-35.08456,-59.03253,precise (Martha)
+EPI_ISL_18698519|A/Chicken/Argentina/1984-4/2023|H5N1|Argentina-Buenos_Aires|2023-05-04|domestic_avian|B3.2,Argentina,Buenos_Aires,Pilar,2023-05-04,-34.49607,-58.89526,precise (Martha)
+EPI_ISL_18698527|A/Chicken/Argentina/2796-2/2023|H5N1|Argentina-Buenos_Aires|2023-06-13|domestic_avian|B3.2,Argentina,Buenos_Aires,La Plata,2023-06-13,-35.089,-57.947197,precise (Martha)
+EPI_ISL_18698518|A/Chicken/Argentina/1976-2/2023|H5N1|Argentina-Chaco|2023-05-01|domestic_avian|B3.2,Argentina,Chaco,San Fernando,2023-05-01,-27.41668,-59.02865,precise (Martha)
+EPI_ISL_18698511|A/Chicken/Argentina/1530-3/2023|H5N1|Argentina-Chubut|2023-04-12|domestic_avian|B3.2,Argentina,Chubut,Biedma,2023-04-12,-42.7996,-65.08174,precise (Martha)
+EPI_ISL_19137653|A/Seagull/Sarmiento/1651-4/2023|H5N1|Argentina-Sarmiento|2023-04-17|wild_avian|B3.2,Argentina,Chubut,Sarmiento,2023-04-17,-45.326,-69.071,precise (GISAID)
+PP488337|A/royal_tern/Argentina/CH-PD036/2023|H5N1|Argentina|2023-10-10|wild_avian|B3.2,Argentina,Chubut,Biedma,2023-10-10,-42.764,-63.6326,precise (Martha)
+PP488329|A/South_American_tern/Argentina/CH-PD030/2023|H5N1|Argentina|2023-10-10|wild_avian|B3.2,Argentina,Chubut,Biedma,2023-10-10,-42.764,-63.6326,precise (Martha)
+EPI_ISL_19823065|A/Southamerican_tern/Argentina/267-2/2023|H5N1|Argentina-Chubut|2023-12-24|wild_avian|B3.2,Argentina,Chubut,Unknown,2023-12-24,NA,NA,
+EPI_ISL_18698471|A/Chicken/Argentina/501-1/2023|H5N1|Argentina-Cordoba|2023-02-20|domestic_avian|B3.2,Argentina,Cordoba,Tercero Arriba,2023-02-20,-32.09246308,-63.19509047,precise (Martha)
+EPI_ISL_18698530|A/Chicken/Argentina/3695-3/2023|H5N1|Argentina-Cordoba|2023-07-27|domestic_avian|B3.2,Argentina,Cordoba,Tercero Arriba,2023-07-27,-32.09246308,-63.76886109,precise (Martha)
+EPI_ISL_18698462|A/Chicken/Argentina/477-5/2023|H5N1|Argentina-Cordoba|2023-02-18|domestic_avian|B3.2,Argentina,Cordoba,Tercero Arriba,2023-02-18,-32.09246308,-63.76886109,precise (Martha)
+EPI_ISL_18698515|A/Duck/Argentina/1712-5/2023|H5N1|Argentina-Corrientes|2023-04-19|domestic_avian|B3.2,Argentina,Corrientes,Concepcion,2023-04-19,-28.36806,-58.25909,precise (Martha)
+EPI_ISL_18698508|A/Turkey/Argentina/1348-3/2023|H5N1|Argentina-Corrientes|2023-03-31|domestic_avian|B3.2,Argentina,Corrientes,San Cosme,2023-03-31,-27.39907,-58.67021,precise (Martha)
+EPI_ISL_18698524|A/Chicken/Argentina/2305-1/2023|H5N1|Argentina-Entre_Rios|2023-05-18|domestic_avian|B3.2,Argentina,Entre_Rios,Diamante,2023-05-18,-31.99194,-60.41444,precise (Martha)
+EPI_ISL_18698732|A/Chicken/Argentina/2016-2/2023|H5N1|Argentina-Formosa|2023-05-03|domestic_avian|B3.2,Argentina,Formosa,Pilcomayo,2023-05-03,-25.36837,-58.265809,precise (Martha)
+EPI_ISL_18698528|A/Chicken/Argentina/3346-1/2023|H5N1|Argentina-Formosa|2023-07-06|domestic_avian|B3.2,Argentina,Formosa,Patino,2023-07-06,-24.75241,-59.44938,precise (Martha)
+EPI_ISL_18698459|A/Goose/Argentina/389-1/2023|H5N1|Argentina-Jujuy|2023-02-11|domestic_avian|B3.2,Argentina,Jujuy,Yavi,2023-02-11,-22.4027,-65.9707,precise (Martha)
+EPI_ISL_18698504|A/Chicken/Argentina/1035-1/2023|H5N1|Argentina-La_Pampa|2023-03-16|domestic_avian|B3.2,Argentina,La_Pampa,Toay,2023-03-16,-36.69454,-64.31648,precise (Martha)
+EPI_ISL_18698512|A/Chicken/Argentina/1708-1/2023|H5N1|Argentina-Mendoza|2023-04-19|domestic_avian|B3.2,Argentina,Mendoza,San Carlos,2023-04-19,-34.10899,-68.778496,precise (Martha)
+EPI_ISL_18698520|A/Chicken/Argentina/2034-5/2023|H5N1|Argentina-Neuquen|2023-05-05|domestic_avian|B3.2,Argentina,Neuquen,Confluencia,2023-05-05,-38.97202,-68.32124,precise (Martha)
+EPI_ISL_18698517|A/Avian/Argentina/1790-5/2023|H5N1|Argentina|2023-04-24|wild_avian|B3.2,Argentina,Neuquen,Confluencia,2023-04-24,-38.95667,-68.29917,precise (Martha)
+EPI_ISL_18698505|A/Chicken/Argentina/1147-2/2023|H5N1|Argentina-Neuquen|2023-03-21|domestic_avian|B3.2,Argentina,Neuquen,Confluencia,2023-03-21,-38.55845,-70.37815,precise (Martha)
+EPI_ISL_18698502|A/Chicken/Argentina/919-3/2023|H5N1|Argentina-Neuquen|2023-03-13|domestic_avian|B3.2,Argentina,Neuquen,Confluencia,2023-03-13,-38.556134,-70.37928,precise (Martha)
+EPI_ISL_18698482|A/Chicken/Argentina/578-2/2023|H5N1|Argentina-Rio_Negro|2023-02-23|domestic_avian|B3.2,Argentina,Rio_Negro,Avellaneda,2023-02-23,-39.39435,-65.64608,precise (Martha)
+EPI_ISL_18698510|A/Chicken/Argentina/1416-3/2023|H5N1|Argentina|2023-04-03|domestic_avian|B3.2,Argentina,Rio_Negro,Pichi Mahuida,2023-04-03,-38.888405,-64.413895,precise (Martha)
+EPI_ISL_18698755|A/Sea_Lion/Argentina/3893-1/2023|H5N1|Argentina-Rio_Negro|2023-08-11|other_mammal|B3.2,Argentina,Rio_Negro,Adolfo Alsina,2023-08-11,-41.15491,-63.1613,precise (Martha)
+OR987084|A/South_American_sea_lion/Argentina/RN-PB004/2023|H5N1|Argentina-Rio_Negro|2023-08-26|other_mammal|B3.2,Argentina,Rio_Negro,Adolfo Alsina,2023-08-26,-41.1558,-63.1323,precise (Martha)
+EPI_ISL_18698529|A/Chicken/Argentina/3657-2/2023|H5N1|Argentina-Salta|2023-07-26|domestic_avian|B3.2,Argentina,Salta,Metan,2023-07-26,NA,NA,
+EPI_ISL_18698480|A/Chicken/Argentina/559-8/2023|H5N1|Argentina-San_Luis|2023-02-22|domestic_avian|B3.2,Argentina,San_Luis,Juan Martín de Pueyrredón,2023-02-22,-33.24245,-66.88304,precise (Martha)
+EPI_ISL_18698731|A/Chicken/Argentina/895-1/2023|H5N1|Argentina-San_Luis|2023-03-09|domestic_avian|B3.2,Argentina,San_Luis,Junin,2023-03-09,-32.389,-65.096,precise (Martha)
+EPI_ISL_18698513|A/Turkey/Argentina/1710-1/2023|H5N1|Argentina-Santa_Cruz|2023-04-17|domestic_avian|B3.2,Argentina,Santa_Cruz,Guer Aike,2023-04-17,-51.51924,-72.18606,precise (Martha)
+EPI_ISL_18698506|A/Chicken/Argentina/1200-1/2023|H5N1|Argentina-Santa_Fe|2023-03-27|domestic_avian|B3.2,Argentina,Santa_Fe,General Lopez,2023-03-27,-33.73278,-61.92956,precise (Martha)
+EPI_ISL_18698476|A/Chicken/Argentina/509-2/2023|H5N1|Argentina-Santa_Fe|2023-02-21|domestic_avian|B3.2,Argentina,Santa_Fe,San Jeronimo,2023-02-21,-32.28761,-61.46188,precise (Martha)
+EPI_ISL_18698497|A/Turkey/Argentina/753-1/2023|H5N1|Argentina-Santa_Fe|2023-03-04|domestic_avian|B3.2,Argentina,Santa_Fe,Las Colonias,2023-03-04,-31.281576,-61.026789,precise (Martha)
+EPI_ISL_18698754|A/Sea_Lion/Argentina/3849-4/2023|H5N1|Argentina-Tierra_del_Fuego|2023-08-08|other_mammal|B3.2,Argentina,Tierra_del_Fuego,Rio Grande,2023-08-08,-53.71557,-67.80045,precise (Martha)
+EPI_ISL_19410267|A/chicken/Cochabamba/39356/2023|H5N1|Bolivia-Cochabamba|2023-01-26|domestic_avian|B3.2,Bolivia,Cochabamba,Unknown,2023-01-26,NA,NA,
+EPI_ISL_19410269|A/chicken/Cochabamba/39425/2023|H5N1|Bolivia-Cochabamba|2023-02-07|domestic_avian|B3.2,Bolivia,Cochabamba,Unknown,2023-02-07,NA,NA,
+EPI_ISL_19418487|A/chicken/Cochabamba/39539/2023|H5N1|Bolivia-Cochabamba|2023-03-03|domestic_avian|B3.2,Bolivia,Cochabamba,Unknown,2023-03-03,NA,NA,
+EPI_ISL_19410299|A/chicken/Potosi/39870/2023|H5N1|Bolivia-Potosi|2023-06-06|domestic_avian|B3.2,Bolivia,Potosi,Unknown,2023-06-06,NA,NA,
+OR889491|A/Buteogallus_urubitinga/Itapemirim/1630-SC/2023|H5N1|Brazil-ES|2023-06-07|wild_avian|B3.2,Brazil,ES,Cachoeiro De Itapemirim,2023-06-07,-20.99954,-40.941583,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+EPI_ISL_18130622|A/Thalasseus_acuflavidus/Brazil-ES/23ES1A0009/2023|H5N1|Brazil-ES|2023-06-21|wild_avian|B3.2,Brazil,ES,Vila Velha,2023-06-21,-20.363252,-40.279514,precise (Martha)
+OR269887|A/Thalasseus_acuflavidus/EspiritoSanto/1339_N2/2023|H5N1|Brazil-ES|2023-05-15|wild_avian|B3.2,Brazil,ES,Cariacica,2023-05-15,-20.33124,-40.35964,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP779060|A/Sterna_hirundo/ItapemirimBR/0155-N/2024|H5N1|Brazil-ES|2024-02-02|wild_avian|B3.2,Brazil,ES,Itapemirim,2024-02-02,-20.906211,-40.780175,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP780446|A/Sterna_hirundo/PiumaBR/0448-N/2024|H5N1|Brazil-ES|2024-03-02|wild_avian|B3.2,Brazil,ES,Piuma,2024-03-02,-20.838072,-40.708908,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+OR853704|A/Megascops_choliba/Serra/1409-N/2023|H5N1|Brazil-ES|2023-05-26|wild_avian|B3.2,Brazil,ES,Serra,2023-05-26,-20.1544,-40.2694,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+OR839997|A/Gallus_gallus/Bonito/2108-SN52/2023|H5N1|Brazil-MS|2023-09-22|domestic_avian|B3.2,Brazil,MS,Bonito,2023-09-22,-21.183888,-56.526019,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+EPI_ISL_18975372|A/Sula_leucogaster/Brazil-PR/A0001-IBTEC/2023|H5N1|Brazil-PR|2023-07-25|wild_avian|B3.2,Brazil,PR,Matinhos,2023-07-25,-25.7751123,-48.5147336,precise (Martha)
+OR878088|A/Thalasseus_maximus/Antonina/1775-N/2023|H5N1|Brazil-PR|2023-06-23|wild_avian|B3.2,Brazil,PR,Antonina,2023-06-23,-25.460489,-48.692789,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP776752|A/Thalasseus_acuflavidus/MatinhosBR/2277-N/2023|H5N1|Brazil-PR|2023-11-14|wild_avian|B3.2,Brazil,PR,Matinhos,2023-11-14,-25.8095,-48.538417,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PQ284579|A/Sterna_hirundo/SaoFranciscoItabapoanaBR/1060-N-2024/2024|H5N1|Brazil-RJ|2024-04-05|wild_avian|B3.2,Brazil,RJ,Sao Francisco de Itabapoana,2024-04-05,-21.299972,-40.966472,precise
+PP782339|A/Sterna_hirundo/Cabo_FrioBR/0613-N/2024|H5N1|Brazil-RJ|2024-03-09|wild_avian|B3.2,Brazil,RJ,Cabo Frio,2024-03-09,-22.5978,-41.994,precise (https://www.sciencedirect.com/science/article/pii/S0168170224001084?via%3Dihub)
+OR420092|A/Fregata_magnificens/RJ/1532-N/2023|H5N1|Brazil-RJ|2023-06-03|wild_avian|B3.2,Brazil,RJ,Niteroi,2023-06-03,-22.95947,-43.06116,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP779933|A/Sterna_hirundo/MacaeBR/0177-N/2024|H5N1|Brazil-RJ|2024-02-09|wild_avian|B3.2,Brazil,RJ,Macae,2024-02-09,-22.341605,-41.744273,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP785021|A/Sterna_hirundo/RiodasOstrasBR/0721-N/2024|H5N1|Brazil-RJ|2024-03-15|wild_avian|B3.2,Brazil,RJ,Rio das Ostras,2024-03-15,-22.52196111,-41.94401111,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP390166|A/Thalasseus_maximus/RioGrandeSul/2177-N/2023|H5N1|Brazil-RS|2023-10-13|wild_avian|B3.2,Brazil,RS,Sao Jose do Norte,2023-10-13,-32.011622,-51.949222,precise (https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/)
+OR844540|A/Otaria_flavescens/Rio_Grande/2148-N/2023|H5N1|Brazil-RS|2023-10-03|other_mammal|B3.2,Brazil,RS,Rio Grande,2023-10-03,-32.174091,-52.13725,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+OR881253|A/Numida_meleagris/Maracaja/1843-N3/2023|H5N1|Brazil-SC|2023-07-15|domestic_avian|B3.2,Brazil,SC,Maracaja,2023-07-15,-28.8211,-49.4211,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP769614|A/Sterna_hirundo/PenhaBR/2261-N/2023|H5N1|Brazil-SC|2023-11-09|wild_avian|B3.2,Brazil,SC,Penha,2023-11-09,-26.792738,-48.61598,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+OR860361|A/Thalasseus_maximus/Itapoa/1941-N/2023|H5N1|Brazil-SC|2023-09-25|wild_avian|B3.2,Brazil,SC,Itapoa,2023-09-25,-26.184561,-48.608717,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+OR857851|A/Sula_leucogaster/Sao_Francisco_do_Sul/2122-N/2023|H5N1|Brazil-SC|2023-09-27|wild_avian|B3.2,Brazil,SC,Sao_Francisco_do_Sul,2023-09-27,-26.216361,-48.588686,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP768660|A/Pluvialis_dominica/BertiogaBR/2252-N/2023|H5N1|Brazil-SP|2023-11-08|wild_avian|B3.2,Brazil,SP,Bertioga,2023-11-08,-23.791761,-45.991416,precise (https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/)
+EPI_ISL_19215190|A/Procellaria_aequinoctialis/Sao_Paulo/2271-N/2023|H5N1|Brazil-SP|2023-11-10|wild_avian|B3.2,Brazil,SP,Ubatuba,2023-11-10,-23.519727,-45.194599,precise (https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/)
+OR853751|A/Thalasseus_maximus/Ubatuba/1546-N/2023|H5N1|Brazil-SP|2023-06-05|wild_avian|B3.2,Brazil,SP,Ubatuba,2023-06-05,-23.431739,-45.074222,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP780174|A/Thalasseus_acuflavidus/BertiogaBR/0291-N/2024|H5N1|Brazil-SP|2024-02-22|wild_avian|B3.2,Brazil,SP,Bertioga,2024-02-22,-23.75938611,-45.90685278,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PP778505|A/Thalasseus_maximus/PraiaGrandeBR/2339-N/2023|H5N1|Brazil-SP|2023-12-13|wild_avian|B3.2,Brazil,SP,Praia Grande,2023-12-13,-24.00714444,-46.42023056,https://pmc.ncbi.nlm.nih.gov/articles/PMC11239711/
+PV305088|A/Canada_Goose/AB/FAV-0026-14-2023/2022|H5N1|Canada-AB|2022-12-05|wild_avian|B3.2,Canada,AB,Unknown,2022-12-05,NA,NA,
+PV318944|A/Striped_Skunk/AB/FAV-0272-2-2023/2023|H5N1|Canada-AB|2023-05-12|other_mammal|B3.2,Canada,AB,Unknown,2023-05-12,NA,NA,
+PV317592|A/Snow_Goose/AB/FAV-0505-32-2022/2022|H5N1|Canada-AB|2022-04-29|wild_avian|B3.2,Canada,AB,Unknown,2022-04-29,NA,NA,
+PV304264|A/Black-Billed_Magpie/AB/FAV-0505-53-2022/2022|H5N1|Canada-AB|2022-05-05|wild_avian|B3.2,Canada,AB,Unknown,2022-05-05,NA,NA,
+PV321824|A/Western_Grebe/AB/FAV-0833-72-2022/2022|H5N1|Canada-AB|2022-06-23|wild_avian|B3.2,Canada,AB,Unknown,2022-06-23,NA,NA,
+PV321872|A/Western_Grebe/AB/FAV-0833-78-2022/2022|H5N1|Canada-AB|2022-06-23|wild_avian|B3.2,Canada,AB,Unknown,2022-06-23,NA,NA,
+PV319064|A/Striped_Skunk/AB/FAV-0897-2-2022/2022|H5N1|Canada-AB|2022-07-19|other_mammal|B3.2,Canada,AB,Unknown,2022-07-19,NA,NA,
+PV309264|A/Domestic_bird/AB/FAV-0906-1-2022/2022|H5N1|Canada-AB|2022-08-25|domestic_avian|B3.2,Canada,AB,Unknown,2022-08-25,NA,NA,
+PV304312|A/Black-Billed_Magpie/AB/FAV-0918-11-2022/2022|H5N1|Canada-AB|2022-05-10|wild_avian|B3.2,Canada,AB,Unknown,2022-05-10,NA,NA,
+PV320424|A/Turkey/AB/FAV-0962-1-2022/2022|H5N1|Canada-AB|2022-09-22|domestic_avian|B3.2,Canada,AB,Unknown,2022-09-22,NA,NA,
+PV305552|A/Canada_Goose/AB/FAV-1258-5-2022/2022|H5N1|Canada-AB|2022-10-05|wild_avian|B3.2,Canada,AB,Unknown,2022-10-05,NA,NA,
+PV315832|A/Poultry/AB/FAV-1411-1-2022/2022|H5N1|Canada-AB|2022-11-09|domestic_avian|B3.2,Canada,AB,Unknown,2022-11-09,NA,NA,
+PV314216|A/Layer_chicken/AB/FAV-1445-2-2022/2022|H5N1|Canada-AB|2022-11-15|domestic_avian|B3.2,Canada,AB,Unknown,2022-11-15,NA,NA,
+PV309456|A/Domestic_bird/AB/FAV-1654-2022/2022|H5N1|Canada-AB|2022-12-14|domestic_avian|B3.2,Canada,AB,Unknown,2022-12-14,NA,NA,
+PV301481|A/Striped_Skunk/AB/OTH-0136-1-2022/2022|H5N1|Canada-AB|2022-09-14|other_mammal|B3.2,Canada,AB,Unknown,2022-09-14,NA,NA,
+PV312592|A/Great_Horned_Owl/AB/FAV-0023-1-2024/2023|H5N1|Canada-AB|2023-10-26|wild_avian|B3.2,Canada,AB,Unknown,2023-10-26,NA,NA,
+PV305176|A/Canada_Goose/AB/FAV-0083-4-2023/2023|H5N1|Canada-AB|2023-01-18|wild_avian|B3.2,Canada,AB,Unknown,2023-01-18,NA,NA,
+PV304208|A/Black-Billed_Magpie/AB/FAV-0083-6-2023/2023|H5N1|Canada-AB|2023-01-25|wild_avian|B3.2,Canada,AB,Unknown,2023-01-25,NA,NA,
+PV318880|A/Striped_Skunk/AB/FAV-0085-1-2023/2023|H5N1|Canada-AB|2023-02-01|other_mammal|B3.2,Canada,AB,Unknown,2023-02-01,NA,NA,
+PV318888|A/Striped_Skunk/AB/FAV-0085-2-2023/2023|H5N1|Canada-AB|2023-02-14|other_mammal|B3.2,Canada,AB,Unknown,2023-02-14,NA,NA,
+PV301473|A/Striped_Skunk/AB/FAV-0188-1-2023/2023|H5N1|Canada-AB|2023-04-05|other_mammal|B3.2,Canada,AB,Unknown,2023-04-05,NA,NA,
+PV318928|A/Striped_Skunk/AB/FAV-0188-2-2023/2023|H5N1|Canada-AB|2023-04-17|other_mammal|B3.2,Canada,AB,Unknown,2023-04-17,NA,NA,
+PV317584|A/Snow_Goose/AB/FAV-0505-21-2022/2022|H5N1|Canada-AB|2022-04-27|wild_avian|B3.2,Canada,AB,Unknown,2022-04-27,NA,NA,
+PV317648|A/Snow_Goose/AB/FAV-0937-5-2022/2022|H5N1|Canada-AB|2022-08-26|wild_avian|B3.2,Canada,AB,Unknown,2022-08-26,NA,NA,
+PV305560|A/Canada_Goose/AB/FAV-1258-6-2022/2022|H5N1|Canada-AB|2022-10-05|wild_avian|B3.2,Canada,AB,Unknown,2022-10-05,NA,NA,
+EPI_ISL_18665556|A/Barred_Owl/BC/AIVPHL-1008/2023|H5N1|Canada-BC|2023-03-20|wild_avian|B3.2,Canada,BC,Unknown,2023-03-20,NA,NA,
+EPI_ISL_18665601|A/Dunlin/BC/AIVPHL-1221/2023|H5N1|Canada-BC|2023-07-14|wild_avian|B3.2,Canada,BC,Unknown,2023-07-14,NA,NA,
+PV322688|A/chicken/BC/FAV-0010-1-2023/2023|H5N1|Canada-BC|2023-01-03|domestic_avian|B3.2,Canada,BC,Unknown,2023-01-03,NA,NA,
+PV304792|A/Cackling_Goose/BC/FAV-0014-28-2023/2022|H5N1|Canada-BC|2022-11-14|wild_avian|B3.2,Canada,BC,Unknown,2022-11-14,NA,NA,
+PV304800|A/Cackling_Goose/BC/FAV-0014-67-2023/2022|H5N1|Canada-BC|2022-10-25|wild_avian|B3.2,Canada,BC,Unknown,2022-10-25,NA,NA,
+PV304104|A/Barred_Owl/BC/FAV-0053-23-2022/2022|H5N1|Canada-BC|2022-12-13|wild_avian|B3.2,Canada,BC,Unknown,2022-12-13,NA,NA,
+PV317736|A/Snow_Goose/BC/FAV-0053-3-2022/2022|H5N1|Canada-BC|2022-11-06|wild_avian|B3.2,Canada,BC,Unknown,2022-11-06,NA,NA,
+PV319168|A/Striped_Skunk/BC/FAV-0173-1-2023/2023|H5N1|Canada-BC|2023-03-27|other_mammal|B3.2,Canada,BC,Unknown,2023-03-27,NA,NA,
+PV303304|A/American_White_Pelican/BC/FAV-0585-3-2022/2022|H5N1|Canada-BC|2022-05-27|wild_avian|B3.2,Canada,BC,Unknown,2022-05-27,NA,NA,
+PV309608|A/Domestic_bird/BC/FAV-0772-1-2022/2022|H5N1|Canada-BC|2022-06-16|domestic_avian|B3.2,Canada,BC,Unknown,2022-06-16,NA,NA,
+PV309680|A/Domestic_bird/BC/FAV-1128-2022/2022|H5N1|Canada-BC|2022-10-11|domestic_avian|B3.2,Canada,BC,Unknown,2022-10-11,NA,NA,
+PV314256|A/Layer_chicken/BC/FAV-1623-1-2022/2022|H5N1|Canada-BC|2022-12-06|domestic_avian|B3.2,Canada,BC,Unknown,2022-12-06,NA,NA,
+EPI_ISL_18665595|A/Cooper_s_Hawk/BC/AIVPHL-1125/2023|H5N1|Canada-BC|2023-05-23|wild_avian|B3.2,Canada,BC,Unknown,2023-05-23,NA,NA,
+EPI_ISL_18665611|A/Barred_Owl/BC/AIVPHL-1238/2023|H5N1|Canada-BC|2023-07-24|wild_avian|B3.2,Canada,BC,Unknown,2023-07-24,NA,NA,
+EPI_ISL_19303642|A/Hooded_Merganser/BC/AIVPHL-2033/2024|H5N1|Canada-BC|2024-02-16|wild_avian|B3.2,Canada,BC,Unknown,2024-02-16,NA,NA,
+EPI_ISL_18665510|A/Dunlin/BC/AIVPHL-940/2023|H5N1|Canada-BC|2023-02-06|wild_avian|B3.2,Canada,BC,Unknown,2023-02-06,NA,NA,
+PV322704|A/chicken/BC/FAV-0011-1-2023/2023|H5N1|Canada-BC|2023-01-03|domestic_avian|B3.2,Canada,BC,Unknown,2023-01-03,NA,NA,
+PV319152|A/Striped_Skunk/BC/FAV-0091-1-2023/2023|H5N1|Canada-BC|2023-02-16|other_mammal|B3.2,Canada,BC,Unknown,2023-02-16,NA,NA,
+PV315624|A/Peregrine_Falcon/BC/FAV-0256-2-2023/2023|H5N1|Canada-BC|2023-06-05|wild_avian|B3.2,Canada,BC,Unknown,2023-06-05,NA,NA,
+PV301952|A/American_Crow/MB/FAV-0364-9-2022/2022|H5N1|Canada-MB|2022-04-22|wild_avian|B3.2,Canada,MB,Unknown,2022-04-22,NA,NA,
+PV301984|A/American_Crow/MB/FAV-0469-14-2022/2022|H5N1|Canada-MB|2022-05-06|wild_avian|B3.2,Canada,MB,Unknown,2022-05-06,NA,NA,
+PV309736|A/Domestic_bird/MB/FAV-0716-5-2022/2022|H5N1|Canada-MB|2022-06-15|domestic_avian|B3.2,Canada,MB,Unknown,2022-06-15,NA,NA,
+PV321880|A/Western_Grebe/MB/FAV-0846-2-2022/2022|H5N1|Canada-MB|2022-07-04|wild_avian|B3.2,Canada,MB,Unknown,2022-07-04,NA,NA,
+PV321888|A/Western_Grebe/MB/FAV-0846-3-2022/2022|H5N1|Canada-MB|2022-07-04|wild_avian|B3.2,Canada,MB,Unknown,2022-07-04,NA,NA,
+PV309744|A/Domestic_bird/MB/FAV-0929-1-2022/2022|H5N1|Canada-MB|2022-09-13|domestic_avian|B3.2,Canada,MB,Unknown,2022-09-13,NA,NA,
+PV320960|A/Turkey/MB/FAV-0994-2-2022/2022|H5N1|Canada-MB|2022-09-29|domestic_avian|B3.2,Canada,MB,Unknown,2022-09-29,NA,NA,
+PV324056|A/chicken/MB/FAV-1061-1-2022/2022|H5N1|Canada-MB|2022-10-05|domestic_avian|B3.2,Canada,MB,Unknown,2022-10-05,NA,NA,
+PV317784|A/Snow_Goose/MB/FAV-0227-3-2022/2022|H5N1|Canada-MB|2022-04-08|wild_avian|B3.2,Canada,MB,Unknown,2022-04-08,NA,NA,
+PV317808|A/Snow_Goose/MB/FAV-0258-2-2023/2023|H5N1|Canada-MB|2023-05-02|wild_avian|B3.2,Canada,MB,Unknown,2023-05-02,NA,NA,
+PV302000|A/American_Crow/MB/FAV-0687-5-2022/2022|H5N1|Canada-MB|2022-05-21|wild_avian|B3.2,Canada,MB,Unknown,2022-05-21,NA,NA,
+PV303336|A/American_White_Pelican/MB/FAV-0798-3-2022/2022|H5N1|Canada-MB|2022-06-08|wild_avian|B3.2,Canada,MB,Unknown,2022-06-08,NA,NA,
+PV303768|A/Bald_Eagle/MB/OTH-0142-1-2022/2022|H5N1|Canada-MB|2022-10-12|wild_avian|B3.2,Canada,MB,Unknown,2022-10-12,NA,NA,
+PV301592|A/American_Black_Duck/NB/FAV-1206-8-2022/2022|H5N1|Canada-NB|2022-09-27|wild_avian|B3.2,Canada,NB,Unknown,2022-09-27,NA,NA,
+PV324088|A/chicken/NB/FAV-0013-2023/2023|H5N1|Canada-NB|2023-01-10|domestic_avian|B3.2,Canada,NB,Unknown,2023-01-10,NA,NA,
+PV306320|A/Canada_Goose/NS/FAV-0088-4-2023/2023|H5N1|Canada-NS|2023-02-19|wild_avian|B3.2,Canada,NS,Unknown,2023-02-19,NA,NA,
+PV302152|A/American_Crow/NS/FAV-0122-1-2023/2023|H5N1|Canada-NS|2023-03-21|wild_avian|B3.2,Canada,NS,Unknown,2023-03-21,NA,NA,
+PV302336|A/American_Crow/ON/FAV-0149-2-2023/2023|H5N1|Canada-ON|2023-03-24|wild_avian|B3.2,Canada,ON,Unknown,2023-03-24,NA,NA,
+PV317880|A/Snow_Goose/ON/FAV-1652-2-2022/2022|H5N1|Canada-ON|2022-12-23|wild_avian|B3.2,Canada,ON,Unknown,2022-12-23,NA,NA,
+PV319672|A/Tundra_Swan/ON/FAV-1653-1-2022/2022|H5N1|Canada-ON|2022-11-30|wild_avian|B3.2,Canada,ON,Unknown,2022-11-30,NA,NA,
+PV317904|A/Snow_Goose/ON/FAV-1653-4-2022/2022|H5N1|Canada-ON|2022-11-30|wild_avian|B3.2,Canada,ON,Unknown,2022-11-30,NA,NA,
+PV302264|A/American_Crow/ON/FAV-0118-1-2023/2023|H5N1|Canada-ON|2023-03-11|wild_avian|B3.2,Canada,ON,Unknown,2023-03-11,NA,NA,
+PV303360|A/American_White_Pelican/ON/FAV-0803-1-2022/2022|H5N1|Canada-ON|2022-05-16|wild_avian|B3.2,Canada,ON,Unknown,2022-05-16,NA,NA,
+PV303368|A/American_White_Pelican/ON/FAV-0803-2-2022/2022|H5N1|Canada-ON|2022-06-08|wild_avian|B3.2,Canada,ON,Unknown,2022-06-08,NA,NA,
+PV315664|A/Peregrine_Falcon/ON/FAV-0853-3-2022/2022|H5N1|Canada-ON|2022-06-12|wild_avian|B3.2,Canada,ON,Unknown,2022-06-12,NA,NA,
+PV303384|A/American_White_Pelican/ON/FAV-0867-2-2022/2022|H5N1|Canada-ON|2022-07-07|wild_avian|B3.2,Canada,ON,Unknown,2022-07-07,NA,NA,
+PV302416|A/American_Crow/ON/FAV-1440-3-2022/2022|H5N1|Canada-ON|2022-10-30|wild_avian|B3.2,Canada,ON,Unknown,2022-10-30,NA,NA,
+PV317872|A/Snow_Goose/ON/FAV-1652-1-2022/2022|H5N1|Canada-ON|2022-12-22|wild_avian|B3.2,Canada,ON,Unknown,2022-12-22,NA,NA,
+PV307248|A/Canada_Goose/PE/FAV-0008-1-2022/2022|H5N1|Canada-PE|2022-12-21|wild_avian|B3.2,Canada,PE,Unknown,2022-12-21,NA,NA,
+PV302528|A/American_Crow/PE/FAV-0068-5-2023/2023|H5N1|Canada-PE|2023-01-31|wild_avian|B3.2,Canada,PE,Unknown,2023-01-31,NA,NA,
+PV302536|A/American_Crow/PE/FAV-0068-6-2023/2023|H5N1|Canada-PE|2023-01-31|wild_avian|B3.2,Canada,PE,Unknown,2023-01-31,NA,NA,
+PV302560|A/American_Crow/PE/FAV-0086-1-2023/2023|H5N1|Canada-PE|2023-02-17|wild_avian|B3.2,Canada,PE,Unknown,2023-02-17,NA,NA,
+PV307384|A/Canada_Goose/PE/FAV-0096-3-2023/2023|H5N1|Canada-PE|2023-02-27|wild_avian|B3.2,Canada,PE,Unknown,2023-02-27,NA,NA,
+PV302640|A/American_Crow/PE/FAV-0121-1-2023/2023|H5N1|Canada-PE|2023-03-22|wild_avian|B3.2,Canada,PE,Unknown,2023-03-22,NA,NA,
+PV319272|A/Striped_Skunk/PE/FAV-0123-1-2023/2023|H5N1|Canada-PE|2023-03-21|other_mammal|B3.2,Canada,PE,Unknown,2023-03-21,NA,NA,
+PV319312|A/Striped_Skunk/PE/FAV-0179-1-2023/2023|H5N1|Canada-PE|2023-04-21|other_mammal|B3.2,Canada,PE,Unknown,2023-04-21,NA,NA,
+PV302464|A/American_Crow/PE/FAV-0019-5-2022/2022|H5N1|Canada-PE|2022-12-28|wild_avian|B3.2,Canada,PE,Unknown,2022-12-28,NA,NA,
+PV319320|A/Striped_Skunk/PE/FAV-1642-1-2022/2022|H5N1|Canada-PE|2022-11-15|other_mammal|B3.2,Canada,PE,Unknown,2022-11-15,NA,NA,
+PV301315|A/Duck/QC/FAV-0051-1-2023/2023|H5N1|Canada-QC|2023-02-01|domestic_avian|B3.2,Canada,QC,Unknown,2023-02-01,NA,NA,
+PV307456|A/Canada_Goose/QC/FAV-0061-1-2022/2022|H5N1|Canada-QC|2022-12-05|wild_avian|B3.2,Canada,QC,Unknown,2022-12-05,NA,NA,
+PV316800|A/Red-Tailed_Hawk/QC/FAV-0076-4-2022/2022|H5N1|Canada-QC|2022-12-06|wild_avian|B3.2,Canada,QC,Unknown,2022-12-06,NA,NA,
+PV321400|A/Turkey/QC/FAV-0168-3A-2023/2023|H5N1|Canada-QC|2023-04-21|domestic_avian|B3.2,Canada,QC,Unknown,2023-04-21,NA,NA,
+PV304152|A/Barred_Owl/QC/FAV-0248-1-2023/2023|H5N1|Canada-QC|2023-04-04|wild_avian|B3.2,Canada,QC,Unknown,2023-04-04,NA,NA,
+PV318152|A/Snow_Goose/QC/FAV-1493-1-2022/2022|H5N1|Canada-QC|2022-11-02|wild_avian|B3.2,Canada,QC,Unknown,2022-11-02,NA,NA,
+PV317952|A/Snow_Goose/QC/FAV-0018-1-2023/2022|H5N1|Canada-QC|2022-11-11|wild_avian|B3.2,Canada,QC,Unknown,2022-11-11,NA,NA,
+PV301712|A/American_Black_Duck/QC/FAV-0115-3-2023/2023|H5N1|Canada-QC|2023-03-01|wild_avian|B3.2,Canada,QC,Unknown,2023-03-01,NA,NA,
+PV303016|A/American_Crow/SK/FAV-0575-14-2022/2022|H5N1|Canada-SK|2022-04-28|wild_avian|B3.2,Canada,SK,Unknown,2022-04-28,NA,NA,
+PV304560|A/Black-billed_Magpie/SK/FAV-0802-32-2022/2022|H5N1|Canada-SK|2022-04-22|wild_avian|B3.2,Canada,SK,Unknown,2022-04-22,NA,NA,
+PV313464|A/Great_Horned_Owl/SK/FAV-0802-45-2022/2022|H5N1|Canada-SK|2022-05-05|wild_avian|B3.2,Canada,SK,Unknown,2022-05-05,NA,NA,
+PV303168|A/American_Crow/SK/FAV-0802-76-2022/2022|H5N1|Canada-SK|2022-05-20|wild_avian|B3.2,Canada,SK,Unknown,2022-05-20,NA,NA,
+PV311152|A/Double-Crested_Cormorant/SK/FAV-0912-7-2022/2022|H5N1|Canada-SK|2022-06-06|wild_avian|B3.2,Canada,SK,Unknown,2022-06-06,NA,NA,
+PV310832|A/Domestic_bird/SK/FAV-0986-2-2022/2022|H5N1|Canada-SK|2022-09-28|domestic_avian|B3.2,Canada,SK,Unknown,2022-09-28,NA,NA,
+PV310888|A/Domestic_bird/SK/FAV-1259-1-2022/2022|H5N1|Canada-SK|2022-10-22|domestic_avian|B3.2,Canada,SK,Unknown,2022-10-22,NA,NA,
+PV324608|A/chicken/SK/FAV-1261-2-2022/2022|H5N1|Canada-SK|2022-10-22|domestic_avian|B3.2,Canada,SK,Unknown,2022-10-22,NA,NA,
+PV324640|A/chicken/SK/FAV-1385-2-2022/2022|H5N1|Canada-SK|2022-11-03|domestic_avian|B3.2,Canada,SK,Unknown,2022-11-03,NA,NA,
+PV309064|A/Coopers_Hawk/SK/FAV-1470-23-2022/2022|H5N1|Canada-SK|2022-09-16|wild_avian|B3.2,Canada,SK,Unknown,2022-09-16,NA,NA,
+PV324656|A/chicken/SK/FAV-1471-1-2022/2022|H5N1|Canada-SK|2022-11-21|domestic_avian|B3.2,Canada,SK,Unknown,2022-11-21,NA,NA,
+PV310840|A/Domestic_bird/SK/FAV-1051-1-2022/2022|H5N1|Canada-SK|2022-06-03|domestic_avian|B3.2,Canada,SK,Unknown,2022-06-03,NA,NA,
+PV318784|A/Snow_Goose/YT/FAV-0795-3-2022/2022|H5N1|Canada-YT|2022-05-30|wild_avian|B3.2,Canada,YT,Unknown,2022-05-30,NA,NA,
+EPI_ISL_17885944|A/Pelican/Antofagasta/228244-2/2022|H5N1|Chile-Antofagasta|2022-12-16|wild_avian|B3.2,Chile,Antofagasta,Antofagasta,2022-12-16,-23.65,-70.4,precise (Martha)
+EPI_ISL_19131156|A/Inca_tern/Antofagasta/238083/2023|H5N1|Chile-Antofagasta|2023-02-22|wild_avian|B3.2,Chile,Antofagasta,Antofagasta,2023-02-22,-23.65,-70.4,precise (Martha)
+PQ295907|A/Antofagasta/25945/2023|H5N1|Chile-Antofagasta|2023-03-24|human|B3.2,Chile,Antofagasta,Antofagasta,2023-03-24,-23.61671,-70.38642,precise (Martha)
+EPI_ISL_17885931|A/Pelican/Antofagasta/228246-3/2022|H5N1|Chile-Antofagasta|2022-12-15|wild_avian|B3.2,Chile,Antofagasta,Tocopilla,2022-12-15,-22.096389,-70.2,precise (Martha)
+EPI_ISL_17885958|A/chicken/Araucania/239189-2/2023|H5N1|Chile-Araucania|2023-02-28|domestic_avian|B3.2,Chile,Araucania,Cautin,2023-02-28,-38.7934,-72.9758,precise (Martha)
+EPI_ISL_18760073|A/chicken/Araucania/244469/2023|H5N1|Chile-Araucania|2023-03-25|domestic_avian|B3.2,Chile,Araucania,Vilcun,2023-03-25,-38.70947038,-72.28213908,precise (Martha)
+EPI_ISL_17885978|A/Sanderling/Arica_y_Parinacota/240265/2023|H5N1|Chile-Arica|2023-03-03|wild_avian|B3.2,Chile,Arica_y_Parinacota,Arica,2023-03-03,-18.477778,-70.318056,precise (Martha)
+EPI_ISL_16891400|A/gray_gull/Chile/C61947/2022|H5N1|Chile|2022-12-02|wild_avian|B3.2,Chile,Arica_y_Parinacota,Arica ,2022-12-02,-18.4136444,-70.3245328,precise (Martha)
+EPI_ISL_17885980|A/Sanderling/Arica_y_Parinacota/230758-1/2022|H5N1|Chile-Arica|2022-12-30|wild_avian|B3.2,Chile,Arica_y_Parinacota,Arica,2022-12-30,-18.477778,-70.318056,precise (Martha)
+EPI_ISL_17885924|A/Pelican/Atacama/230158-2/2022|H5N1|Chile-Atacama|2022-12-30|wild_avian|B3.2,Chile,Atacama,Huasco,2022-12-30,-28.510219,-71.0814,precise (Martha)
+EPI_ISL_19391462|A/sea_lion/Atacama/242444-1/2023|H5N1|Chile-Atacama|2023-03-13|other_mammal|B3.2,Chile,Atacama,Copiapo,2023-03-13,-27.38183161,-69.93163954,precise (Martha)
+EPI_ISL_17885926|A/Pelican/Atacama/229450-2/2022|H5N1|Chile-Atacama|2022-12-26|wild_avian|B3.2,Chile,Atacama,Copiapo,2022-12-26,-27.066667,-70.833333,precise (Martha)
+EPI_ISL_19151400|A/guanay_cormorant/Atacama/235520-1/2023|H5N1|Chile-Atacama|2023-02-05|wild_avian|B3.2,Chile,Atacama,Chanaral,2023-02-05,-26.344444,-70.621944,precise (Martha)
+EPI_ISL_18760074|A/chicken/Atacama/235254-2/2023|H5N1|Chile-Atacama|2023-02-04|domestic_avian|B3.2,Chile,Atacama,Unknown,2023-02-04,NA,NA,
+EPI_ISL_19131162|A/Inca_tern/Coquimbo/239619/2023|H5N1|Chile-Coquimbo|2023-03-01|wild_avian|B3.2,Chile,Coquimbo,Elqui,2023-03-01,-29.953056,-71.343333,precise (Martha)
+EPI_ISL_20300016|A/brown_skua/Antartic/A324O/2025|H5N1|Chile-Magallanes|2025-01-09|wild_avian|B3.2,Chile,Magallanes y Antartica Chilena,Unknown,2025-01-09,NA,NA,
+EPI_ISL_20300019|A/brown_skua/Antartic/A329B/2025|H5N1|Chile-Magallanes|2025-01-13|wild_avian|B3.2,Chile,Magallanes y Antartica Chilena,Unknown,2025-01-13,NA,NA,
+EPI_ISL_17885973|A/South_American_tern/Maule/238507/2023|H5N1|Chile-Maule|2023-02-23|wild_avian|B3.2,Chile,Maule,Cauquenes,2023-02-23,-35.8,-72.566667,precise (Martha)
+EPI_ISL_17885849|A/Black_Skimmer/Maule/240379/2023|H5N1|Chile-Maule|2023-03-06|wild_avian|B3.2,Chile,Maule,Cauquenes,2023-03-06,-35.8,-72.566667,precise (Martha)
+EPI_ISL_19410280|A/chicken/Maule/247588-1/2023|H5N1|Chile-Maule|2023-04-07|domestic_avian|B3.2,Chile,Maule,Unknown,2023-04-07,NA,NA,
+EPI_ISL_17885873|A/chicken/Nuble/241681-1/2023|H5N1|Chile-Nuble|2023-03-10|domestic_avian|B3.2,Chile,Nuble,Diguillin,2023-03-10,-36.689629,-72.09428,precise (Martha)
+EPI_ISL_17885877|A/chicken/Nuble/240155/2023|H5N1|Chile-Nuble|2023-03-06|domestic_avian|B3.2,Chile,Nuble,Unknown,2023-03-06,NA,NA,
+EPI_ISL_17885878|A/chicken/Nuble/239136/2023|H5N1|Chile-Nuble|2023-02-27|domestic_avian|B3.2,Chile,Nuble,Diguillin,2023-02-27,-36.6761,-72.2881,precise (Martha)
+EPI_ISL_17885918|A/Pelican/Nuble/233947-2/2023|H5N1|Chile-Nuble|2023-01-26|wild_avian|B3.2,Chile,Nuble,Itata,2023-01-26,-36.430833,-72.668056,precise (Martha)
+EPI_ISL_17885915|A/Pelican/OHiggins/233663-1/2023|H5N1|Chile-OHiggins|2023-01-24|wild_avian|B3.2,Chile,Ohiggins,Cardenal Caro,2023-01-24,-34.391944,-72.013889,precise (Martha)
+EPI_ISL_17885965|A/Chiloe_wigeon/OHiggins/240893-2/2023|H5N1|Chile-OHiggins|2023-03-09|wild_avian|B3.2,Chile,Ohiggins,Cardenal Caro,2023-03-09,-34.391944,-72.013889,precise (Martha)
+EPI_ISL_17885967|A/Blackish_oystercatcher/OHiggins/240628/2023|H5N1|Chile-OHiggins|2023-03-06|wild_avian|B3.2,Chile,Ohiggins,Cardenal Caro,2023-03-06,-33.95,-71.833333,precise (Martha)
+EPI_ISL_18760061|A/pelican/Bio_Bio/236574/2023|H5N1|Chile-Biobio|2023-02-13|wild_avian|B3.2,Chile,Region_del_Biobio,Concepcion,2023-02-13,-36.616667,-72.95,precise (Martha)
+EPI_ISL_19410300|A/gull/Biobio/237012/2023|H5N1|Chile-Biobio|2023-02-15|wild_avian|B3.2,Chile,Region_del_Biobio,Unknown,2023-02-15,NA,NA,
+EPI_ISL_19418491|A/buff-necked_ibis/Bio_bio/247636-1/2023|H5N1|Chile-Biobio|2023-04-07|wild_avian|B3.2,Chile,Region_del_Biobio,Unknown,2023-04-07,NA,NA,
+EPI_ISL_18760060|A/chicken/Metropolitana/243148-1/2023|H5N1|Chile-Metropolitana|2023-03-20|domestic_avian|B3.2,Chile,Region_Metropolitana_de_Santiago,Unknown,2023-03-20,NA,NA,
+EPI_ISL_17885951|A/Gray_gull/Tarapaca/232825-1/2023|H5N1|Chile-Tarapaca|2023-01-18|wild_avian|B3.2,Chile,Tarapaca,Unknown,2023-01-18,NA,NA,
+EPI_ISL_17885942|A/Pelican/Tarapaca/227436-2/2022|H5N1|Chile-Tarapaca|2022-12-09|wild_avian|B3.2,Chile,Tarapaca,Iquique,2022-12-09,-20.216667,-70.15,precise (Martha)
+EPI_ISL_19410286|A/turkey/Valparaiso/245886-5/2023|H5N1|Chile-Valparaiso|2023-03-30|domestic_avian|B3.2,Chile,Valparaiso,Unknown,2023-03-30,NA,NA,
+EPI_ISL_17885982|A/pelican/Valparaiso/234040/2023|H5N1|Chile-Valparaiso|2023-01-25|wild_avian|B3.2,Chile,Valparaiso,San Antonio,2023-01-25,-33.391111,-71.692778,precise (Martha)
+EPI_ISL_19131163|A/Peruvean_booby/Valparaiso/238535/2023|H5N1|Chile-Valparaiso|2023-02-24|wild_avian|B3.2,Chile,Valparaiso,Valparaiso,2023-02-24,-32.78174,-71.53328,precise (Martha)
+EPI_ISL_18760069|A/sea_lion/Valparaiso/SJCEIRR-2431361/2023|H5N1|Chile-Valparaiso|2023-03-19|other_mammal|B3.2,Chile,Valparaiso,Quintero,2023-03-19,-32.69895,-71.4293542,precise (Martha)
+EPI_ISL_17885983|A/pelican/Valparaiso/233450-1/2023|H5N1|Chile-Valparaiso|2023-01-23|wild_avian|B3.2,Chile,Valparaiso,Petorca,2023-01-23,-32.553611,-71.458889,precise (Martha)
+OQ683458|A/chicken/Colombia/Bolivar/3500/2022|H5N1|Colombia-Bolivar|2022-11-08|domestic_avian|B3.2,Colombia,Bolivar,Unknown,2022-11-08,NA,NA,
+EPI_ISL_17353510|A/chicken/Cordoba/ICA-3499/2022|H5N1|Argentina-Cordoba|2022-11-26|domestic_avian|B3.2,Colombia,Cordoba,Unknown,2022-11-26,NA,NA,
+EPI_ISL_17353838|A/chicken/Magdalena/ICA-3503/2022|H5N1|Chile-Magdalena|2022-11-18|domestic_avian|B3.2,Colombia,Departamento_del_Magdalena,Unknown,2022-11-18,NA,NA,
+OQ683490|A/chicken/Colombia/Magdalena/3503/2022|H5N1|Colombia-Magdalena|2022-11-18|domestic_avian|B3.2,Colombia,Magdalena,Unknown,2022-11-18,NA,NA,
+EPI_ISL_16958548|A/falcon/Costa_Rica/INC-0001-D0377-23/2023|H5N1|Costa_Rica-Limon|2023-01-26|wild_avian|B3.2,Costa_Rica,Limon,Pococi,2023-01-26,NA,NA,
+EPI_ISL_17965774|A/pelican/Costa_Rica/INC-0018-D0370-23/2023|H5N1|Costa_Rica-Limon|2023-01-26|wild_avian|B3.2,Costa_Rica,Limon,Talamanca,2023-01-26,9.6477,-82.7324,beach
+EPI_ISL_17973443|A/wildbird-Fregata-magnificens/Ecuador/IC03-4587/2023|H5N1|Ecuador-Manabi|2023-01-11|wild_avian|B3.2,Ecuador,Guayas,San Jacinto de Yaguachi,2023-01-11,-0.79805746,-80.5195928,precise (Martha)
+EPI_ISL_18918640|A/Southern_Fulmar/Falkland_Islands/138870/2023|H5N1|UK-Falkland_Islands|2023-11-14|wild_avian|B3.2,Falkland Islands,Stanley,Unknown,2023-11-14,-51.693946,-57.8572918,precise (Martha)
+EPI_ISL_17558875|A/pelican/Honduras/23-000009-001/2022|H5N1|Honduras-Atlantida|2022-12-27|wild_avian|B3.2,Honduras,Atlantida,Unknown,2022-12-27,NA,NA,
+EPI_ISL_17777528|A/peruvian_booby/Peru/CAL-INS-007/2023|H5N1|Peru-Callao|2023-03-17|wild_avian|B3.2,Peru,Callao,Callao,2023-03-17,-12.052222,-77.139167,precise (Martha)
+OQ547423|A/Nannopterum_brasilianus/Peru/AISA0446/2022|H5N1|Peru|2022-11-22|wild_avian|B3.2,Peru,Callao,Callao,2022-11-22,-12.052222,-77.139167,precise (Martha)
+OQ547447|A/Pelecanus_thagus/Peru/AISA0464/2022|H5N1|Peru|2022-11-22|wild_avian|B3.2,Peru,Callao,Callao,2022-11-22,-12.052222,-77.139167,precise (Martha)
+EPI_ISL_17777530|A/guanay_cormorant/Peru/CAL-INS-009/2023|H5N1|Peru-Callao|2023-03-17|wild_avian|B3.2,Peru,Callao,Callao,2023-03-17,-12.052222,-77.139167,precise (Martha)
+EPI_ISL_18217104|A/duck/Peru/CAL-INS-013/2023|H5N1|Peru-Callao|2023-07-24|domestic_avian|B3.2,Peru,Callao,Unknown,2023-07-24,NA,NA,
+OQ547431|A/Panthera_leo/Peru/AIS0554/2023|H5N1|Peru|2023-02-08|feline|B3.2,Peru,Junin,Huancayo,2023-02-08,-12.0621201,-75.1961831,precise (Martha)
+OQ547375|A/Gallus_gallus/Peru/AIS0544/2022|H5N1|Peru|2022-12-03|domestic_avian|B3.2,Peru,La Libertad,Chepen,2022-12-03,-7.2252421,-79.411259,precise (Martha)
+EPI_ISL_18371666|A/Peruvian_booby/Peru/UNMSM-A296/2022|H5N1|Peru|2022-12-01|wild_avian|B3.2,Peru,La Libertad,Viru,2022-12-01,-8.53379,-78.96318,precise (Martha)
+OQ547343|A/Gallus_gallus/Peru/AIS0539/2022|H5N1|Peru|2022-11-18|domestic_avian|B3.2,Peru,Lambayeque,Lambayeque,2022-11-18,-6.7172767,-79.906572,precise (Martha)
+EPI_ISL_16249681|A/chicken/Peru/LAM-INS-002/2022|H5N1|Peru-Lambayeque|2022-11-28|domestic_avian|B3.2,Peru,Lambayeque,Lambayeque,2022-11-28,-6.748801,-79.986917,precise (Martha)
+EPI_ISL_18497946|A/duck/Peru/LAM-INS-014/2023|H5N1|Peru-Lambayeque|2023-09-26|domestic_avian|B3.2,Peru,Lambayeque,Unknown,2023-09-26,NA,NA,
+EPI_ISL_19070288|A/Calidris_alba/Lima/Villa01/2023___this_|H5N1|Peru-Lima|2023-04-20|wild_avian|B3.2,Peru,Lima,Lima,2023-04-20,-12.211929,-76.99026,precise (Martha)
+OQ547351|A/Gallus_gallus/Peru/AIS0540/2022|H5N1|Peru|2022-11-28|domestic_avian|B3.2,Peru,Lima,Lima,2022-11-28,-12.059548,-77.03883,precise (Martha)
+OQ550458|A/pelican/Peru/PIU-SER028/2022|H5N1|Peru|2022-11-24|wild_avian|B3.2,Peru,Lima,Lima,2022-11-24,-5.5176602,-80.896081,precise (Martha)
+OQ547415|A/Gallus_gallus/Peru/AIS0551/2022|H5N1|Peru|2022-12-12|domestic_avian|B3.2,Peru,Lima,Lima,2022-12-12,-12.059548,-77.03883,precise (Martha)
+OQ925725|A/south_american_sea_lion/Peru/AQP-SER00K/2023|H5N1|Peru|2023-02-07|other_mammal|B3.2,Peru,Lima,Canete,2023-02-07,-12.91786123,-76.507071,precise (Martha)
+EPI_ISL_18371664|A/Belcher_gull/Peru/UNMSM-A267/2022|H5N1|Peru|2022-12-01|wild_avian|B3.2,Peru,Lima,Lima,2022-12-01,-12.1077,-77.0606,precise (Martha)
+OQ550474|A/South_American_Sea_Lion/Peru/LIM-SER036/2023|H5N1|Peru|2023-01-23|other_mammal|B3.2,Peru,Lima,Lima,2023-01-23,-12.1218839,-77.045041,precise (Martha)
+EPI_ISL_17777533|A/peruvian_booby/Peru/LIM-INS-012/2023|H5N1|Peru-Lima|2023-04-12|wild_avian|B3.2,Peru,Lima,Barranca,2023-04-12,-10.7953673,-77.744885,precise (Martha)
+EPI_ISL_17777527|A/gull/Peru/LIM-INS-006/2023|H5N1|Peru-Lima|2023-03-16|wild_avian|B3.2,Peru,Lima,Unknown,2023-03-16,NA,NA,
+OQ550466|A/Sanderling/Peru/PIU-SER005/2022|H5N1|Peru|2022-11-22|wild_avian|B3.2,Peru,Piura,Paita,2022-11-22,-5.1499528,-81.170758,precise (Martha)
+OQ547439|A/Pelecanus_thagus/Peru/AIS0538/2022|H5N1|Peru|2022-11-10|wild_avian|B3.2,Peru,Piura,Paita,2022-11-10,-5.197348,-81.200409,precise (Martha)
+EPI_ISL_17777531|A/sea_lion/Peru/TAC-INS-010/2023|H5N1|Peru-Tacna|2023-03-07|other_mammal|B3.2,Peru,Tacna,Tacna,2023-03-07,-18.137864,-70.699826,precise (Martha)
+EPI_ISL_17777532|A/sea_lion/Peru/TAC-INS-011/2023|H5N1|Peru-Tacna|2023-03-07|other_mammal|B3.2,Peru,Tacna,Tarata,2023-03-07,-17.64664722,-70.30376039,precise (Martha)
+OR381676|A/Black-necked_swan/Uruguay/078-M2/2023|H5N1|Uruguay-Canelones|2023-03-15|wild_avian|B3.2,Uruguay,Canelones,Tala,2023-03-15,-34.5713,-55.7469,precise (Martha)
+OR912286|A/pinniped/Uruguay/P10_8923/2023|H5N1|Uruguay-Rocha|2023-09-08|other_mammal|B3.2,Uruguay,Canelones,Canelones,2023-09-08,-34.523896,-56.281724,precise (Martha)
+OR912287|A/pinniped/Uruguay/P13_11923/2023|H5N1|Uruguay-Canelones|2023-09-11|other_mammal|B3.2,Uruguay,Canelones,Canelones,2023-09-11,-34.523896,-56.281724,precise (Martha)
+OR912291|A/pinniped/Uruguay/P17_14923/2023|H5N1|Uruguay-Isla_de_Lobos|2023-09-14|other_mammal|B3.2,Uruguay,Maldonado,Unknown,2023-09-14,NA,NA,island
+OR381588|A/Black-necked_swan/Uruguay/014-M3/2023|H5N1|Uruguay-Rocha|2023-02-18|wild_avian|B3.2,Uruguay,Maldonado,Garzon,2023-02-18,-34.798,-54.568,precise (Martha)
+OR912354|A/pinniped/Uruguay/P4_6923/2023|H5N1|Uruguay-Maldonado|2023-09-06|other_mammal|B3.2,Uruguay,Maldonado,Punta del Este,2023-09-06,NA,NA,
+OR381644|A/Backyard_chicken/Uruguay/127-M4/2023|H5N1|Uruguay-Montevideo|2023-04-17|domestic_avian|B3.2,Uruguay,Montevideo,Montevideo,2023-04-17,-34.7852,-56.1287,precise (Martha)
+OR381636|A/Backyard_chicken/Uruguay/127-M1/2023|H5N1|Uruguay-Montevideo|2023-04-17|domestic_avian|B3.2,Uruguay,Montevideo,Municipality D,2023-04-17,-34.7852,-56.1287,precise (Martha)
+OR912285|A/pinniped/Uruguay/P8_8923/2023|H5N1|Uruguay-Rocha|2023-09-08|other_mammal|B3.2,Uruguay,Rocha,La Paloma,2023-09-08,NA,NA,
+OR381652|A/Backyard_chicken/Uruguay/144-M3/2023|H5N1|Uruguay-Rocha|2023-05-03|domestic_avian|B3.2,Uruguay,Rocha,Lascano,2023-05-03,-33.69,-54.0993,precise (Martha)
+OR912292|A/pinniped/Uruguay/P18_14923/2023|H5N1|Uruguay-Rocha|2023-09-14|other_mammal|B3.2,Uruguay,Rocha,Castillos,2023-09-14,NA,NA,
+OR912362|A/seabird/Uruguay/P23_41023/2023|H5N1|Uruguay-Rocha|2023-10-04|wild_avian|B3.2,Uruguay,Rocha,Castillos,2023-10-04,NA,NA,
+OR912294|A/seabird/Uruguay/P25_41023/2023|H5N1|Uruguay-Rocha|2023-10-04|wild_avian|B3.2,Uruguay,Rocha,Castillos,2023-10-04,NA,NA,
+OR381660|A/Backyard_duck/Uruguay/124-M3/2023|H5N1|Uruguay-San_Jose|2023-04-16|domestic_avian|B3.2,Uruguay,San_Jose,Unknown,2023-04-16,-34.5526,-56.6724,precise (Martha)
+OR381596|A/Backyard_chicken/Uruguay/040-M5/2023|H5N1|Uruguay-Tacuarembo|2023-03-03|domestic_avian|B3.2,Uruguay,Tacuarembo,Unknown,2023-03-03,-32.3924,-55.8419,precise (Martha)
+PQ715385|A/Raven/AK/22-020951-001-original/2022|H5N1|USA-AK|2022-06-26|wild_avian|B3.2,USA,AK,North Slope,2022-06-26,NA,NA,
+PQ714633|A/Northern_pintail/AK/23-002693-016-original/2022|H5N1|USA-AK|2022-09-30|wild_avian|B3.2,USA,AK,Aleutians East,2022-09-30,NA,NA,
+PQ713065|A/Mallard/AK/23-003641-008-original/2022|H5N1|USA-AK|2022-10-14|wild_avian|B3.2,USA,AK,Aleutians East,2022-10-14,NA,NA,
+EPI_ISL_16271829|A/chicken/Alaska/22-037940-001/2022|H5N1|USA-AK|2022-11-23|domestic_avian|B3.2,USA,AK,Matanuska-Susitna Borough,2022-11-23,NA,NA,
+PQ717337|A/Snow_goose/AK/22-017364-001-original/2022|H5N1|USA-AK|2022-05-27|wild_avian|B3.2,USA,AK,Unknown,2022-05-27,NA,NA,
+EPI_ISL_17260681|A/red_fox/Alaska/22-019272-001/2022|H5N1|USA-AK|2022-06-15|other_mammal|B3.2,USA,AK,Nome Census Area,2022-06-15,NA,NA,
+PQ710513|A/Glaucous_Gull/AK/22-023553-001-original/2022|H5N1|USA-AK|2022-07-15|wild_avian|B3.2,USA,AK,Unknown,2022-07-15,NA,NA,
+PQ714457|A/Northern_pintail/AK/22-029100-001-original/2022|H5N1|USA-AK|2022-09-04|wild_avian|B3.2,USA,AK,Unknown,2022-09-04,NA,NA,
+PP802398|A/domestic_turkey/USA/22-032677-004/2022|H5N1|USA-AK|2022-10-11|domestic_avian|B3.2,USA,AK,Matanuska-Susitna Borough,2022-10-11,NA,NA,
+PQ702593|A/Bald_eagle/AK/22-016934-004-original/2022|H5N1|USA-AK|2022-05-22|wild_avian|B3.2,USA,AK,Unknown,2022-05-22,NA,NA,
+PQ710529|A/Glaucous_Gull/AK/22-024502-001-original/2022|H5N1|USA-AK|2022-07-01|wild_avian|B3.2,USA,AK,Unknown,2022-07-01,NA,NA,
+PP802622|A/mallard/USA/22-036139-048/2022|H5N1|USA-AK|2022-11-02|wild_avian|B3.2,USA,AK,Unknown,2022-11-02,NA,NA,
+PQ710113|A/Gadwall/AL/22-040806-001-original/2022|H5N1|USA-AL|2022-12-12|wild_avian|B3.2,USA,AK,Unknown,2022-12-12,NA,NA,
+PQ715449|A/Raven/AK/22-042128-001-original/2022|H5N1|USA-AK|2022-12-18|wild_avian|B3.2,USA,AK,Unknown,2022-12-18,NA,NA,
+SRR24842838|A/anser_sp/Alaska/22-013831-003/2022|H5N1|USA-AK|2022-04-29|wild_avian|B3.2,USA,AK,Anchorage,2022-04-29,NA,NA,
+PQ710161|A/Gadwall/AL/22-041762-004-original/2022|H5N1|USA-AL|2022-12-10|wild_avian|B3.2,USA,AL,Unknown,2022-12-10,NA,NA,
+PQ717345|A/Snow_goose/AL/22-041764-001-original/2022|H5N1|USA-AL|2022-12-20|wild_avian|B3.2,USA,AL,Unknown,2022-12-20,NA,NA,
+PQ717353|A/Snow_goose/AR/22-038202-001-original/2022|H5N1|USA-AR|2022-11-25|wild_avian|B3.2,USA,AR,Lawrence,2022-11-25,NA,NA,
+PQ714729|A/Northern_shoveler/AR/23-002690-001-original/2023|H5N1|USA-AR|2023-01-14|wild_avian|B3.2,USA,AR,Lonoke,2023-01-14,NA,NA,
+EPI_ISL_16297378|A/chicken/Arkansas/22-031676-001/2022|H5N1|USA-AR|2022-10-06|domestic_avian|B3.2,USA,AR,Madison,2022-10-06,NA,NA,
+PQ717369|A/Snow_goose/AR/22-039436-012-original/2022|H5N1|USA-AR|2022-11-29|wild_avian|B3.2,USA,AR,Unknown,2022-11-29,NA,NA,
+PQ717377|A/Snow_goose/AR/23-001513-001-original/2023|H5N1|USA-AR|2023-01-06|wild_avian|B3.2,USA,AR,Unknown,2023-01-06,NA,NA,
+EPI_ISL_16297360|A/chicken/Arkansas/22-032566-001/2022|H5N1|USA-AR|2022-10-13|domestic_avian|B3.2,USA,AR,Pope,2022-10-13,NA,NA,
+PQ714969|A/Pelican/AZ/22-038234-003-original/2022|H5N1|USA-AZ|2022-10-15|wild_avian|B3.2,USA,AZ,Maricopa,2022-10-15,NA,NA,
+PQ707097|A/Canada_goose/AZ/23-002260-001-original/2023|H5N1|USA-AZ|2023-01-09|wild_avian|B3.2,USA,AZ,Coconino,2023-01-09,NA,NA,
+EPI_ISL_16297070|A/chicken/Arizona/22-035006-002/2022|H5N1|USA-AZ|2022-11-01|domestic_avian|B3.2,USA,AZ,Yavapai,2022-11-01,NA,NA,
+PQ714961|A/Pelican/AZ/22-038234-002-original/2022|H5N1|USA-AZ|2022-10-15|wild_avian|B3.2,USA,AZ,Unknown,2022-10-15,NA,NA,
+PQ707105|A/Canada_goose/AZ/23-005233-001-original/2023|H5N1|USA-AZ|2023-01-23|wild_avian|B3.2,USA,AZ,Unknown,2023-01-23,NA,NA,
+PQ701953|A/American_white_Pelican/CA/22-035596-001-original/2022|H5N1|USA-CA|2022-10-27|wild_avian|B3.2,USA,CA,San Diego,2022-10-27,NA,NA,
+PQ709961|A/Eared_grebe/CA/23-000276-003-original/2022|H5N1|USA-CA|2022-12-15|wild_avian|B3.2,USA,CA,Lassen,2022-12-15,NA,NA,
+PQ718945|A/Turkey_Vulture/CA/23-002030-001-original/2022|H5N1|USA-CA|2022-12-29|wild_avian|B3.2,USA,CA,Butte,2022-12-29,NA,NA,
+PQ715713|A/Red-tailed_hawk/CA/23-004363-001-original/2023|H5N1|USA-CA|2023-01-25|wild_avian|B3.2,USA,CA,Sacramento,2023-01-25,NA,NA,
+EPI_ISL_16297067|A/Muscovy_duck/California/22-034335-001/2022|H5N1|USA-CA|2022-10-16|wild_avian|B3.2,USA,CA,Fresno,2022-10-16,NA,NA,
+PQ717441|A/Snow_goose/CA/22-041406-001-original/2022|H5N1|USA-CA|2022-11-28|wild_avian|B3.2,USA,CA,Unknown,2022-11-28,NA,NA,
+SRR28834940|A/Snow_Goose/CA/24-004881-002-original/2024|H5N1|USA-CA|2024-01-18|wild_avian|B3.2,USA,CA,Unknown,2024-01-18,NA,NA,
+SRR32006912|A/chicken/CA/24-038987-002-original/2024|H5N1|USA-CA|2024-12-26|domestic_avian|B3.2,USA,CA,Unknown,2024-12-26,NA,NA,
+EPI_ISL_16271861|A/Pekin_duck/California/22-036722-001/2022|H5N1|USA-CA|2022-11-14|domestic_avian|B3.2,USA,CA,Fresno,2022-11-14,NA,NA,
+PQ717521|A/Snow_goose/CA/23-002594-003-original/2023|H5N1|USA-CA|2023-01-10|wild_avian|B3.2,USA,CA,Unknown,2023-01-10,NA,NA,
+EPI_ISL_17964878|A/red-tailed_hawk/California/23-006644-003/2023|H5N1|USA-CA|2023-02-14|wild_avian|B3.2,USA,CA,Sonoma,2023-02-14,NA,NA,
+EPI_ISL_17964933|A/peregrine_falcon/California/23-011277-001/2023|H5N1|USA-CA|2023-03-30|wild_avian|B3.2,USA,CA,San Mateo,2023-03-30,NA,NA,
+SRR28834929|A/Snow_Goose/CA/24-004881-004-original/2024|H5N1|USA-CA|2024-01-18|wild_avian|B3.2,USA,CA,Unknown,2024-01-18,NA,NA,
+EPI_ISL_17964856|A/sanderling/California/23-005401-001/2023|H5N1|USA-CA|2023-02-14|wild_avian|B3.2,USA,CA,San Francisco,2023-02-14,NA,NA,
+PQ707545|A/Canada_goose/CO/22-038655-001-original/2022|H5N1|USA-CO|2022-11-28|wild_avian|B3.2,USA,CO,Weld,2022-11-28,NA,NA,
+PQ707609|A/Canada_goose/CO/23-000399-001-original/2022|H5N1|USA-CO|2022-12-30|wild_avian|B3.2,USA,CO,Larimer,2022-12-30,NA,NA,
+PQ715865|A/Red-tailed_hawk/CO/23-000403-001-original/2023|H5N1|USA-CO|2023-01-01|wild_avian|B3.2,USA,CO,Larimer,2023-01-01,NA,NA,
+PQ715953|A/Red-tailed_hawk/CO/23-004223-001-original/2023|H5N1|USA-CO|2023-01-31|wild_avian|B3.2,USA,CO,Larimer,2023-01-31,NA,NA,
+EPI_ISL_17964882|A/red-tailed_hawk/Colorado/23-006671-001/2023|H5N1|USA-CO|2023-02-18|wild_avian|B3.2,USA,CO,Mesa,2023-02-18,NA,NA,
+EPI_ISL_17964906|A/red-tailed_hawk/Colorado/23-008901-001/2023|H5N1|USA-CO|2023-03-15|wild_avian|B3.2,USA,CO,Logan,2023-03-15,NA,NA,
+EPI_ISL_17964934|A/turkey_vulture/Colorado/23-011447-001/2023|H5N1|USA-CO|2023-04-10|wild_avian|B3.2,USA,CO,Larimer,2023-04-10,NA,NA,
+EPI_ISL_16297358|A/chicken/Colorado/22-032670-001/2022|H5N1|USA-CO|2022-10-10|domestic_avian|B3.2,USA,CO,Larimer,2022-10-10,NA,NA,
+PQ717545|A/Snow_goose/CO/22-037670-001-original/2022|H5N1|USA-CO|2022-11-16|wild_avian|B3.2,USA,CO,Unknown,2022-11-16,NA,NA,
+PQ707593|A/Canada_goose/CO/22-042169-001-original/2022|H5N1|USA-CO|2022-12-27|wild_avian|B3.2,USA,CO,Unknown,2022-12-27,NA,NA,
+EPI_ISL_17964858|A/Cooper_s_s_hawk/Colorado/23-005617-001/2023|H5N1|USA-CO|2023-02-14|wild_avian|B3.2,USA,CO,Unknown,2023-02-14,NA,NA,
+PQ715737|A/Red-tailed_hawk/CO/22-029818-001-original-repeat/2022|H5N1|USA-CO|2022-09-19|wild_avian|B3.2,USA,CO,Unknown,2022-09-19,NA,NA,
+PQ716913|A/Ring-billed_gull/CO/22-030941-001-original/2022|H5N1|USA-CO|2022-09-28|wild_avian|B3.2,USA,CO,Unknown,2022-09-28,NA,NA,
+EPI_ISL_16297365|A/chicken/Colorado/22-032233-001/2022|H5N1|USA-CO|2022-10-10|domestic_avian|B3.2,USA,CO,Weld,2022-10-10,NA,NA,
+EPI_ISL_17964907|A/great_horned_owl/Colorado/23-007822-001/2023|H5N1|USA-CO|2023-03-03|wild_avian|B3.2,USA,CO,Moffat,2023-03-03,NA,NA,
+EPI_ISL_19490439|A/ferruginous_hawk/Colorado/23-015630-001-original/2023|H5N1|USA-CO|2023-05-12|wild_avian|B3.2,USA,CO,Denver,2023-05-12,NA,NA,
+EPI_ISL_19490418|A/mallard/Connecticut/23-004773-001-original2/2023|H5N1|USA-CT|2023-02-06|wild_avian|B3.2,USA,CT,New London,2023-02-06,NA,NA,
+PQ715121|A/Peregrine_falcon/FL/22-035514-001-original/2022|H5N1|USA-FL|2022-10-29|wild_avian|B3.2,USA,FL,Polk,2022-10-29,NA,NA,
+PQ709697|A/Double-crested_Cormorant/FL/22-036552-001-original/2022|H5N1|USA-FL|2022-11-03|wild_avian|B3.2,USA,FL,Orange,2022-11-03,NA,NA,
+PQ701337|A/American_coot/FL/23-002762-015-original/2022|H5N1|USA-FL|2022-12-19|wild_avian|B3.2,USA,FL,Brevard,2022-12-19,NA,NA,
+EPI_ISL_16297133|A/chicken/Florida/22-033923-001/2022|H5N1|USA-FL|2022-10-20|domestic_avian|B3.2,USA,FL,Lake,2022-10-20,NA,NA,
+PQ719905|A/black_skimmer/FL/22-036966-001-original/2022|H5N1|USA-FL|2022-11-04|wild_avian|B3.2,USA,FL,Unknown,2022-11-04,NA,NA,
+PQ710449|A/Gannet/FL/23-002762-022-original/2022|H5N1|USA-FL|2022-12-30|wild_avian|B3.2,USA,FL,Unknown,2022-12-30,NA,NA,
+PQ701681|A/American_green-winged_teal/GA/22-038443-007-original/2022|H5N1|USA-GA|2022-11-19|wild_avian|B3.2,USA,GA,Unknown,2022-11-19,NA,NA,
+PQ707753|A/Canada_goose/IA/22-040793-004-original/2022|H5N1|USA-IA|2022-12-06|wild_avian|B3.2,USA,IA,Woodbury,2022-12-06,NA,NA,
+PQ701393|A/American_crow/IA/23-000627-006-original/2023|H5N1|USA-IA|2023-01-05|wild_avian|B3.2,USA,IA,Black Hawk,2023-01-05,NA,NA,
+PQ718729|A/Trumpeter_Swan/IA/23-002039-002-original/2023|H5N1|USA-IA|2023-01-12|wild_avian|B3.2,USA,IA,Story,2023-01-12,NA,NA,
+PQ701969|A/American_white_Pelican/IA/22-021277-001-original/2022|H5N1|USA-IA|2022-07-01|wild_avian|B3.2,USA,IA,Unknown,2022-07-01,NA,NA,
+PQ701977|A/American_white_Pelican/IA/22-022114-001-original/2022|H5N1|USA-IA|2022-07-01|wild_avian|B3.2,USA,IA,Unknown,2022-07-01,NA,NA,
+PQ705697|A/Blue-winged_teal/IA/22-034304-005-original-repeat2/2022|H5N1|USA-IA|2022-10-22|wild_avian|B3.2,USA,IA,Unknown,2022-10-22,NA,NA,
+PQ701697|A/American_green-winged_teal/IA/22-034928-001-original-repeat2/2022|H5N1|USA-IA|2022-10-16|wild_avian|B3.2,USA,IA,Unknown,2022-10-16,NA,NA,
+PQ707721|A/Canada_goose/IA/22-040790-001-original/2022|H5N1|USA-IA|2022-12-07|wild_avian|B3.2,USA,IA,Unknown,2022-12-07,NA,NA,
+OQ962748|A/Peregrine_Falcon/Iowa/22-012093-001/2022|H5N1|USA-IA|2022-04-15|wild_avian|B3.2,USA,IA,Louisa,2022-04-15,NA,NA,
+EPI_ISL_13052721|A/fox/Iowa/22-014421-001/2022|H5N1|USA-IA|2022-05-06|other_mammal|B3.2,USA,IA,Hancock,2022-05-06,NA,NA,
+EPI_ISL_17964890|A/American_crow/Iowa/23-007468-001/2023|H5N1|USA-IA|2023-03-02|wild_avian|B3.2,USA,IA,Story,2023-03-02,NA,NA,
+EPI_ISL_17964893|A/American_crow/Iowa/23-007781-002/2023|H5N1|USA-IA|2023-03-05|wild_avian|B3.2,USA,IA,Story,2023-03-05,NA,NA,
+EPI_ISL_17964923|A/American_crow/Iowa/23-010832-002/2023|H5N1|USA-IA|2023-04-04|wild_avian|B3.2,USA,IA,Black Hawk,2023-04-04,NA,NA,
+EPI_ISL_17964928|A/hawk/Iowa/23-011213-001/2023|H5N1|USA-IA|2023-04-10|wild_avian|B3.2,USA,IA,Boone,2023-04-10,NA,NA,
+PQ719065|A/Turkey_Vulture/ID/22-014968-007-original/2022|H5N1|USA-ID|2022-05-05|wild_avian|B3.2,USA,ID,Bonneville,2022-05-05,NA,NA,
+PQ707841|A/Canada_goose/ID/22-018980-001-original/2022|H5N1|USA-ID|2022-06-04|wild_avian|B3.2,USA,ID,Ada,2022-06-04,NA,NA,
+PQ717577|A/Snow_goose/ID/22-038611-002-original/2022|H5N1|USA-ID|2022-11-18|wild_avian|B3.2,USA,ID,Canyon,2022-11-18,NA,NA,
+EPI_ISL_17260689|A/skunk/Idaho/22-023547-001/2022|H5N1|USA-ID|2022-07-22|other_mammal|B3.2,USA,ID,Ada,2022-07-22,NA,NA,
+EPI_ISL_17964927|A/great_horned_owl/Idaho/23-011169-003/2023|H5N1|USA-ID|2023-03-28|wild_avian|B3.2,USA,ID,Ada,2023-03-28,NA,NA,
+EPI_ISL_16244005|A/chicken/Idaho/22-015408-001/2022|H5N1|USA-ID|2022-05-17|domestic_avian|B3.2,USA,ID,Ada,2022-05-17,NA,NA,
+PQ701705|A/American_green-winged_teal/ID/22-034533-007-original-repeat2/2022|H5N1|USA-ID|2022-10-01|wild_avian|B3.2,USA,ID,Unknown,2022-10-01,NA,NA,
+PQ702289|A/American_wigeon/ID/22-036873-001-original/2022|H5N1|USA-ID|2022-10-26|wild_avian|B3.2,USA,ID,Unknown,2022-10-26,NA,NA,
+PQ712905|A/Magpie/ID/23-001085-001-original/2023|H5N1|USA-ID|2023-01-04|wild_avian|B3.2,USA,ID,Unknown,2023-01-04,NA,NA,
+EPI_ISL_17964949|A/barn_owl/Idaho/23-013072-001/2023|H5N1|USA-ID|2023-04-18|wild_avian|B3.2,USA,ID,Ada,2023-04-18,NA,NA,
+EPI_ISL_17260680|A/skunk/Idaho/22-018976-004/2022|H5N1|USA-ID|2022-06-06|other_mammal|B3.2,USA,ID,Latah,2022-06-06,NA,NA,
+EPI_ISL_16271835|A/striped_skunk/Idaho/22-037165-002/2022|H5N1|USA-ID|2022-11-04|other_mammal|B3.2,USA,ID,Jefferson,2022-11-04,NA,NA,
+EPI_ISL_17964950|A/barn_owl/Idaho/23-013072-002/2023|H5N1|USA-ID|2023-04-18|wild_avian|B3.2,USA,ID,Ada,2023-04-18,NA,NA,
+EPI_ISL_17964981|A/great_horned_owl/Idaho/23-017158-001/2023|H5N1|USA-ID|2023-05-20|wild_avian|B3.2,USA,ID,Bonneville,2023-05-20,NA,NA,
+EPI_ISL_16243651|A/chicken/Illinois/22-015233-006/2022|H5N1|USA-IL|2022-05-14|domestic_avian|B3.2,USA,IL,Boone,2022-05-14,NA,NA,
+PQ702001|A/American_white_Pelican/IL/22-013436-001-original/2022|H5N1|USA-IL|2022-04-25|wild_avian|B3.2,USA,IL,Unknown,2022-04-25,NA,NA,
+PQ702009|A/American_white_Pelican/IL/22-021276-001-original/2022|H5N1|USA-IL|2022-07-01|wild_avian|B3.2,USA,IL,Unknown,2022-07-01,NA,NA,
+PQ713273|A/Mallard/IN/22-034829-007-original-repeat2/2022|H5N1|USA-IN|2022-10-28|wild_avian|B3.2,USA,IN,Jasper,2022-10-28,NA,NA,
+PQ717601|A/Snow_goose/IN/22-038827-003-original-repeat/2022|H5N1|USA-IN|2022-11-23|wild_avian|B3.2,USA,IN,Gibson,2022-11-23,NA,NA,
+PQ717633|A/Snow_goose/IN/22-038827-008-original-repeat/2022|H5N1|USA-IN|2022-11-23|wild_avian|B3.2,USA,IN,Gibson,2022-11-23,NA,NA,
+PQ701713|A/American_green-winged_teal/IN/22-029725-007-original-repeat/2022|H5N1|USA-IN|2022-09-10|wild_avian|B3.2,USA,IN,Unknown,2022-09-10,NA,NA,
+PQ715137|A/Peregrine_falcon/IN/22-032710-001-original/2022|H5N1|USA-IN|2022-10-07|wild_avian|B3.2,USA,IN,Unknown,2022-10-07,NA,NA,
+PQ712401|A/Hawk/IN/23-003026-001-original/2023|H5N1|USA-IN|2023-01-23|wild_avian|B3.2,USA,IN,Unknown,2023-01-23,NA,NA,
+PQ717705|A/Snow_goose/KS/22-039690-007-original/2022|H5N1|USA-KS|2022-11-27|wild_avian|B3.2,USA,KS,Kearny,2022-11-27,NA,NA,
+PQ720257|A/great-tailed_grackle/KS/22-041130-006-original/2022|H5N1|USA-KS|2022-12-13|wild_avian|B3.2,USA,KS,Finney,2022-12-13,NA,NA,
+EPI_ISL_17373141|A/goose/Kansas/W22-1154/2022|H5N1|USA-KS|2022-12-05|domestic_avian|B3.2,USA,KS,Rooks,2022-12-05,NA,NA,
+PQ717073|A/Ross_s_goose/KS/22-041130-002-original/2022|H5N1|USA-KS|2022-11-29|wild_avian|B3.2,USA,KS,Unknown,2022-11-29,NA,NA,
+EPI_ISL_17964913|A/red-tailed_hawk/Kansas/23-009211-001/2023|H5N1|USA-KS|2023-03-15|wild_avian|B3.2,USA,KS,Marshall,2023-03-15,NA,NA,
+EPI_ISL_17424646|A/striped_skunk/Kansas/W23-094/2023|H5N1|USA-KS|2023-01-27|other_mammal|B3.2,USA,KS,Rawlins,2023-01-27,NA,NA,
+PQ715033|A/Pelican/KS/22-036624-001-original-repeat/2022|H5N1|USA-KS|2022-10-17|wild_avian|B3.2,USA,KS,Unknown,2022-10-17,NA,NA,
+PQ715601|A/Red-shouldered_hawk/KY/23-006092-002-original/2023|H5N1|USA-KY|2023-12-22|wild_avian|B3.2,USA,KY,Unknown,2023-12-22,NA,NA,
+EPI_ISL_17424631|A/red-tailed_hawk/Kentucky/W23-143/2022|H5N1|USA-KY|2022-12-22|wild_avian|B3.2,USA,KY,Henderson,2022-12-22,NA,NA,
+PQ705761|A/Blue-winged_teal/LA/22-033477-003-original/2022|H5N1|USA-LA|2022-09-20|wild_avian|B3.2,USA,LA,Jefferson Davis,2022-09-20,NA,NA,
+PQ717777|A/Snow_goose/LA/22-039688-009-original/2022|H5N1|USA-LA|2022-11-30|wild_avian|B3.2,USA,LA,Calcasieu,2022-11-30,NA,NA,
+PQ701721|A/American_green-winged_teal/LA/22-041760-007-original/2022|H5N1|USA-LA|2022-12-17|wild_avian|B3.2,USA,LA,LaSalle,2022-12-17,NA,NA,
+PQ720081|A/goose/LA/23-000409-006-original/2022|H5N1|USA-LA|2022-12-02|domestic_avian|B3.2,USA,LA,Morehouse,2022-12-02,NA,NA,
+PQ714705|A/Northern_pintail/LA/22-039392-003-original-repeat/2022|H5N1|USA-LA|2022-11-28|wild_avian|B3.2,USA,LA,Unknown,2022-11-28,NA,NA,
+EPI_ISL_17690225|A/duck/Louisiana/UGAI22-3889/2022|H5N1|USA-LA|2022-09-23|domestic_avian|B3.2,USA,LA,Unknown,2022-09-23,NA,NA,
+EPI_ISL_16297332|A/goose/Louisiana/22-033391-001/2022|H5N1|USA-LA|2022-10-14|domestic_avian|B3.2,USA,LA,Ouachita,2022-10-14,NA,NA,
+SRR29740507|A/canada_goose/Massachusetts/23-015884-019/2023||USA-MA|2023-03-30|wild_avian|B3.2,USA,MA,Suffolk,2023-03-30,NA,NA,
+EPI_ISL_19736845|A/canada_goose/Massachusetts/015884-006/2023|H5N1|USA-MA|2023-02-18|wild_avian|B3.2,USA,MA,Worcester,2023-02-18,NA,NA,
+EPI_ISL_19736766|A/canada_goose/Massachusetts/015884-009/2023|H5N1|USA-MA|2023-02-23|wild_avian|B3.2,USA,MA,Hampshire,2023-02-23,NA,NA,
+EPI_ISL_19736913|A/canada_goose/Massachusetts/015884-014/2023|H5N1|USA-MA|2023-03-04|wild_avian|B3.2,USA,MA,Middlesex,2023-03-04,NA,NA,
+PQ701465|A/American_crow/MA/23-004612-017-original/2023|H5N1|USA-MA|2023-01-10|wild_avian|B3.2,USA,MA,Unknown,2023-01-10,NA,NA,
+OQ960380|A/Black_Vulture/Maryland/22-012990-001/2022|H5N1|USA-MD|2022-04-26|wild_avian|B3.2,USA,MD,Unknown,2022-04-26,NA,NA,
+PQ713329|A/Mallard/ME/22-041145-001-original/2022|H5N1|USA-ME|2022-12-14|wild_avian|B3.2,USA,ME,Penobscot,2022-12-14,NA,NA,
+PQ712769|A/Hooded_Merganser/ME/23-004172-002-original/2023|H5N1|USA-ME|2023-02-02|wild_avian|B3.2,USA,ME,Kennebec,2023-02-02,NA,NA,
+PQ713321|A/Mallard/ME/22-040719-016-original/2022|H5N1|USA-ME|2022-12-09|wild_avian|B3.2,USA,ME,Unknown,2022-12-09,NA,NA,
+PQ712785|A/Hooded_Merganser/ME/23-004172-006-original/2023|H5N1|USA-ME|2023-01-31|wild_avian|B3.2,USA,ME,Unknown,2023-01-31,NA,NA,
+EPI_ISL_19490438|A/chicken/Michigan/23-008143-002-original/2023|H5N1|USA-MI|2023-03-10|domestic_avian|B3.2,USA,MI,Eaton,2023-03-10,NA,NA,
+PQ715201|A/Peregrine_falcon/MI/23-003553-001-original/2023|H5N1|USA-MI|2023-01-26|wild_avian|B3.2,USA,MI,Unknown,2023-01-26,NA,NA,
+OQ958516|A/Backyard_bird/Michigan/22-012454-001/2022|H5N1|USA-MI|2022-04-22|domestic_avian|B3.2,USA,MI,Menominee,2022-04-22,NA,NA,
+EPI_ISL_17260684|A/red_fox/Michigan/22-021733-002/2022|H5N1|USA-MI|2022-07-06|other_mammal|B3.2,USA,MI,Muskegon,2022-07-06,NA,NA,
+SRR24843342|A/anser_rossii/Minnesota/AH0218392/2022|H5N1|USA-MN|2022-04-14|wild_avian|B3.2,USA,MN,Mahnhomen,2022-04-14,NA,NA,
+EPI_ISL_15078249|A/fox/Minnesota/22-016487-001/2022|H5N1|USA-MN|2022-05-13|other_mammal|B3.2,USA,MN,Itasca,2022-05-13,NA,NA,
+OQ966052|A/Turkey/Minnesota/22-012036-001/2022|H5N1|USA-MN|2022-04-18|domestic_avian|B3.2,USA,MN,Stearns,2022-04-18,NA,NA,
+EPI_ISL_16243992|A/chicken/Minnesota/22-015398-002/2022|H5N1|USA-MN|2022-05-13|domestic_avian|B3.2,USA,MN,Clay,2022-05-13,NA,NA,
+PQ709577|A/Common_tern/MN/22-017940-009-original/2022|H5N1|USA-MN|2022-06-06|wild_avian|B3.2,USA,MN,Unknown,2022-06-06,NA,NA,
+PQ702057|A/American_white_Pelican/MN/22-018423-001-original/2022|H5N1|USA-MN|2022-06-08|wild_avian|B3.2,USA,MN,Unknown,2022-06-08,NA,NA,
+PQ718753|A/Trumpeter_Swan/MN/22-026969-002-original/2022|H5N1|USA-MN|2022-08-29|wild_avian|B3.2,USA,MN,Unknown,2022-08-29,NA,NA,
+PQ719721|A/Wood_Duck/MN/22-032745-002-original-repeat/2022|H5N1|USA-MN|2022-08-25|wild_avian|B3.2,USA,MN,Unknown,2022-08-25,NA,NA,
+EPI_ISL_16297135|A/turkey/Minnesota/22-033929-001/2022|H5N1|USA-MN|2022-10-23|domestic_avian|B3.2,USA,MN,Swift,2022-10-23,NA,NA,
+PQ718761|A/Trumpeter_Swan/MN/22-037438-001-original/2022|H5N1|USA-MN|2022-11-17|wild_avian|B3.2,USA,MN,Unknown,2022-11-17,NA,NA,
+PQ701745|A/American_green-winged_teal/MN/23-013078-030-original/2022|H5N1|USA-MN|2022-09-17|wild_avian|B3.2,USA,MN,Unknown,2022-09-17,NA,NA,
+OQ957668|A/American_Crow/Minnesota/22-009668-001/2022|H5N1|USA-MN|2022-03-29|wild_avian|B3.2,USA,MN,Dakota,2022-03-29,NA,NA,
+EPI_ISL_17964919|A/red-tailed_hawk/Minnesota/23-010018-001/2023|H5N1|USA-MN|2023-03-26|wild_avian|B3.2,USA,MN,Wright,2023-03-26,NA,NA,
+PQ702081|A/American_white_Pelican/MN/22-023116-001-original/2022|H5N1|USA-MN|2022-07-19|wild_avian|B3.2,USA,MN,Unknown,2022-07-19,NA,NA,
+PQ719105|A/Turkey_Vulture/MN/22-031157-002-original/2022|H5N1|USA-MN|2022-09-29|wild_avian|B3.2,USA,MN,Unknown,2022-09-29,NA,NA,
+EPI_ISL_16297129|A/turkey/Minnesota/22-034260-001/2022|H5N1|USA-MN|2022-10-25|domestic_avian|B3.2,USA,MN,Le Sueur,2022-10-25,NA,NA,
+EPI_ISL_16271859|A/turkey/Minnesota/22-036547-001/2022|H5N1|USA-MN|2022-11-13|domestic_avian|B3.2,USA,MN,Otter Tail,2022-11-13,NA,NA,
+PQ708193|A/Canada_goose/MN/22-041306-001-original/2022|H5N1|USA-MN|2022-12-19|wild_avian|B3.2,USA,MN,Unknown,2022-12-19,NA,NA,
+PQ711593|A/Great_horned_owl/MN/22-041884-001-original/2022|H5N1|USA-MN|2022-12-07|wild_avian|B3.2,USA,MN,Unknown,2022-12-07,NA,NA,
+SRR24839471|A/haliaeetus_leucocephalus/Minnesota/AH0144539/2022|H5N1|USA-MN|2022-03-20|wild_avian|B3.2,USA,MN,Unknown,2022-03-20,NA,NA,
+PQ718769|A/Trumpeter_Swan/MO/22-040427-001-original/2022|H5N1|USA-MO|2022-12-01|wild_avian|B3.2,USA,MO,Holt,2022-12-01,NA,NA,
+PQ716361|A/Red-tailed_hawk/MO/23-001518-001-original/2022|H5N1|USA-MO|2022-12-21|wild_avian|B3.2,USA,MO,St. Louis,2022-12-21,NA,NA,
+EPI_ISL_16271826|A/turkey/Missouri/22-038012-001/2022|H5N1|USA-MO|2022-11-24|domestic_avian|B3.2,USA,MO,Webster,2022-11-24,NA,NA,
+EPI_ISL_19490458|A/chicken/Missouri/23-008296-003-original/2023|H5N1|USA-MO|2023-03-14|domestic_avian|B3.2,USA,MO,Maries,2023-03-14,NA,NA,
+PQ701273|A/American_Blue-winged_teal/MO/22-032511-101-original-repeat/2022|H5N1|USA-MO|2022-09-23|wild_avian|B3.2,USA,MO,Unknown,2022-09-23,NA,NA,
+PQ717897|A/Snow_goose/MO/22-038564-002-original/2022|H5N1|USA-MO|2022-11-23|wild_avian|B3.2,USA,MO,Unknown,2022-11-23,NA,NA,
+PQ717985|A/Snow_goose/MS/22-038821-004-original/2022|H5N1|USA-MS|2022-11-23|wild_avian|B3.2,USA,MS,Tallahatchie,2022-11-23,NA,NA,
+PQ718017|A/Snow_goose/MS/22-038821-010-original/2022|H5N1|USA-MS|2022-11-23|wild_avian|B3.2,USA,MS,Tallahatchie,2022-11-23,NA,NA,
+EPI_ISL_19490462|A/chicken/Mississippi/23-008358-002-original/2023|H5N1|USA-MS|2023-03-15|domestic_avian|B3.2,USA,MS,Monroe,2023-03-15,NA,NA,
+PQ712865|A/Lesser_white-fronted_Goose/MS/22-041057-001-original/2022|H5N1|USA-MS|2022-12-08|wild_avian|B3.2,USA,MS,Unknown,2022-12-08,NA,NA,
+PQ720265|A/greater_scaup/MT/23-001334-001-original/2023|H5N1|USA-MT|2023-01-06|wild_avian|B3.2,USA,MT,Gallatin,2023-01-06,NA,NA,
+EPI_ISL_16297340|A/chicken/Montana/22-033348-001/2022|H5N1|USA-MT|2022-10-18|domestic_avian|B3.2,USA,MT,Hill,2022-10-18,NA,NA,
+EPI_ISL_17964939|A/great_horned_owl/Montana/23-011850-001/2023|H5N1|USA-MT|2023-04-12|wild_avian|B3.2,USA,MT,Gallatin,2023-04-12,NA,NA,
+EPI_ISL_17964974|A/Cooper_s_hawk/Montana/23-016105-001/2023|H5N1|USA-MT|2023-04-16|wild_avian|B3.2,USA,MT,Cascade,2023-04-16,NA,NA,
+PQ718777|A/Trumpeter_Swan/MT/22-030263-001-original/2022|H5N1|USA-MT|2022-09-16|wild_avian|B3.2,USA,MT,Unknown,2022-09-16,NA,NA,
+PQ706313|A/Blue-winged_teal/MT/22-031163-004-original-repeat/2022|H5N1|USA-MT|2022-09-24|wild_avian|B3.2,USA,MT,Unknown,2022-09-24,NA,NA,
+PQ708265|A/Canada_goose/MT/22-033859-002-original/2022|H5N1|USA-MT|2022-10-20|wild_avian|B3.2,USA,MT,Unknown,2022-10-20,NA,NA,
+PQ716385|A/Red-tailed_hawk/MT/22-036316-001-original/2022|H5N1|USA-MT|2022-11-09|wild_avian|B3.2,USA,MT,Unknown,2022-11-09,NA,NA,
+PQ713561|A/Mallard/MT/22-039947-005-original/2022|H5N1|USA-MT|2022-12-02|wild_avian|B3.2,USA,MT,Unknown,2022-12-02,NA,NA,
+PQ715513|A/Raven/MT/23-003666-002-original/2023|H5N1|USA-MT|2023-01-30|wild_avian|B3.2,USA,MT,Unknown,2023-01-30,NA,NA,
+OQ963444|A/Ross_s_goose/North_Dakota/22-009481-019/2022|H5N1|USA-NC|2022-03-23|wild_avian|B3.2,USA,ND,Foster,2022-03-23,NA,NA,
+PQ708281|A/Canada_goose/NC/22-036623-001-original-repeat2/2022|H5N1|USA-NC|2022-10-30|wild_avian|B3.2,USA,NC,Unknown,2022-10-30,NA,NA,
+EPI_ISL_17373074|A/duck/North_Carolina/W22-1114A/2022|H5N1|USA-NC|2022-12-01|domestic_avian|B3.2,USA,NC,Unknown,2022-12-01,NA,NA,
+PQ718233|A/Snow_goose/ND/22-013421-001-original/2022|H5N1|USA-ND|2022-04-28|wild_avian|B3.2,USA,ND,Towner,2022-04-28,NA,NA,
+PQ701529|A/American_crow/ND/22-014532-001-original/2022|H5N1|USA-ND|2022-05-05|wild_avian|B3.2,USA,ND,Stutsman,2022-05-05,NA,NA,
+EPI_ISL_16297071|A/chicken/North_Dakota/22-035070-001/2022|H5N1|USA-ND|2022-11-01|domestic_avian|B3.2,USA,ND,Bottineau,2022-11-01,NA,NA,
+PQ708313|A/Canada_goose/ND/23-002238-004-original/2022|H5N1|USA-ND|2022-11-29|wild_avian|B3.2,USA,ND,Unknown,2022-11-29,NA,NA,
+EPI_ISL_16171251|A/turkey/North_Dakota/22-012099-002/2022|H5N1|USA-ND|2022-04-19|domestic_avian|B3.2,USA,ND,Richland,2022-04-19,NA,NA,
+PQ711641|A/Great_horned_owl/ND/22-014030-001-original/2022|H5N1|USA-ND|2022-05-02|wild_avian|B3.2,USA,ND,Unknown,2022-05-02,NA,NA,
+PQ711673|A/Great_horned_owl/ND/22-032264-001-original/2022|H5N1|USA-ND|2022-09-28|wild_avian|B3.2,USA,ND,Unknown,2022-09-28,NA,NA,
+PQ702113|A/American_white_Pelican/ND/22-032266-001-original-repeat/2022|H5N1|USA-ND|2022-09-28|wild_avian|B3.2,USA,ND,Unknown,2022-09-28,NA,NA,
+PQ701793|A/American_green-winged_teal/ND/22-032267-001-original-repeat/2022|H5N1|USA-ND|2022-10-01|wild_avian|B3.2,USA,ND,Unknown,2022-10-01,NA,NA,
+OQ964276|A/Snow_Goose/North_Dakota/22-009481-003/2022|H5N1|USA-NC|2022-03-23|wild_avian|B3.2,USA,ND,Foster,2022-03-23,NA,NA,
+PQ718649|A/Swan/NE/22-041037-001-original/2022|H5N1|USA-NE|2022-12-15|wild_avian|B3.2,USA,NE,Colfax,2022-12-15,NA,NA,
+PQ718537|A/Sparrow/NE/22-033885-001-original/2022|H5N1|USA-NE|2022-10-19|wild_avian|B3.2,USA,NE,Unknown,2022-10-19,NA,NA,
+PQ715265|A/Peregrine_falcon/NE/22-013518-001-original/2022|H5N1|USA-NE|2022-04-28|wild_avian|B3.2,USA,NE,Unknown,2022-04-28,NA,NA,
+EPI_ISL_16297351|A/pheasant/Nebraska/22-032910-001/2022|H5N1|USA-NE|2022-10-15|domestic_avian|B3.2,USA,NE,York,2022-10-15,NA,NA,
+PQ711681|A/Great_horned_owl/NE/22-038800-001-original/2022|H5N1|USA-NE|2022-11-30|wild_avian|B3.2,USA,NE,Unknown,2022-11-30,NA,NA,
+PQ718657|A/Swan/NE/22-041037-002-original/2022|H5N1|USA-NE|2022-12-15|wild_avian|B3.2,USA,NE,Unknown,2022-12-15,NA,NA,
+PQ708329|A/Canada_goose/NE/23-001495-001-original/2023|H5N1|USA-NE|2023-01-10|wild_avian|B3.2,USA,NE,Unknown,2023-01-10,NA,NA,
+PQ708337|A/Canada_goose/NE/23-001495-002-original/2023|H5N1|USA-NE|2023-01-10|wild_avian|B3.2,USA,NE,Unknown,2023-01-10,NA,NA,
+SRR24842963|A/gallus_gallus/Nebraska/22-013105-001/2022|H5N1|USA-NE|2022-04-26|domestic_avian|B3.2,USA,NE,Washington,2022-04-26,NA,NA,
+EPI_ISL_16271824|A/chicken/Nebraska/22-038149-001/2022|H5N1|USA-NE|2022-11-24|domestic_avian|B3.2,USA,NE,Dixon,2022-11-24,NA,NA,
+EPI_ISL_17821770|A/cat/Nebraska/23-010184-001/2023|H5N1|USA-NE|2023-03-30|feline|B3.2,USA,NE,Buffalo,2023-03-30,NA,NA,
+EPI_ISL_19490417|A/chicken/New_Hampshire/23-002392-001-original2/2023|H5N1|USA-NH|2023-01-19|domestic_avian|B3.2,USA,NH,Belknap,2023-01-19,NA,NA,
+EPI_ISL_16297353|A/chicken/Nevada/22-032799-001/2022|H5N1|USA-NV|2022-10-14|domestic_avian|B3.2,USA,NV,Nye,2022-10-14,NA,NA,
+EPI_ISL_17964944|A/red-tailed_hawk/Nevada/23-012114-001/2023|H5N1|USA-NV|2023-03-31|wild_avian|B3.2,USA,NV,Washoe,2023-03-31,NA,NA,
+PQ708353|A/Canada_goose/NV/22-033403-003-original-repeat/2022|H5N1|USA-NV|2022-09-23|wild_avian|B3.2,USA,NV,Unknown,2022-09-23,NA,NA,
+PQ714777|A/Northern_shoveler/NV/22-037517-003-original/2022|H5N1|USA-NV|2022-11-05|wild_avian|B3.2,USA,NV,Unknown,2022-11-05,NA,NA,
+PQ711697|A/Great_horned_owl/NV/22-040618-001-original/2022|H5N1|USA-NV|2022-12-06|wild_avian|B3.2,USA,NV,Unknown,2022-12-06,NA,NA,
+PQ718369|A/Snow_goose/NY/23-000618-001-original/2023|H5N1|USA-NY|2023-01-04|wild_avian|B3.2,USA,NY,Tompkins,2023-01-04,NA,NA,
+PQ715305|A/Peregrine_falcon/NY/23-003717-001-original/2023|H5N1|USA-NY|2023-01-26|wild_avian|B3.2,USA,NY,Kings,2023-01-26,NA,NA,
+PQ718353|A/Snow_goose/NY/22-042013-001-original/2022|H5N1|USA-NY|2022-12-21|wild_avian|B3.2,USA,NY,Unknown,2022-12-21,NA,NA,
+EPI_ISL_17964945|A/red-shouldered_hawk/New_York/23-012563-001/2023|H5N1|USA-NY|2023-04-13|wild_avian|B3.2,USA,NY,Columbia,2023-04-13,NA,NA,
+OR858836|A/Canada_goose/New_York/NYCVH-23-453/2023|H5N1|USA-NY|2023-02-01|wild_avian|B3.2,USA,NY,New York,2023-02-01,NA,NA,
+PQ701809|A/American_green-winged_teal/NY/22-033592-029-original/2022|H5N1|USA-NY|2022-10-15|wild_avian|B3.2,USA,NY,Unknown,2022-10-15,NA,NA,
+PQ716513|A/Red-tailed_hawk/NY/22-042014-001-original/2022|H5N1|USA-NY|2022-12-19|wild_avian|B3.2,USA,NY,Unknown,2022-12-19,NA,NA,
+PQ702337|A/American_wigeon/OH/22-034080-032-original/2022|H5N1|USA-OH|2022-10-15|wild_avian|B3.2,USA,OH,Unknown,2022-10-15,NA,NA,
+OR136556|A/chicken/OH/OH22-20542-1/2022|H5N1|USA-OH|2022-09-01|domestic_avian|B3.2,USA,OH,Unknown,2022-09-01,NA,NA,
+PQ706345|A/Blue-winged_teal/OK/22-029332-005-original/2022|H5N1|USA-OK|2022-09-10|wild_avian|B3.2,USA,OK,Tillman,2022-09-10,NA,NA,
+PQ706369|A/Blue-winged_teal/OK/22-029332-011-original/2022|H5N1|USA-OK|2022-09-10|wild_avian|B3.2,USA,OK,Tillman,2022-09-10,NA,NA,
+PQ701297|A/American_Blue-winged_teal/OK/22-032994-002-original/2022|H5N1|USA-OK|2022-10-10|wild_avian|B3.2,USA,OK,Tillman,2022-10-10,NA,NA,
+EPI_ISL_16297140|A/chicken/Oklahoma/22-033558-001/2022|H5N1|USA-OK|2022-10-20|domestic_avian|B3.2,USA,OK,Cleveland,2022-10-20,NA,NA,
+PQ702361|A/American_wigeon/OR/22-033876-019-original/2022|H5N1|USA-OR|2022-10-15|wild_avian|B3.2,USA,OR,Morrow,2022-10-15,NA,NA,
+PQ702401|A/American_wigeon/OR/22-035736-015-original/2022|H5N1|USA-OR|2022-10-27|wild_avian|B3.2,USA,OR,Clatsop,2022-10-27,NA,NA,
+PQ701841|A/American_green-winged_teal/OR/22-040176-004-original/2022|H5N1|USA-OR|2022-12-05|wild_avian|B3.2,USA,OR,Lane,2022-12-05,NA,NA,
+PQ717209|A/Sanderling/OR/23-000771-001-original/2023|H5N1|USA-OR|2023-01-03|wild_avian|B3.2,USA,OR,Clatsop,2023-01-03,NA,NA,
+PQ716601|A/Red-tailed_hawk/OR/23-001496-001-original/2022|H5N1|USA-OR|2022-12-28|wild_avian|B3.2,USA,OR,Lane,2022-12-28,NA,NA,
+PQ716617|A/Red-tailed_hawk/OR/23-003379-001-original/2023|H5N1|USA-OR|2023-01-20|wild_avian|B3.2,USA,OR,Crook,2023-01-20,NA,NA,
+EPI_ISL_16297078|A/chicken/Oregon/22-035197-001/2022|H5N1|USA-OR|2022-11-01|domestic_avian|B3.2,USA,OR,Yamhill,2022-11-01,NA,NA,
+EPI_ISL_16271840|A/chicken/Oregon/22-037712-001/2022|H5N1|USA-OR|2022-11-21|domestic_avian|B3.2,USA,OR,Columbia,2022-11-21,NA,NA,
+EPI_ISL_17964904|A/sanderling/Oregon/23-008234-001/2023|H5N1|USA-OR|2023-02-04|wild_avian|B3.2,USA,OR,Lane,2023-02-04,NA,NA,
+EPI_ISL_17964941|A/sanderling/Oregon/23-011964-001/2023|H5N1|USA-OR|2023-04-13|wild_avian|B3.2,USA,OR,Coos,2023-04-13,NA,NA,
+EPI_ISL_18311014|A/Caspian_tern/Oregon/23-018836-001/2023|H5N1|USA-OR|2023-06-15|wild_avian|B3.2,USA,OR,Wasco,2023-06-15,NA,NA,
+EPI_ISL_18311015|A/Caspian_tern/Oregon/23-018836-002/2023|H5N1|USA-OR|2023-06-15|wild_avian|B3.2,USA,OR,Wasco,2023-06-15,NA,NA,
+SRR31301028|A/chicken/PA/24-031844-001-original/2024|H5N1|USA-PA|2024-10-28|domestic_avian|B3.2,USA,PA,Unknown,2024-10-28,NA,NA,
+PQ714409|A/Mute_Swan/RI/23-007092-001-original/2023|H5N1|USA-RI|2023-02-13|wild_avian|B3.2,USA,RI,Unknown,2023-02-13,NA,NA,
+PQ714225|A/Mottled_Duck/SC/22-042180-002-original/2022|H5N1|USA-SC|2022-12-16|wild_avian|B3.2,USA,SC,Colleton,2022-12-16,NA,NA,
+PQ710297|A/Gadwall/SC/22-042020-005-original/2022|H5N1|USA-SC|2022-12-20|wild_avian|B3.2,USA,SC,Unknown,2022-12-20,NA,NA,
+EPI_ISL_17964901|A/bald_eagle/South_Carolina/23-008111-001/2023|H5N1|USA-SC|2023-03-04|wild_avian|B3.2,USA,SC,Colleton,2023-03-04,NA,NA,
+EPI_ISL_16297337|A/chicken/South_Dakota/22-033350-001/2022|H5N1|USA-SD|2022-10-18|domestic_avian|B3.2,USA,SD,Spink,2022-10-18,NA,NA,
+EPI_ISL_16271831|A/turkey/South_Dakota/22-037933-001/2022|H5N1|USA-SD|2022-11-22|domestic_avian|B3.2,USA,SD,Beadle,2022-11-22,NA,NA,
+EPI_ISL_16271830|A/chicken/South_Dakota/22-037931-001/2022|H5N1|USA-SD|2022-11-21|domestic_avian|B3.2,USA,SD,Turner,2022-11-21,NA,NA,
+OQ966412|A/Turkey/South_Dakota/22-008485-001/2022|H5N1|USA-SD|2022-03-21|domestic_avian|B3.2,USA,SD,Hanson,2022-03-21,NA,NA,
+PQ712489|A/Hawk/SD/23-000319-001-original/2022|H5N1|USA-SD|2022-12-28|wild_avian|B3.2,USA,SD,Unknown,2022-12-28,NA,NA,
+PQ716689|A/Red-tailed_hawk/SD/23-002914-001-original/2023|H5N1|USA-SD|2023-01-17|wild_avian|B3.2,USA,SD,Unknown,2023-01-17,NA,NA,
+EPI_ISL_11971487|A/chicken/South_Dakota/22-008704-002/2022|H5N1|USA-SD|2022-03-22|domestic_avian|B3.2,USA,SD,Kingsbury,2022-03-22,NA,NA,
+EPI_ISL_16297062|A/pheasant/South_Dakota/22-034797-001/2022|H5N1|USA-SD|2022-10-27|domestic_avian|B3.2,USA,SD,Gregory,2022-10-27,NA,NA,
+EPI_ISL_17964942|A/red-tailed_hawk/South_Dakota/23-012031-001/2023|H5N1|USA-SD|2023-04-11|wild_avian|B3.2,USA,SD,Minnehaha,2023-04-11,NA,NA,
+EPI_ISL_16271855|A/domestic_goose/Tennessee/22-036130-001/2022|H5N1|USA-TN|2022-11-09|domestic_avian|B3.2,USA,TN,Lincoln,2022-11-09,NA,NA,
+PQ710353|A/Gadwall/TX/22-036753-040-original-repeat/2022|H5N1|USA-TX|2022-11-05|wild_avian|B3.2,USA,TX,Jefferson,2022-11-05,NA,NA,
+PQ720105|A/goose/TX/22-038236-001-original/2022|H5N1|USA-TX|2022-11-23|domestic_avian|B3.2,USA,TX,Carson,2022-11-23,NA,NA,
+PQ702481|A/American_wigeon/TX/23-003062-016-original/2023|H5N1|USA-TX|2023-01-18|wild_avian|B3.2,USA,TX,Colorado,2023-01-18,NA,NA,
+EPI_ISL_16297117|A/mallard/Texas/22-035744-001/2022|H5N1|USA-TX|2022-10-31|wild_avian|B3.2,USA,TX,Tarrant,2022-10-31,NA,NA,
+PQ706441|A/Blue-winged_teal/TX/22-031351-010-original-repeat/2022|H5N1|USA-TX|2022-09-17|wild_avian|B3.2,USA,TX,Unknown,2022-09-17,NA,NA,
+PQ706497|A/Blue-winged_teal/TX/22-033479-004-original/2022|H5N1|USA-TX|2022-09-22|wild_avian|B3.2,USA,TX,Unknown,2022-09-22,NA,NA,
+PQ714793|A/Northern_shoveler/TX/23-007477-003-original/2023|H5N1|USA-TX|2023-01-19|wild_avian|B3.2,USA,TX,Orange,2023-01-19,NA,NA,
+EPI_ISL_16297342|A/chicken/Texas/22-033221-001/2022|H5N1|USA-TX|2022-10-17|domestic_avian|B3.2,USA,TX,Rockwall,2022-10-17,NA,NA,
+PQ701849|A/American_green-winged_teal/TX/23-000110-004-original/2022|H5N1|USA-TX|2022-12-04|wild_avian|B3.2,USA,TX,Unknown,2022-12-04,NA,NA,
+PQ720145|A/goose/UT/22-018176-003-original/2022|H5N1|USA-UT|2022-06-08|domestic_avian|B3.2,USA,UT,Salt Lake,2022-06-08,NA,NA,
+PQ709897|A/Duck/UT/22-031728-004-original-repeat/2022|H5N1|USA-UT|2022-10-04|domestic_avian|B3.2,USA,UT,Salt Lake,2022-10-04,NA,NA,
+PQ711857|A/Great_horned_owl/UT/22-035956-007-original/2022|H5N1|USA-UT|2022-10-25|wild_avian|B3.2,USA,UT,Box Elder,2022-10-25,NA,NA,
+EPI_ISL_17964947|A/turkey_vulture/Utah/23-012747-001/2023|H5N1|USA-UT|2023-04-19|wild_avian|B3.2,USA,UT,Cache,2023-04-19,NA,NA,
+EPI_ISL_16240508|A/guinea_fowl/Utah/22-014481-002/2022|H5N1|USA-UT|2022-05-09|domestic_avian|B3.2,USA,UT,Cache,2022-05-09,NA,NA,
+EPI_ISL_19546785|A/chicken/Utah/22-020377-001-original/2022|H5N1|USA-UT|2022-06-27|domestic_avian|B3.2,USA,UT,Salt Lake,2022-06-27,NA,NA,
+PQ701857|A/American_green-winged_teal/UT/22-027017-012-original/2022|H5N1|USA-UT|2022-08-10|wild_avian|B3.2,USA,UT,Unknown,2022-08-10,NA,NA,
+PQ712361|A/Gull/UT/22-031729-002-original-repeat/2022|H5N1|USA-UT|2022-09-29|wild_avian|B3.2,USA,UT,Unknown,2022-09-29,NA,NA,
+PQ720193|A/goose/UT/23-001041-001-original/2023|H5N1|USA-UT|2023-01-06|domestic_avian|B3.2,USA,UT,Unknown,2023-01-06,NA,NA,
+OQ966732|A/Turkey/Utah/22-012960-001/2022|H5N1|USA-UT|2022-04-26|domestic_avian|B3.2,USA,UT,Unknown,2022-04-26,NA,NA,
+PQ720177|A/goose/UT/22-027791-006-original/2022|H5N1|USA-UT|2022-08-30|domestic_avian|B3.2,USA,UT,Unknown,2022-08-30,NA,NA,
+PQ710001|A/Eared_grebe/UT/22-030915-001-original/2022|H5N1|USA-UT|2022-09-27|wild_avian|B3.2,USA,UT,Unknown,2022-09-27,NA,NA,
+PQ720185|A/goose/UT/23-001040-001-original/2023|H5N1|USA-UT|2023-01-04|domestic_avian|B3.2,USA,UT,Unknown,2023-01-04,NA,NA,
+EPI_ISL_16243660|A/chicken/Utah/22-015245-001/2022|H5N1|USA-UT|2022-05-13|domestic_avian|B3.2,USA,UT,Salt Lake,2022-05-13,NA,NA,
+EPI_ISL_17964896|A/American_crow/Utah/23-007867-006/2023|H5N1|USA-UT|2023-03-03|wild_avian|B3.2,USA,UT,Weber,2023-03-03,NA,NA,
+EPI_ISL_17964960|A/turkey_vulture/Utah/23-014334-001/2023|H5N1|USA-UT|2023-04-28|wild_avian|B3.2,USA,UT,Cache,2023-04-28,NA,NA,
+PQ701329|A/American_black_Duck/VA/22-038573-010-original/2022|H5N1|USA-VA|2022-11-19|wild_avian|B3.2,USA,VA,Unknown,2022-11-19,NA,NA,
+PQ714161|A/Mallard/WA/22-039095-002-original/2022|H5N1|USA-WA|2022-11-25|wild_avian|B3.2,USA,WA,King,2022-11-25,NA,NA,
+PQ709929|A/Dunlin/WA/22-040394-001-original/2022|H5N1|USA-WA|2022-12-03|wild_avian|B3.2,USA,WA,Snohomish,2022-12-03,NA,NA,
+PQ703633|A/Barn_owl/WA/22-041081-001-original/2022|H5N1|USA-WA|2022-12-12|wild_avian|B3.2,USA,WA,Skagit,2022-12-12,NA,NA,
+PQ710577|A/Glaucous_Gull/WA/23-025001-003-original/2023|H5N1|USA-WA|2023-08-11|wild_avian|B3.2,USA,WA,Jefferson,2023-08-11,NA,NA,
+EPI_ISL_18311017|A/Caspian_tern/Washington/23-021119-003/2023|H5N1|USA-WA|2023-07-11|wild_avian|B3.2,USA,WA,Jefferson,2023-07-11,NA,NA,
+EPI_ISL_18311018|A/Caspian_tern/Washington/23-023703-001/2023|H5N1|USA-WA|2023-07-31|wild_avian|B3.2,USA,WA,Pierce,2023-07-31,NA,NA,
+EPI_ISL_18731638|A/harbor_seal/Washington/23-027069-002/2023|H5N1|USA-WA|2023-08-13|other_mammal|B3.2,USA,WA,Jefferson,2023-08-13,NA,NA,
+PQ708929|A/Canada_goose/WA/22-015526-002-original/2022|H5N1|USA-WA|2022-05-11|wild_avian|B3.2,USA,WA,Unknown,2022-05-11,NA,NA,
+PQ719521|A/Western_screech_owl/WA/22-015526-006-original/2022|H5N1|USA-WA|2022-05-11|wild_avian|B3.2,USA,WA,Unknown,2022-05-11,NA,NA,
+PQ712817|A/Hooded_Merganser/WA/23-003784-001-original/2023|H5N1|USA-WA|2023-01-18|wild_avian|B3.2,USA,WA,Unknown,2023-01-18,NA,NA,
+PQ717217|A/Sanderling/WA/23-004228-001-original/2023|H5N1|USA-WA|2023-01-26|wild_avian|B3.2,USA,WA,Unknown,2023-01-26,NA,NA,
+EPI_ISL_15078254|A/skunk/Washington/22-019274-001/2022|H5N1|USA-WA|2022-06-07|other_mammal|B3.2,USA,WA,Whitman,2022-06-07,NA,NA,
+EPI_ISL_17260682|A/skunk/Washington/22-019274-004/2022|H5N1|USA-WA|2022-06-07|other_mammal|B3.2,USA,WA,Whitman,2022-06-07,NA,NA,
+EPI_ISL_16297118|A/chicken/Washington/22-035749-001/2022|H5N1|USA-WA|2022-11-02|domestic_avian|B3.2,USA,WA,Snohomish,2022-11-02,NA,NA,
+EPI_ISL_17964920|A/Western_screech_owl/Washington/23-010027-001/2023|H5N1|USA-WA|2023-03-23|wild_avian|B3.2,USA,WA,Benton,2023-03-23,NA,NA,
+PQ719833|A/Wood_Duck/WI/22-014367-001-original/2022|H5N1|USA-WI|2022-04-14|wild_avian|B3.2,USA,WI,Washburn,2022-04-14,NA,NA,
+SRR24843021|A/lophodytes_cucullatus/Wisconsin/AH0211463/2022|H5N1|USA-WI|2022-04-03|wild_avian|B3.2,USA,WI,Lincoln,2022-04-03,NA,NA,
+EPI_ISL_16240162|A/turkey/Wisconsin/22-014125-001/2022|H5N1|USA-WI|2022-05-04|domestic_avian|B3.2,USA,WI,Barron,2022-05-04,NA,NA,
+PQ703545|A/Bald_eagle/WI/22-014416-001-original/2022|H5N1|USA-WI|2022-05-09|wild_avian|B3.2,USA,WI,Unknown,2022-05-09,NA,NA,
+PQ718817|A/Tundra_Swan/WI/22-038828-001-original-repeat/2022|H5N1|USA-WI|2022-11-22|wild_avian|B3.2,USA,WI,Unknown,2022-11-22,NA,NA,
+EPI_ISL_16297085|A/chicken/Wisconsin/22-034812-002/2022|H5N1|USA-WI|2022-10-31|domestic_avian|B3.2,USA,WI,Waukesha,2022-10-31,NA,NA,
+PQ712073|A/Great_horned_owl/WY/22-029194-001-original/2022|H5N1|USA-WY|2022-09-11|wild_avian|B3.2,USA,WY,Johnson,2022-09-11,NA,NA,
+PQ709201|A/Canada_goose/WY/23-000336-002-original/2022|H5N1|USA-WY|2022-10-30|wild_avian|B3.2,USA,WY,Platte,2022-10-30,NA,NA,
+OQ961668|A/Great_Horned_Owl/Wyoming/22-013016-002/2022|H5N1|USA-WY|2022-04-25|wild_avian|B3.2,USA,WY,Carbon,2022-04-25,NA,NA,
+PQ718785|A/Trumpeter_Swan/WY/22-030049-002-original/2022|H5N1|USA-WY|2022-09-14|wild_avian|B3.2,USA,WY,Unknown,2022-09-14,NA,NA,
+PQ709169|A/Canada_goose/WY/22-041261-001-original/2022|H5N1|USA-WY|2022-12-14|wild_avian|B3.2,USA,WY,Unknown,2022-12-14,NA,NA,
+PQ712161|A/Great_horned_owl/WY/22-041771-002-original/2022|H5N1|USA-WY|2022-12-20|wild_avian|B3.2,USA,WY,Unknown,2022-12-20,NA,NA,
+OQ961660|A/Great_Horned_Owl/Wyoming/22-013016-001/2022|H5N1|USA-WY|2022-04-22|wild_avian|B3.2,USA,WY,Unknown,2022-04-22,NA,NA,
+EPI_ISL_16297368|A/chicken/Wyoming/22-032216-001/2022|H5N1|USA-WY|2022-10-10|domestic_avian|B3.2,USA,WY,Fremont,2022-10-10,NA,NA,
+PQ709153|A/Canada_goose/WY/22-036111-001-original/2022|H5N1|USA-WY|2022-11-03|wild_avian|B3.2,USA,WY,Unknown,2022-11-03,NA,NA,
+PQ709217|A/Canada_goose/WY/23-000980-001-original/2023|H5N1|USA-WY|2023-01-05|wild_avian|B3.2,USA,WY,Unknown,2023-01-05,NA,NA,
+PQ709241|A/Canada_goose/WY/23-002120-001-original/2023|H5N1|USA-WY|2023-01-11|wild_avian|B3.2,USA,WY,Unknown,2023-01-11,NA,NA,
+EPI_ISL_17964946|A/turkey_vulture/Wyoming/23-012565-001/2023|H5N1|USA-WY|2023-04-19|wild_avian|B3.2,USA,WY,Converse,2023-04-19,NA,NA,
+EPI_ISL_17964953|A/turkey_vulture/Wyoming/23-013715-001/2023|H5N1|USA-WY|2023-04-19|wild_avian|B3.2,USA,WY,Platte,2023-04-19,NA,NA,

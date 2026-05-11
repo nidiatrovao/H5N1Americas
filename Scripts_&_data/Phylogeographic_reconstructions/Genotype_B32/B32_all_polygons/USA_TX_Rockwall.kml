@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+	<polygon id="USA_TX_Rockwall" samplingProbability="1">
+		<coordinates>
+			32.9847297680001,-96.5185394299999,0
+			32.9823799130001,-96.2991790779999,0
+			32.8430595400001,-96.3018569939999,0
+			32.815738679,-96.3025970459999,0
+			32.81534195,-96.5210571279999,0
+			32.9847297680001,-96.5185394299999,0
+		</coordinates>
+	</polygon>
+</kml>
