@@ -1,0 +1,5 @@
+Scripts_&_data/Phylogeographic_reconstructions/All_shapefiles/**/*.shp filter=lfs diff=lfs merge=lfs -text
+Scripts_&_data/Phylogeographic_reconstructions/All_shapefiles/**/*.dbf filter=lfs diff=lfs merge=lfs -text
+Scripts_&_data/Phylogeographic_reconstructions/All_shapefiles/**/*.shx filter=lfs diff=lfs merge=lfs -text
+Scripts_&_data/Phylogeographic_reconstructions/All_shapefiles/**/*.prj filter=lfs diff=lfs merge=lfs -text
+Scripts_&_data/Phylogeographic_reconstructions/All_shapefiles/**/*.cpg filter=lfs diff=lfs merge=lfs -text
